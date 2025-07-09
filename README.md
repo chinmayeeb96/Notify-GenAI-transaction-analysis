@@ -14,7 +14,7 @@ AI-powered transaction analysis system using AWS Bedrock and LangChain.
 See `requirements.txt` for dependencies.
 
 ## Setup
-1. Install dependencies: `pip install -r requirements.txt`
+1. Install dependencies: `pip install -r requirements.txt` or Use `chmod +x setup_env.sh` followed by `./setup_env.sh` command to create environment inside `.gitignore` and install dependencies in one step.
 2. Set up AWS credentials
 3. Run the Jupyter notebook
 
