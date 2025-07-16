@@ -1,0 +1,8 @@
+boto3
+langchain
+langchain-core
+langchain-community
+langchain-aws
+beautifulsoup4
+lxml
+minify-html
