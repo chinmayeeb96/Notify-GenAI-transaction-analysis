@@ -1,0 +1,39 @@
+{
+    "userinfo":{
+        "name" : "Ravi",
+        "age" : "25",
+        "all columns from user table" : ""
+    },
+    "monthly_data" : [
+        {
+            "month":"Jan",
+            "tags": ["d", "a"],
+            "recommendations":{
+                "coupons" : ["1", "2", "3"],
+                "loans" : ["1", "2", "3"],
+                "credit_cards" : ["1", "2", "3"]
+            },
+            "categories_expenses": {
+                "food" : "35",
+                "travel" : "69",
+                "total_spending": "432"
+            }
+        },
+        {
+            "month":"Feb",
+            "tags": ["d", "a"],
+            "recommendations":{
+                "coupons" : ["1", "2", "3"],
+                "loans" : ["1", "2", "3"],
+                "credit_cards" : ["1", "2", "3"]
+            },
+            "categories_expenses": {
+                "food" : "35",
+                "travel" : "69",
+                "total_spending": "432"
+            }
+        }
+    ]
+    
+}
+

@@ -1,11 +1,13 @@
-userid,credit_score,age,income,goals,gender,address,pin,email,birth_year,birth_month
-1,720,35,75000,budgeting,Male,"42 MG Road, Bangalore",560001,user1@email.com,1988,7
-2,680,28,45000,investment advice,Female,"15 Park Street, Kolkata",700016,user2@email.com,1995,3
-3,750,42,95000,track my depts,Male,"78 Nehru Place, New Delhi",110019,user3@email.com,1981,11
-4,630,31,55000,improving my credit score,Female,"23 FC Road, Pune",411005,user4@email.com,1992,9
-5,700,39,85000,growing money,Male,"56 Anna Salai, Chennai",600002,user5@email.com,1984,5
-6,770,45,110000,track my daily spending,Female,"89 SV Road, Mumbai",400054,user6@email.com,1978,1
-7,650,26,40000,controlling my spending,Male,"12 Jubilee Hills, Hyderabad",500033,user7@email.com,1997,8
-8,710,33,70000,categorise my transactions,Female,"34 Civil Lines, Jaipur",302006,user8@email.com,1990,4
-9,690,37,80000,save more money,Male,"67 MG Marg, Gangtok",737101,user9@email.com,1986,12
-10,730,29,60000,budgeting,Female,"90 Mall Road, Shimla",171001,user10@email.com,1994,6
+User_id,Credit_score,Age,Goals,Gender,Address,Pin,Email
+U1,720,45,Financial_stability,Male,"123 Oak St, Boston, MA",02108,john.smith@email.com
+U2,780,68,Retirement_planning,Female,"456 Maple Ave, New York, NY",10001,mary.jones@email.com
+U3,650,28,Career_growth,Female,"789 Pine Rd, Los Angeles, CA",90001,sarah.wilson@email.com
+U4,690,25,Fitness_goals,Male,"321 Elm Dr, Seattle, WA",98101,mike.brown@email.com
+U5,800,42,Family_security,Male,"567 Cedar Ln, Chicago, IL",60601,david.miller@email.com
+U6,710,72,Social_life,Male,"890 Birch St, Miami, FL",33101,robert.clark@email.com
+U7,670,24,Education,Female,"432 Willow Ave, San Francisco, CA",94101,emma.white@email.com
+U8,640,27,Entertainment,Male,"765 Palm St, Las Vegas, NV",89101,jack.parker@email.com
+U9,680,29,Social_networking,Male,"543 Beach Rd, San Diego, CA",92101,chris.turner@email.com
+U10,700,48,Work_life_balance,Male,"876 River Dr, Houston, TX",77001,peter.hall@email.com
+U11,730,26,Fitness_tech,Male,"234 Lake St, Portland, OR",97201,kevin.ross@email.com
+U12,820,65,Travel_lifestyle,Female,"678 Hill Ave, Denver, CO",80201,patricia.green@email.com
