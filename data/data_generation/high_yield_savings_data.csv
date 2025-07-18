@@ -1,0 +1,36 @@
+id,account_name,apy_rate,minimum_balance,features,bank_name,account_category
+HY1,Premium Yield Savings,4.35%,$0,"No monthly fees, 24/7 mobile banking, daily compound interest, free ACH transfers",Ally Bank,Online Savings
+HY2,Premier High-Yield Savings,4.25%,$5000,"Complimentary financial advisor consultations, expedited transfers, premium customer service, wealth management tools",Chase,Premium
+HY3,Performance Savings,4.30%,$0,"No hidden fees, automatic savings tools, savings goals tracking, unlimited withdrawals",Marcus by Goldman Sachs,Online Savings
+HY4,Advantage Plus Banking,4.15%,$10000,"Preferred interest rates on CDs, complimentary safe deposit box, waived ATM fees nationwide, relationship rate bonuses",Bank of America,Premium
+HY5,Complete Savings,4.00%,$0,"No minimum balance fees, mobile check deposit, automatic savings roundups, budgeting tools",Capital One,Standard Savings
+HY6,Ultimate Savings Account,4.20%,$25,"Unlimited free withdrawals, overdraft protection, free transfers to external accounts, automated savings plans",Discover Bank,Online Savings
+HY7,Investor Savings,4.40%,$25000,"Priority customer service, financial planning tools, portfolio integration, wealth management discounts",Fidelity,Investment Focused
+HY8,Premier Relationship Savings,3.75%,$25000,"Preferential exchange rates, global ATM fee reimbursements, integrated investment services, dedicated relationship manager",HSBC,Premium
+HY9,Golden Years Savings,4.10%,$500,"Higher rates for seniors, free paper statements, simplified interface, retirement planning tools",Capital One,Senior Citizen
+HY10,Elite Direct Banking,4.45%,$0,"No monthly maintenance fees, free wire transfers, top-rated mobile app, 24/7 customer service",American Express,Online Savings
+HY11,Platinum Yield Account,4.15%,$10000,"Private banking services, exclusive event invitations, complementary financial reviews, fee-free international transfers",Citibank,Premium
+HY12,Smart Start Savings,4.25%,$25,"Parental monitoring tools, educational resources, goal-based saving features, no monthly fees",Ally Bank,Youth
+HY13,Everyday Extra Savings,4.05%,$5,"Early direct deposit, cash back debit options, personalized savings goals, automatic transfer tools",Chime,Online Savings
+HY14,Money Market Savings Plus,3.80%,$2500,"Tiered interest rates, check writing privileges, debit card access, in-branch service priority",Wells Fargo,Money Market
+HY15,Freedom Savings,4.35%,$0,"No minimum balance requirement, competitive rates, goal setting tools, fee-free transfers",SoFi,Online Savings
+HY16,Digital High Yield,4.50%,$100,"Highest online rates, intuitive mobile experience, automatic savings rules, instant account opening",Synchrony Bank,Online Savings
+HY17,Relationship Growth Account,3.90%,$15000,"Combined balance benefits, family account linking, preferred loan rates, financial wellness programs",TD Bank,Premium
+HY18,ValueMax Savings,4.25%,$500,"Cash bonus for new accounts, ATM fee reimbursements, high transaction limits, savings vaults feature",Betterment,Online Savings
+HY19,BusinessAdvantage Savings,3.75%,$5000,"Business-focused tools, QuickBooks integration, employee sub-accounts, tax preparation assistance",Bank of America,Business
+HY20,First Time Saver,4.20%,$1,"Bonus rate for first 6 months, savings education resources, automatic savings plans, no maintenance fees",Capital One,Youth
+HY21,Ultimate Money Market,3.85%,$10000,"Check writing, debit card, higher transaction limits, branch banking options",Discover Bank,Money Market
+HY22,High-Yield Military Savings,4.50%,$0,"Special rates for active military and veterans, overseas account access, deployment protections, family sub-accounts",USAA,Military
+HY23,Certificate Optimizer,4.40%,$2500,"CD-like rates with more flexibility, partial withdrawal options, automatic renewal options, rate guarantees",Marcus by Goldman Sachs,Premium
+HY24,Inflation Defender,4.60%,$25000,"Rate tied to inflation indicators, quarterly adjustments, economic outlook reports, wealth preservation tools",Fidelity,Investment Focused
+HY25,Education Saver,4.25%,$500,"Enhanced rates for education purposes, tax advantage information, college planning tools, automatic contribution plans",Sallie Mae,Education
+HY26,Rainy Day Fund,4.35%,$0,"Quick transfer to checking, emergency fund calculator, milestone rewards, partial automation",Ally Bank,Standard Savings
+HY27,Retirement Builder,4.15%,$100,"Retirement planning tools, IRA linking options, age-based advice, automatic required minimum distribution",Charles Schwab,Retirement
+HY28,Community Builder,3.95%,$100,"Portion of interest supports local causes, community investment reports, local business perks, social impact tracking",Capital One,Community Focused
+HY29,Health Savings Optimizer,4.30%,$1000,"HSA compatibility, medical expense categorization, tax document preparation, health cost projections",Lively,Health Savings
+HY30,Premier Digital Banking,4.55%,$0,"Best-in-class digital tools, early payday features, spending insights, savings automation rules",SoFi,Online Savings
+HY31,Wealth Builder Account,4.00%,$50000,"Wealth management integration, portfolio balancing tools, tax optimization features, dedicated advisor",JP Morgan Chase,Investment Focused
+HY32,NextGen Savings,4.40%,$0,"Cryptocurrency insights, investment pathways, advanced mobile features, financial education resources",Current,Online Savings
+HY33,Small Business Reserve,3.80%,$5000,"Business cash flow tools, employee access options, accounting software integration, business advisory services",Wells Fargo,Business
+HY34,Goal-Based Savings Suite,4.25%,$0,"Multiple savings buckets, visual goal tracking, progress rewards, automated transfers between goals",Wealthfront,Online Savings
+HY35,Flexible Savings Account,4.15%,$100,"No penalty withdrawals, competitive rates, simple interface, quick account setup",American Express,Standard Savings

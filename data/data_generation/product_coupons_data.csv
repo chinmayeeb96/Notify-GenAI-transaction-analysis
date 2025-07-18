@@ -1,0 +1,41 @@
+coupon_id,coupon_code,discount_percentage,minimum_purchase,expiry_date,product_category,terms_conditions,usage_limit,merchant_name
+CO1,SUMMER25,25%,$50.00,2023-09-30,Clothing,"Excludes sale items and accessories. Cannot be combined with other offers.",1,Gap
+CO2,HOME20NOW,20%,$100.00,2023-10-15,Home Decor,"Valid on regular-priced items only. Excludes clearance and doorbusters.",3,Bed Bath & Beyond
+CO3,TRAVEL50,50%,$300.00,2023-11-05,Travel,"Valid on hotel bookings only. Blackout dates apply. Non-refundable.",1,Expedia
+CO4,BOGO23TECH,BOGO,$75.00,2023-09-25,Electronics,"Buy one get one free on select accessories. Higher priced item must be purchased first.",2,Best Buy
+CO5,BEAUTY15,15%,$35.00,2023-10-20,Skincare,"Valid on all products except gift sets. Online orders only.",5,Sephora
+CO6,FOOD10OFF,10%,$20.00,2023-09-15,Food,"Valid on dine-in orders only. Not valid on holidays or weekends.",10,Chipotle
+CO7,CLEAN30NOW,30%,$120.00,2023-11-15,Home Services,"New customers only. Valid for first-time bookings only.",1,Molly Maid
+CO8,FALL15,15%,$25.00,2023-10-31,Clothing,"Excludes designer collections and special collaborations.",2,Macy's
+CO9,TECH25OFF,25%,$200.00,2023-11-30,Gadgets,"Valid on select smartphones and tablets. Activation required.",1,Verizon
+CO10,GIFT10,10%,$50.00,2023-12-01,Gift Cards,"Maximum discount of $25. Cannot be applied to previously purchased gift cards.",3,Amazon
+CO11,SHOES40,40%,$80.00,2023-10-10,Footwear,"Valid on regular-priced athletic shoes only. Excludes limited editions.",1,Nike
+CO12,DINE20,20%,$30.00,2023-09-20,Food,"Valid after 4pm on weekdays only. Maximum discount of $20.",5,Olive Garden
+CO13,WELLNESS25,25%,$40.00,2023-11-10,Skincare,"Excludes already discounted items and bundles. While supplies last.",2,Ulta Beauty
+CO14,GARDEN15,15%,$75.00,2023-10-05,Home Decor,"Valid on outdoor furniture and garden accessories only.",1,Home Depot
+CO15,PETLOVE30,30%,$60.00,2023-10-25,Pet Supplies,"First-time customers only. Valid on dog and cat food only.",1,Petco
+CO16,BOOK20,20%,$35.00,2023-11-20,Books,"Cannot be combined with membership discounts. In-store only.",3,Barnes & Noble
+CO17,AUTO15OFF,15%,$100.00,2023-11-15,Automotive,"Valid on service and maintenance only. Excludes parts and accessories.",1,Jiffy Lube
+CO18,PIZZA50,BOGO,$25.00,2023-09-19,Food,"Buy one pizza, get one free of equal or lesser value. Delivery orders only.",10,Domino's
+CO19,TOYS25,25%,$50.00,2023-12-05,Toys,"Early holiday sale. Excludes video games and electronics.",2,Toys R Us
+CO20,STREAM3OFF,30%,$8.99,2023-10-31,Entertainment,"Valid for new subscribers only. First 3 months at discount price.",1,Hulu
+CO21,ACTIVE20,20%,$60.00,2023-10-15,Sporting Goods,"Valid on fitness equipment and apparel. In-store and online.",3,Dick's Sporting Goods
+CO22,CAFFEINE15,15%,$10.00,2023-09-28,Food,"Valid on coffee and espresso beverages only. Cannot be used with rewards program.",20,Starbucks
+CO23,TOOLS25,25%,$150.00,2023-11-05,Hardware,"Power tools only. Excludes clearance items and special buys.",1,Lowe's
+CO24,OFFICE30,30%,$75.00,2023-10-10,Office Supplies,"Valid on furniture and organization products only. Business accounts excluded.",2,Staples
+CO25,FRESH15,15%,$50.00,2023-09-30,Groceries,"Fresh produce only. Must use store loyalty card.",5,Whole Foods
+CO26,MOVIE50,50%,$25.00,2023-11-01,Entertainment,"Buy one ticket, get second 50% off. Valid on standard screenings only.",4,AMC Theaters
+CO27,TV100OFF,FLAT $100,$599.00,2023-11-25,Electronics,"Valid on TVs 55 inches and larger. Installation not included.",1,Target
+CO28,BABY20,20%,$100.00,2023-10-20,Baby Products,"Excludes formula, diapers, and wipes. Cannot be combined with registry completion discount.",2,Buy Buy Baby
+CO29,VITAMINS40,40%,$30.00,2023-09-25,Health,"Buy one vitamin or supplement, get second 40% off. Higher priced item must be purchased first.",3,GNC
+CO30,HOLIDAY25,25%,$200.00,2023-12-10,Travel,"Valid on vacation packages only. Minimum 3-night stay required.",1,Marriott
+CO31,KIDSWEAR30,30%,$60.00,2023-10-15,Clothing,"Children's apparel only. Excludes clearance items.",2,Old Navy
+CO32,DOGFOOD20,20%,$40.00,2023-11-10,Pet Supplies,"Premium dog food brands only. Must have loyalty account.",1,PetSmart
+CO33,CLEAN25,25%,$30.00,2023-10-30,Home Supplies,"Valid on cleaning products only. Excludes paper products.",3,Target
+CO34,PHONE15,15%,$500.00,2023-11-15,Electronics,"Accessories only when purchased with new phone. Activation required.",1,T-Mobile
+CO35,FURNI100,FLAT $100,$499.00,2023-12-01,Home Decor,"Living room furniture only. Delivery fees not included.",2,Ashley Furniture
+CO36,PHARMACY5,5%,$25.00,2023-10-05,Health,"Prescription copays excluded. Valid on over-the-counter medications only.",10,CVS
+CO37,BACKPACK40,40%,$45.00,2023-09-15,School Supplies,"Backpacks and lunch boxes only. In-store purchases only.",1,Office Depot
+CO38,BURGERS15,15%,$20.00,2023-10-31,Food,"Valid on mobile app orders only. Cannot be used with combo deals.",5,McDonald's
+CO39,GAMING20,20%,$69.99,2023-11-20,Gaming,"Valid on pre-owned games only. Trade-in value not eligible for discount.",1,GameStop
+CO40,APPAREL25,25%,$100.00,2023-12-15,Clothing,"Regular-priced items only. Valid on in-store and online purchases.",2,Kohl's
