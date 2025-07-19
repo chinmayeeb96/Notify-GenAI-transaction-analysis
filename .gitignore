@@ -1,2 +1,4 @@
 .DS_Store
 product_data_generation.py
+.tmp
+.env
