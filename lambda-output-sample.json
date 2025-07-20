@@ -1,36 +1,45 @@
 {
     "userinfo":{
-        "name" : "Ravi",
-        "age" : "25",
-        "all columns from user table" : ""
+        "User_name" : "John Smith",
+        "User_id": "U1",
+        "age" : "45",
+        "financial_goals": "Save for retirement, Buy a house, Pay off debt"
+        
     },
-    "monthly_data" : [
+    "tags": ["d", "a", "c"],
+    "recommendations":{
+        "coupons" : ["1", "2", "3"],
+        "loans" : ["1", "2", "3"],
+        "credit_cards" : ["1", "2", "3"],
+        "high_yield_savings" : ["1", "2", "3"]
+    },
+    "monthly_spend_analysis_data" : [
         {
             "month":"Jan",
-            "tags": ["d", "a"],
-            "recommendations":{
-                "coupons" : ["1", "2", "3"],
-                "loans" : ["1", "2", "3"],
-                "credit_cards" : ["1", "2", "3"]
-            },
+            "year":"2023",
+            "ai_summary": "",
             "categories_expenses": {
+                "total income": "3000",
                 "food" : "35",
+                "food_%": "5",
                 "travel" : "69",
-                "total_spending": "432"
+                "travel_%" : "8",
+                "total_spending": "432",
+                "total_spending_%": "20"
             }
         },
         {
             "month":"Feb",
-            "tags": ["d", "a"],
-            "recommendations":{
-                "coupons" : ["1", "2", "3"],
-                "loans" : ["1", "2", "3"],
-                "credit_cards" : ["1", "2", "3"]
-            },
+            "year":"2023",
+            "ai_summary": "",
             "categories_expenses": {
+                "total income": "3000",
                 "food" : "35",
+                "food_%": "5",
                 "travel" : "69",
-                "total_spending": "432"
+                "travel_%" : "8",
+                "total_spending": "432",
+                "total_spending_%": "20"
             }
         }
     ]
