@@ -1,8 +1,4 @@
 .DS_Store
 transaction_data_generation.py
 product_data_generation.py
-
-
-
-transaction_data_generation.py
 transaction.ipynb
