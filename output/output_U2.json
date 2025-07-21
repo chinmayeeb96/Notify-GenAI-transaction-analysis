@@ -13,7 +13,7 @@
   "tags": [],
   "recommendations": {
     "coupons": [
-      "CO2",
+      "CO1",
       "CO4",
       "CO5"
     ],
@@ -37,89 +37,85 @@
     {
       "month": "01",
       "year": "2023",
-      "ai_summary": "In January 2023, your total income was $3,750, and your total spending was $2,147.47, which is 57.3% of your income. Your largest expenses were rent ($1,500), internet/cable ($150), and groceries ($125.5). To optimize your budget, consider reducing discretionary spending on clothing, entertainment, and dining out. Additionally, explore cost-saving options for essential expenses like rent and utilities. Maintaining a balanced budget will help you achieve your retirement goals.",
+      "ai_summary": "Based on your monthly transactions, your total income was $3,750, and your total spending was $2,046.48, which is 54.6% of your income. The largest expense categories were Rent and Utilities ($1,650), Food ($160.99), and Transportation ($65). To optimize your budget, consider reducing discretionary spending on clothing, entertainment, and dining out. Additionally, explore retirement savings options like a 401(k) or IRA to maximize your retirement funds.",
       "categories_expenses": {
         "total_income": "-3750.0",
-        "food": "138.49",
-        "food_%": "3.7%",
+        "food": "198.48",
+        "food_%": "5.29",
         "transportation": "65.0",
-        "transportation_%": "1.7%",
+        "transportation_%": "1.73",
         "entertainment": "45.99",
-        "entertainment_%": "1.2%",
-        "housing": "1650.0",
-        "housing_%": "44.0%",
-        "personal_care": "35.0",
-        "personal_care_%": "0.9%",
-        "other": "212.99",
-        "other_%": "5.7%",
-        "total_spending": "2147.47",
-        "total_spending_%": "57.3%"
+        "entertainment_%": "1.23",
+        "total_spending": "2046.48",
+        "total_spending_%": "54.6"
       }
     },
     {
       "month": "02",
       "year": "2023",
-      "ai_summary": "In February 2023, your total income was $3,250, and your total spending was $523.96 (16.1% of income). The largest expense categories were General Services (Insurance) at $150 (4.6%), General Merchandise (Clothing and Electronics) at $165.49 (5.1%), and Food (Groceries, Restaurants, and Fast Food) at $91.48 (2.8%). To optimize your budget, consider reducing discretionary spending on clothing, electronics, and dining out. Focus on essential expenses and prioritize saving for retirement.",
+      "ai_summary": "In February 2023, your total income was $3,250, and your total spending was $523.96 (16.1% of income). The major expense categories were General Merchandise ($165.49, 5.1%), Food & Drink ($90.48, 2.8%), Transportation ($32, 1%), and Entertainment ($29.99, 0.9%). While your spending is within a reasonable range, there are opportunities to optimize your budget further. Consider reducing discretionary expenses on clothing, electronics, and dining out. Additionally, explore cost-effective entertainment options and plan your grocery trips to minimize food waste. By making small adjustments, you can allocate more funds towards your retirement savings.",
       "categories_expenses": {
         "total_income": "-3250.00",
-        "food": "91.48",
-        "food_%": "2.8%",
+        "food": "90.48",
+        "food_%": "2.8",
         "transportation": "32.00",
-        "transportation_%": "1.0%",
+        "transportation_%": "1.0",
         "entertainment": "29.99",
-        "entertainment_%": "0.9%",
+        "entertainment_%": "0.9",
+        "general_merchandise": "165.49",
+        "general_merchandise_%": "5.1",
+        "personal_care": "65.00",
+        "personal_care_%": "2.0",
+        "insurance": "150.00",
+        "insurance_%": "4.6",
         "total_spending": "523.96",
-        "total_spending_%": "16.1%"
+        "total_spending_%": "16.1"
       }
     },
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "Your total income for March was $3,750, and your total spending was $807.47, which is around 21.5% of your income. The largest expense categories were Transportation ($120), Insurance ($150), and Savings Transfer ($200). While saving is good, you may want to review your insurance costs. You spent a reasonable amount on groceries, dining out, and entertainment. To optimize your budget, consider reducing discretionary spending on clothing, electronics, and personal care services.",
+      "ai_summary": "Your monthly income was $3,750, and you spent $797.47 across various categories. Food and groceries accounted for $111.98 (3.0% of income), transportation was $120.0 (3.2%), entertainment was $15.99 (0.4%), and other expenses like clothing, insurance, and personal care totaled $549.5 (14.7%). You saved $200 this month, which is great for your retirement goal. However, you could optimize spending on non-essentials like dining out and electronics to increase your savings rate.",
       "categories_expenses": {
         "total_income": "-3750.0",
-        "food": "111.99",
-        "food_%": "2.99%",
+        "food": "111.98",
+        "food_%": "3.0",
         "transportation": "120.0",
-        "transportation_%": "3.2%",
+        "transportation_%": "3.2",
         "entertainment": "15.99",
-        "entertainment_%": "0.43%",
-        "insurance": "150.0",
-        "insurance_%": "4.0%",
-        "personal_care": "35.0",
-        "personal_care_%": "0.93%",
-        "clothing": "89.5",
-        "clothing_%": "2.39%",
-        "electronics": "55.99",
-        "electronics_%": "1.49%",
-        "savings_transfer": "200.0",
-        "savings_transfer_%": "5.33%",
-        "total_spending": "807.47",
-        "total_spending_%": "21.53%"
+        "entertainment_%": "0.4",
+        "total_spending": "797.47",
+        "total_spending_%": "21.3"
       }
     },
     {
       "month": "04",
       "year": "2023",
-      "ai_summary": "Your total income for April was $3,750, and your total spending was $769.78, which is around 20.5% of your income. The largest expense category was Food at $193.31 (5.2% of income), followed by Transportation at $65 (1.7% of income) and Entertainment at $60.98 (1.6% of income). You also made a $150 transfer to your savings account and paid $200 towards your credit card bill. Overall, your spending seems reasonable, but you could consider reducing discretionary expenses like dining out and clothing to boost your savings further for retirement.",
+      "ai_summary": "In April 2023, your total income was $3,750, and your total spending was $808.79, which is 21.6% of your income. Your major expenses were Groceries ($125.32), Gas ($65), Clothing ($89.5), and Restaurant ($55). You also made a $150 transfer to your savings account and paid $200 towards your credit card bill. While your spending is within a reasonable range, you could optimize your budget by cutting back on discretionary expenses like clothing and dining out. Additionally, consider increasing your savings contributions to accelerate your retirement planning.",
       "categories_expenses": {
         "total_income": "-3750.0",
         "food": "193.31",
-        "food_%": "5.2",
+        "food_%": "5.15%",
         "transportation": "65.0",
-        "transportation_%": "1.7",
+        "transportation_%": "1.73%",
         "entertainment": "60.98",
-        "entertainment_%": "1.6",
-        "total_spending": "769.78",
-        "total_spending_%": "20.5"
+        "entertainment_%": "1.63%",
+        "shopping": "89.5",
+        "shopping_%": "2.39%",
+        "savings": "150.0",
+        "savings_%": "4.0%",
+        "loan_payments": "200.0",
+        "loan_payments_%": "5.33%",
+        "total_spending": "808.79",
+        "total_spending_%": "21.6%"
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Exclusive: 20% off at Bed Bath & Beyond with HOME20NOW",
-    "loans_email": "Rates as low as 6.99% on $3,000-$35,000 personal loans",
-    "credit_cards_email": "Earn $200 cash back after $1,500 spend with Citi Double Cash",
-    "savings_email": "Grow your nest egg with 4.30% APY at Marcus by Goldman Sachs"
+    "coupons_email": "Mary, unlock 25% off at Gap with code SUMMER25",
+    "loans_email": "Mary, get $3,000-$35,000 personal loans at 6.99% APR",
+    "credit_cards_email": "Mary, earn $200 cash back with the Citi Double Cash card",
+    "savings_email": "Mary, grow your savings with 4.30% APY at Marcus"
   }
 }

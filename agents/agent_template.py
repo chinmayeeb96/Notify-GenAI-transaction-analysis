@@ -28,7 +28,7 @@ def build_agent(system_prompt):
         client=bedrock_client,
         model_id='anthropic.claude-3-sonnet-20240229-v1:0',
         model_kwargs={
-            "max_tokens": 4000,
+            "max_tokens": 100000,
             "temperature": 0.1,
             "system": system_prompt
         }
@@ -92,3 +92,67 @@ def build_agent(system_prompt):
     agent = workflow.compile()
     
     return agent
+
+
+def estimate_token_size(data):
+    """
+    Roughly estimate the token size of data being sent to the LLM
+    
+    Args:
+        data: Any Python object (dict, list, etc.)
+        
+    Returns:
+        int: Estimated token count
+    """
+    # Convert to JSON string to simulate what would be sent to the LLM
+    json_str = json.dumps(data, default=str)
+    
+    # A rough approximation: 1 token ≈ 4 characters for English text
+    # This is just an estimate - actual tokenization depends on the model
+    char_count = len(json_str)
+    estimated_tokens = char_count / 4
+    
+    return int(estimated_tokens)
+
+
+def check_context_window_limit(user_info, transactions, product_data, agent_name, max_tokens=100000):
+    """
+    Check if data might exceed LLM context window
+    
+    Args:
+        user_info: User information dictionary
+        transactions: Transaction data (DataFrame or list)
+        product_data: Product data
+        agent_name: Name of the agent being called
+        max_tokens: Maximum token limit to warn about
+        
+    Returns:
+        bool: True if likely to exceed limit, False otherwise
+    """
+    # Convert transactions to list if it's a DataFrame
+    if hasattr(transactions, 'to_dict'):
+        transactions_list = transactions.to_dict('records')
+    else:
+        transactions_list = transactions
+    
+    # Estimate token sizes
+    user_info_tokens = estimate_token_size(user_info)
+    transactions_tokens = estimate_token_size(transactions_list)
+    product_data_tokens = estimate_token_size(product_data)
+    
+    # Total estimated tokens
+    total_tokens = user_info_tokens + transactions_tokens + product_data_tokens
+    print("Total estimated tokens:", total_tokens)
+    # Account for prompt, model instructions, etc.
+    total_tokens += 1000  # Add buffer for system prompt, etc.
+    
+    # Print warning if close to or exceeding limit
+    if total_tokens > max_tokens * 0.8:
+        print(f"⚠️ WARNING: {agent_name} might exceed context window!")
+        print(f"  Estimated tokens: {total_tokens:,}")
+        print(f"  User info: {user_info_tokens:,} tokens")
+        print(f"  Transactions: {transactions_tokens:,} tokens ({len(transactions_list)} records)")
+        print(f"  Product data: {product_data_tokens:,} tokens")
+        return True
+    
+    return False

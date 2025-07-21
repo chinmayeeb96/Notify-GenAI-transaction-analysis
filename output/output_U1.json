@@ -15,17 +15,17 @@
     "coupons": [
       "CO4",
       "CO1",
-      "CO2"
+      "CO5"
     ],
     "loans": [
       "LN1",
       "LN4",
-      "LN2"
+      "LN5"
     ],
     "credit_cards": [
-      "CC3",
       "CC1",
-      "CC4"
+      "CC2",
+      "CC3"
     ],
     "high_yield_savings": [
       "HY3",
@@ -37,89 +37,137 @@
     {
       "month": "01",
       "year": "2023",
-      "ai_summary": "In January 2023, your total income was $4,500, and your total spending was $2,190.44, which is 48.68% of your income. Your largest expense category was rent at $1,500 (33.33% of income). You spent $190.50 (4.23%) on food, $104.98 (2.33%) on entertainment, and $45 (1%) on personal care. To better manage your finances, consider reducing discretionary spending on entertainment and personal care. Additionally, explore options to lower your rent or housing costs. Maintaining a budget and building an emergency fund should be priorities.",
+      "ai_summary": "In January 2023, your total income was $4,500, and your total spending was $2,030.41, which is 45.12% of your income. Your largest expense category was Rent & Utilities at $1,500 (33.33% of income). Food & Dining accounted for $191.50 (4.26% of income), Entertainment was $114.97 (2.56% of income), and Personal Care & Shopping was $224.98 (5% of income). To better manage your finances, consider reducing discretionary spending on entertainment, shopping, and dining out. Additionally, building an emergency fund should be a priority to prepare for unexpected expenses.",
       "categories_expenses": {
-        "total_income": "-4500.00",
-        "food": "190.50",
-        "food_%": "4.23",
-        "transportation": "0.00",
-        "transportation_%": "0.00",
-        "entertainment": "104.98",
-        "entertainment_%": "2.33",
-        "total_spending": "2190.44",
-        "total_spending_%": "48.68"
+        "total_income": -4500.0,
+        "food": 191.5,
+        "food_%": 4.26,
+        "transportation": 0.0,
+        "transportation_%": 0.0,
+        "entertainment": 114.97,
+        "entertainment_%": 2.56,
+        "rent_and_utilities": 1500.0,
+        "rent_and_utilities_%": 33.33,
+        "personal_care_and_shopping": 224.98,
+        "personal_care_and_shopping_%": 5.0,
+        "total_spending": 2030.41,
+        "total_spending_%": 45.12
       }
     },
     {
       "month": "02",
       "year": "2023",
-      "ai_summary": "In February 2023, your total income was $4,500, and your total spending was $708.53, which is around 15.7% of your income. The largest expense category was Entertainment at $164.97 (3.7% of income), followed by Food at $144.27 (3.2% of income). While your spending is within a reasonable range, there are opportunities to optimize your budget. Consider reducing discretionary expenses like entertainment and dining out. Additionally, explore setting up an emergency fund to achieve your financial goal.",
+      "ai_summary": "In February 2023, your total income was $4,500, and your total spending was $714.54, which is around 15.9% of your income. Your major expenses were in the categories of Entertainment ($164.97, 3.7%), General Merchandise ($325.49, 7.2%), Food & Dining ($144.07, 3.2%), and Transportation ($35, 0.8%). While your spending is within a reasonable range, there are opportunities to optimize your budget. Consider reducing discretionary expenses like clothing, electronics, and entertainment subscriptions. Additionally, focus on building an emergency fund to achieve your financial goal.",
       "categories_expenses": {
-        "total_income": "-4500.00",
-        "food": "144.27",
-        "food_%": "3.2%",
-        "transportation": "35.00",
-        "transportation_%": "0.8%",
-        "entertainment": "164.97",
-        "entertainment_%": "3.7%",
-        "personal_care": "45.00",
-        "personal_care_%": "1.0%",
-        "shopping": "125.50",
-        "shopping_%": "2.8%",
-        "electronics": "199.99",
-        "electronics_%": "4.4%",
-        "total_spending": "708.53",
-        "total_spending_%": "15.7%"
+        "total_income": -4500.0,
+        "food": 144.07,
+        "food_%": 3.2,
+        "transportation": 35.0,
+        "transportation_%": 0.8,
+        "entertainment": 164.97,
+        "entertainment_%": 3.7,
+        "general_merchandise": 325.49,
+        "general_merchandise_%": 7.2,
+        "personal_care": 45.0,
+        "personal_care_%": 1.0,
+        "total_spending": 714.54,
+        "total_spending_%": 15.9
       }
     },
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "In March 2023, your total income was $4,500, and your total spending was $478.11, which is 10.62% of your income. Your largest expense category was General Merchandise at $205.48 (4.57% of income), followed by Food & Drink at $100.67 (2.24% of income). While your spending is within reasonable limits, you could optimize your budget by cutting back on non-essential purchases and setting aside funds for your emergency fund goal. Consider using cash-back credit cards for everyday expenses and setting up automatic transfers to a dedicated savings account.",
+      "ai_summary": "In March 2023, your total income was $4,500, and your total spending was $468.12, which is around 10.4% of your income. Your major expenses were on general merchandise ($219.98), food and dining ($100.67), and entertainment ($37.97). To achieve your goal of building an emergency fund, you should focus on reducing discretionary spending on non-essential items and entertainment. Consider setting a monthly budget and tracking your expenses to identify areas where you can cut back. Additionally, explore ways to increase your income through side gigs or investments.",
       "categories_expenses": {
-        "total_income": "-4500.00",
+        "total_income": "-4500.0",
         "food": "100.67",
         "food_%": "2.24",
-        "transportation": "0.00",
-        "transportation_%": "0.00",
+        "transportation": "0.0",
+        "transportation_%": "0.0",
         "entertainment": "37.97",
         "entertainment_%": "0.84",
-        "general_merchandise": "205.48",
-        "general_merchandise_%": "4.57",
-        "personal_care": "35.00",
+        "general_merchandise": "219.98",
+        "general_merchandise_%": "4.89",
+        "personal_care": "35.0",
         "personal_care_%": "0.78",
-        "total_spending": "478.11",
-        "total_spending_%": "10.62"
+        "other": "74.5",
+        "other_%": "1.66",
+        "total_spending": "468.12",
+        "total_spending_%": "10.4"
       }
     },
     {
       "month": "04",
       "year": "2023",
-      "ai_summary": "Your total income for April was $3,500, and your total spending was $2,097.97, which is around 60% of your income. The largest expense category was rent and utilities at $1,500 (43% of income). You spent a significant amount on general merchandise ($289.99, 8.3% of income), followed by food and restaurants ($80, 2.3% of income). Entertainment expenses like Netflix and Spotify were relatively low at $27.98 (0.8% of income). To better align with your goal of building an emergency fund, consider reducing discretionary spending on electronics, clothing, and dining out. Prioritize essential expenses and allocate a portion of your income towards savings each month.",
+      "ai_summary": "In April 2023, your total income was $3,500, and your total spending was $2,087.97, which is around 59.7% of your income. Your largest expense category was rent and utilities at $1,500 (42.9% of income). Other significant expenses included general merchandise ($289.99, 8.3%), food and dining ($80, 2.3%), and entertainment ($27.98, 0.8%). To better manage your finances, consider reducing discretionary spending on electronics, clothing, and dining out. Additionally, explore cost-saving opportunities for rent and utilities. Prioritize building an emergency fund to achieve your financial goals.",
       "categories_expenses": {
         "total_income": "-3500.0",
         "food": "80.0",
-        "food_%": "2.29",
+        "food_%": "2.3",
         "transportation": "0.0",
         "transportation_%": "0.0",
         "entertainment": "27.98",
         "entertainment_%": "0.8",
         "rent_and_utilities": "1500.0",
-        "rent_and_utilities_%": "42.86",
+        "rent_and_utilities_%": "42.9",
         "general_merchandise": "289.99",
-        "general_merchandise_%": "8.29",
+        "general_merchandise_%": "8.3",
         "personal_care": "60.0",
-        "personal_care_%": "1.71",
-        "total_spending": "2097.97",
-        "total_spending_%": "59.94"
+        "personal_care_%": "1.7",
+        "total_spending": "2087.97",
+        "total_spending_%": "59.7"
+      }
+    },
+    {
+      "month": "05",
+      "year": "2023",
+      "ai_summary": "In May 2023, your total income was $4,500, and your total spending was $468.12, which is around 10.4% of your income. Your major expenses were in the categories of General Merchandise ($219.98), Food and Drink ($100.67), and Entertainment ($37.97). To better manage your finances and achieve your goal of building an emergency fund, consider reducing discretionary spending on electronics, clothing, and online purchases. Additionally, explore more cost-effective options for dining out and entertainment subscriptions. By optimizing your spending habits, you can allocate more funds towards your emergency savings.",
+      "categories_expenses": {
+        "total_income": -4500.0,
+        "food": 100.67,
+        "food_%": 2.24,
+        "transportation": 0.0,
+        "transportation_%": 0.0,
+        "entertainment": 37.97,
+        "entertainment_%": 0.84,
+        "general_merchandise": 219.98,
+        "general_merchandise_%": 4.89,
+        "personal_care": 35.0,
+        "personal_care_%": 0.78,
+        "other": 74.5,
+        "other_%": 1.66,
+        "total_spending": 468.12,
+        "total_spending_%": 10.4
+      }
+    },
+    {
+      "month": "06",
+      "year": "2023",
+      "ai_summary": "In June 2023, your total income was $4,500, and your total spending was $2,230.45 (49.5% of income). The largest expense categories were Rent & Utilities ($1,500, 33.3%), Food & Dining ($191.5, 4.3%), and Entertainment ($114.97, 2.6%). To achieve your goal of building an emergency fund, consider reducing discretionary spending on entertainment, dining out, and non-essential purchases. Allocate a portion of your income towards a dedicated savings account each month.",
+      "categories_expenses": {
+        "total_income": -4500.0,
+        "food": 191.5,
+        "food_%": 4.3,
+        "transportation": 0.0,
+        "transportation_%": 0.0,
+        "entertainment": 114.97,
+        "entertainment_%": 2.6,
+        "rent_and_utilities": 1500.0,
+        "rent_and_utilities_%": 33.3,
+        "personal_care": 45.0,
+        "personal_care_%": 1.0,
+        "general_merchandise": 279.98,
+        "general_merchandise_%": 6.2,
+        "total_spending": 2230.45,
+        "total_spending_%": 49.5
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Exclusive BOGO at Best Buy: Save big on tech with code BOGO23TECH",
-    "loans_email": "Get $3,000-$35,000 personal loan at 6.99%-19.99% APR from Chase",
-    "credit_cards_email": "Earn $200 cash back: Citi Double Cash after $1,500 spend",
-    "savings_email": "Grow emergency fund faster with 4.30% APY at Marcus"
+    "coupons_email": "Exclusive BOGO at Best Buy: Buy 1, get 1 free tech deal",
+    "loans_email": "Need cash? Borrow $3,000-$35,000 at 6.99%-19.99% APR",
+    "credit_cards_email": "Chase Sapphire: Earn 60K bonus points, 3X on dining",
+    "savings_email": "Marcus 4.30% APY: Grow your emergency fund faster"
   }
 }
