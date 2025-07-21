@@ -11,13 +11,7 @@ def run_credit_cards_agent(user_info, transaction_data, credit_cards_data, user_
     - Credit profile and financial goals
     - Exclude cards the user already owns
     
-    Return a JSON object with this exact format:
-    {
-        "recommendations": ["CC1", "CC2", "CC3"],
-        "email_subject": "Your creative, catchy email subject for the top recommended card (keep under 60 characters)"
-    }
-    
-    The email subject should be exciting, benefit-focused, and make the user curious about the top credit card recommendation.
+    Return ONLY a simple JSON array of the top 3 card IDs, like: ["CC1", "CC2", "CC3"]
     """
     
     # Filter out cards user already has

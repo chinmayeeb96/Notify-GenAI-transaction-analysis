@@ -19,17 +19,17 @@
     ],
     "loans": [
       "LN1",
-      "LN4",
-      "LN2"
+      "LN2",
+      "LN4"
     ],
     "credit_cards": [
       "CC3",
-      "CC1",
-      "CC4"
+      "CC5",
+      "CC1"
     ],
     "high_yield_savings": [
-      "HY1",
       "HY3",
+      "HY1",
       "HY5"
     ]
   },
@@ -75,25 +75,25 @@
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "In March 2023, your total income was $5,200, and your total spending was $1,977.23, which is 38.02% of your income. Your major expenses were rent ($1,200), transportation ($120), and entertainment ($185.99). To optimize your budget, consider reducing discretionary spending on dining out, entertainment, and personal care. Additionally, explore ways to lower your housing and transportation costs. Maintain your investment contributions to build long-term wealth.",
+      "ai_summary": "In March 2023, your total income was $5,200, and your total spending was $1,977.23, which is 38.02% of your income. Your major expenses were rent ($1,200), transportation ($120), and entertainment ($185.99). To optimize your budget, consider reducing discretionary spending on dining out, entertainment, and personal care. Additionally, explore credit-building products like secured credit cards to improve your credit score.",
       "categories_expenses": {
-        "total_income": -5200.0,
-        "food": 131.49,
-        "food_%": 2.53,
-        "transportation": 120.0,
-        "transportation_%": 2.31,
-        "entertainment": 185.99,
-        "entertainment_%": 3.58,
-        "housing": 1200.0,
-        "housing_%": 23.08,
-        "personal_care": 75.0,
-        "personal_care_%": 1.44,
-        "investments": 200.0,
-        "investments_%": 3.85,
-        "other": 64.75,
-        "other_%": 1.24,
-        "total_spending": 1977.23,
-        "total_spending_%": 38.02
+        "total_income": "-5200.00",
+        "food": "131.49",
+        "food_%": "2.53%",
+        "transportation": "120.00",
+        "transportation_%": "2.31%",
+        "entertainment": "185.99",
+        "entertainment_%": "3.58%",
+        "rent": "1200.00",
+        "rent_%": "23.08%",
+        "personal_care": "75.00",
+        "personal_care_%": "1.44%",
+        "clothing": "65.75",
+        "clothing_%": "1.26%",
+        "investments": "200.00",
+        "investments_%": "3.85%",
+        "total_spending": "1977.23",
+        "total_spending_%": "38.02%"
       }
     },
     {
@@ -110,8 +110,8 @@
         "entertainment_%": 1.4,
         "housing": 2189.99,
         "housing_%": 42.1,
-        "shopping": 310.49,
-        "shopping_%": 6.0,
+        "general_merchandise": 310.49,
+        "general_merchandise_%": 6.0,
         "investment": 1500.0,
         "investment_%": 28.8,
         "total_spending": 4208.73,
@@ -121,9 +121,9 @@
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Upgrade Your Tech & Style with Unbeatable Savings!",
-    "loans_email": "Build Your Credit with a Personal Loan from Chase",
-    "credit_cards_email": "Unlock Unbeatable Rewards with the Citi Double Cash Card!",
-    "savings_email": "Unlock High-Yield Savings: Grow Your Money Effortlessly"
+    "coupons_email": "Unlock BOGO savings at Best Buy with BOGO23TECH code",
+    "loans_email": "Get $3,000-$35,000 personal loans at 6.99%-19.99% APR",
+    "credit_cards_email": "Earn $200 cash back + 2% rewards with Citi Double Cash",
+    "savings_email": "Grow your money with 4.30% APY at Marcus Savings"
   }
 }

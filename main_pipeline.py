@@ -1,6 +1,6 @@
 from fetch_user_ids import get_user_ids
 from fetch_user_transactions import get_user_transactions
-from agents import coupons_agent, agent_template, credit_cards_agent, financial_summary_agent, loans_agent, savings_agent
+from agents import coupons_agent, agent_template, credit_cards_agent, financial_summary_agent, loans_agent, savings_agent, email_notification_agent
 
 from combine_outputs import build_final_output
 import pandas as pd
@@ -64,38 +64,34 @@ def run_pipeline():
         credit_rec = credit_cards_agent.run_credit_cards_agent(user_info, transactions_for_agents, credit_cards)
         savings_rec = savings_agent.run_savings_agent(user_info, transactions_for_agents, savings)
         
-        # Parse JSON responses or use fallback
+        # Parse JSON responses or use fallback - now expecting simple arrays
         try:
-            coupons_data = json.loads(coupons_rec) if isinstance(coupons_rec, str) else coupons_rec
-            coupons_recommendations = coupons_data.get("recommendations", ["CO1", "CO2", "CO3"])
-            coupons_email_subject = coupons_data.get("email_subject", "Great Savings Await You!")
+            coupons_recommendations = json.loads(coupons_rec) if isinstance(coupons_rec, str) else coupons_rec
+            if not isinstance(coupons_recommendations, list):
+                coupons_recommendations = ["CO1", "CO2", "CO3"]
         except:
             coupons_recommendations = ["CO1", "CO2", "CO3"]
-            coupons_email_subject = "Great Savings Await You!"
             
         try:
-            loans_data = json.loads(loans_rec) if isinstance(loans_rec, str) else loans_rec
-            loans_recommendations = loans_data.get("recommendations", ["LN1", "LN2", "LN3"])
-            loans_email_subject = loans_data.get("email_subject", "Perfect Loan Options For You!")
+            loans_recommendations = json.loads(loans_rec) if isinstance(loans_rec, str) else loans_rec
+            if not isinstance(loans_recommendations, list):
+                loans_recommendations = ["LN1", "LN2", "LN3"]
         except:
             loans_recommendations = ["LN1", "LN2", "LN3"]
-            loans_email_subject = "Perfect Loan Options For You!"
             
         try:
-            credit_data = json.loads(credit_rec) if isinstance(credit_rec, str) else credit_rec
-            credit_recommendations = credit_data.get("recommendations", ["CC1", "CC2", "CC3"])
-            credit_email_subject = credit_data.get("email_subject", "Amazing Credit Card Benefits!")
+            credit_recommendations = json.loads(credit_rec) if isinstance(credit_rec, str) else credit_rec
+            if not isinstance(credit_recommendations, list):
+                credit_recommendations = ["CC1", "CC2", "CC3"]
         except:
             credit_recommendations = ["CC1", "CC2", "CC3"]
-            credit_email_subject = "Amazing Credit Card Benefits!"
             
         try:
-            savings_data = json.loads(savings_rec) if isinstance(savings_rec, str) else savings_rec
-            savings_recommendations = savings_data.get("recommendations", ["HY1", "HY2", "HY3"])
-            savings_email_subject = savings_data.get("email_subject", "Grow Your Money Faster!")
+            savings_recommendations = json.loads(savings_rec) if isinstance(savings_rec, str) else savings_rec
+            if not isinstance(savings_recommendations, list):
+                savings_recommendations = ["HY1", "HY2", "HY3"]
         except:
             savings_recommendations = ["HY1", "HY2", "HY3"]
-            savings_email_subject = "Grow Your Money Faster!"
         
         print("got the recommendations")
         
@@ -127,6 +123,40 @@ def run_pipeline():
                 
             monthly_summary.append(summary_dict)
 
+        # Generate creative email notifications using the dedicated agent
+        product_recommendations_dict = {
+            "coupons": coupons_recommendations,
+            "loans": loans_recommendations, 
+            "credit_cards": credit_recommendations,
+            "high_yield_savings": savings_recommendations
+        }
+        
+        all_product_data = {
+            "coupons": coupons,
+            "loans": loans,
+            "credit_cards": credit_cards,
+            "savings": savings
+        }
+        
+        email_notifications_result = email_notification_agent.run_email_notification_agent(
+            user_info,
+            product_recommendations_dict,
+            monthly_summary,
+            all_product_data
+        )
+        
+        # Parse email notifications
+        try:
+            email_subjects = json.loads(email_notifications_result) if isinstance(email_notifications_result, str) else email_notifications_result
+        except:
+            email_subjects = {
+                "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
+                "coupons_email": "Great Savings Await You!",
+                "loans_email": "Perfect Loan Options For You!",
+                "credit_cards_email": "Amazing Credit Card Benefits!",
+                "savings_email": "Grow Your Money Faster!"
+            }
+
         final_output = build_final_output(
             user_info, 
             coupons_recommendations, 
@@ -134,12 +164,7 @@ def run_pipeline():
             credit_recommendations, 
             savings_recommendations, 
             monthly_summary,
-            {
-                "coupons_email": coupons_email_subject,
-                "loans_email": loans_email_subject,
-                "credit_cards_email": credit_email_subject,
-                "savings_email": savings_email_subject
-            }
+            email_subjects
         )
         
         

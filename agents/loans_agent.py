@@ -11,13 +11,7 @@ def run_loans_agent(user_info, transaction_data, loans_data):
     - Financial goals and loan purpose
     - Risk assessment based on transaction history
     
-    Return a JSON object with this exact format:
-    {
-        "recommendations": ["LN1", "LN2", "LN3"],
-        "email_subject": "Your creative, catchy email subject for the top recommended loan (keep under 60 characters)"
-    }
-    
-    The email subject should be compelling, personalized, and make the user interested in learning about the top loan option.
+    Return ONLY a simple JSON array of the top 3 loan IDs, like: ["LN1", "LN2", "LN3"]
     """
     
     agent = build_agent(system_prompt)

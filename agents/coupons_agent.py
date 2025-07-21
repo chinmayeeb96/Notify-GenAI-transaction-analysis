@@ -10,13 +10,7 @@ def run_coupons_agent(user_info, transaction_data, coupons_data):
     - Transaction amounts and frequency
     - Financial goals if provided
     
-    Return a JSON object with this exact format:
-    {
-        "recommendations": ["CO1", "CO2", "CO3"],
-        "email_subject": "Your creative, catchy email subject for the top recommended coupon (keep under 60 characters)"
-    }
-    
-    The email subject should be enticing, savings-focused, and make the user excited about the top coupon deal.
+    Return ONLY a simple JSON array of the top 3 coupon IDs, like: ["CO1", "CO2", "CO3"]
     """
     
     agent = build_agent(system_prompt)

@@ -13,9 +13,9 @@
   "tags": [],
   "recommendations": {
     "coupons": [
+      "CO5",
       "CO2",
-      "CO4",
-      "CO5"
+      "CO4"
     ],
     "loans": [
       "LN1",
@@ -25,7 +25,7 @@
     "credit_cards": [
       "CC3",
       "CC5",
-      "CC4"
+      "CC1"
     ],
     "high_yield_savings": [
       "HY3",
@@ -37,23 +37,27 @@
     {
       "month": "01",
       "year": "2023",
-      "ai_summary": "Your total income for January was $2,345.67, primarily from retirement or pension. Your major expenses were groceries ($200.75, 8.6% of income), medical ($195, 8.3%), entertainment ($35.99, 1.5%), transportation ($65.3, 2.8%), and personal care ($45, 1.9%). Your total spending was $542.04, around 23.1% of your income. To better manage your finances and achieve your goal of paying off student loans, consider reducing discretionary spending on entertainment and personal care. Additionally, explore options to lower medical expenses, such as insurance plans or negotiating costs.",
+      "ai_summary": "Your total income for January was $2,345.67, primarily from retirement/pension. Your major expenses were groceries ($200.75, 8.6% of income), medical ($195, 8.3%), entertainment ($35.99, 1.5%), transportation ($65.3, 2.8%), and utilities ($89.99, 3.8%). Your total spending was $586.03 (25% of income). To achieve your goal of paying off student loans, consider reducing discretionary spending on entertainment and dining out. Look for opportunities to lower medical and transportation costs as well.",
       "categories_expenses": {
-        "total_income": 2345.67,
-        "food": 200.75,
-        "food_%": 8.6,
-        "transportation": 65.3,
-        "transportation_%": 2.8,
-        "entertainment": 35.99,
-        "entertainment_%": 1.5,
-        "total_spending": 542.04,
-        "total_spending_%": 23.1
+        "total_income": "-2345.67",
+        "food": "200.75",
+        "food_%": "8.6",
+        "transportation": "65.3",
+        "transportation_%": "2.8",
+        "entertainment": "35.99",
+        "entertainment_%": "1.5",
+        "medical": "195.0",
+        "medical_%": "8.3",
+        "utilities": "89.99",
+        "utilities_%": "3.8",
+        "total_spending": "586.03",
+        "total_spending_%": "25.0"
       }
     },
     {
       "month": "02",
       "year": "2023",
-      "ai_summary": "Your total income for February was $2,345.67, primarily from a retirement or pension payment. Your major expenses were groceries ($181.77, 7.7% of income), restaurants ($75.50, 3.2%), general merchandise ($129.99, 5.5%), transportation ($65.00, 2.8%), and medical expenses ($165.99, 7.1%). Your total spending was $618.25, accounting for 26.3% of your income. To better manage your finances and achieve your goal of paying off student loans, consider reducing discretionary spending on dining out and shopping. Additionally, explore options to lower medical and utility costs. Consistently monitoring your expenses and sticking to a budget can help you allocate more funds towards debt repayment.",
+      "ai_summary": "Your total income for February was $2,345.67, primarily from a retirement pension. Your major expenses were groceries ($181.77, 7.7% of income), restaurants ($75.50, 3.2%), department stores ($129.99, 5.5%), transportation ($65.00, 2.8%), and medical expenses ($165.99, 7.1%). Your total spending was $618.25, accounting for 26.3% of your income. To better manage your finances and achieve your goal of paying off student loans, consider reducing discretionary spending on dining out and shopping. Additionally, explore options to lower medical expenses if possible. Maintaining a budget and monitoring your spending can help you allocate funds more effectively towards your financial goals.",
       "categories_expenses": {
         "total_income": "-2345.67",
         "food": "257.27",
@@ -69,45 +73,47 @@
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "Your total income for March was $2,345.67, primarily from retirement/pension. Your major expenses were groceries ($140.57, 6.0%), utilities ($270.0, 11.5%), medical ($134.99, 5.8%), and entertainment ($25.0, 1.1%). Your total spending was $601.06 (25.6% of income). To achieve your goal of paying off student loans, consider reducing discretionary spending on dining out and entertainment. Explore balance transfer credit cards with 0% APR to consolidate high-interest debt.",
+      "ai_summary": "Your total income for March was $2,345.67, primarily from retirement or pension. Your major expenses were groceries ($140.57, 6% of income), utilities ($270, 11.5% of income), and medical expenses ($134.99, 5.8% of income). Your total spending was $645.31 (27.5% of income). To achieve your goal of paying off student loans, consider reducing discretionary spending on restaurants, entertainment, and personal care. Explore balance transfer credit cards or loan consolidation to lower interest rates on existing debt.",
       "categories_expenses": {
-        "total_income": "2345.67",
-        "food": "140.57",
-        "food_%": "6.0",
-        "transportation": "0.0",
-        "transportation_%": "0.0",
-        "entertainment": "25.0",
-        "entertainment_%": "1.1",
-        "medical": "134.99",
-        "medical_%": "5.8",
-        "utilities": "270.0",
-        "utilities_%": "11.5",
-        "total_spending": "601.06",
-        "total_spending_%": "25.6"
+        "total_income": 2345.67,
+        "food": 140.57,
+        "food_%": 6.0,
+        "transportation": 0.0,
+        "transportation_%": 0.0,
+        "entertainment": 25.0,
+        "entertainment_%": 1.1,
+        "medical": 134.99,
+        "medical_%": 5.8,
+        "utilities": 270.0,
+        "utilities_%": 11.5,
+        "personal_care": 35.0,
+        "personal_care_%": 1.5,
+        "total_spending": 645.31,
+        "total_spending_%": 27.5
       }
     },
     {
       "month": "04",
       "year": "2023",
-      "ai_summary": "Your total income for April was $2,345.67, primarily from retirement or pension. Your major expenses were groceries ($125.89), dining out ($65.32), utilities ($205.67), and transportation ($42.15). While entertainment spending was low at $25, you could optimize your budget by cooking more at home and reducing dining out. Consider setting a monthly grocery and dining budget. Overall, you spent around 20% of your income, leaving room for savings towards your goal of paying off student loans.",
+      "ai_summary": "Your total income for April was $2,345.67, primarily from retirement or pension. Your major expenses were groceries ($125.89), restaurants ($65.32), utilities ($205.67), and transportation ($42.15). While your spending on essentials like food and utilities seems reasonable, you could optimize your entertainment and dining out expenses to better align with your goal of paying off student loans. Consider cooking more meals at home and limiting restaurant visits. Additionally, explore cost-effective entertainment options beyond streaming services.",
       "categories_expenses": {
-        "total_income": "-2345.67",
-        "food": "191.21",
-        "food_%": "8.15%",
-        "transportation": "42.15",
-        "transportation_%": "1.80%",
-        "entertainment": "25.0",
-        "entertainment_%": "1.07%",
-        "total_spending": "463.03",
-        "total_spending_%": "19.74%"
+        "total_income": 2345.67,
+        "food": 191.21,
+        "food_%": 8.15,
+        "transportation": 42.15,
+        "transportation_%": 1.8,
+        "entertainment": 25.0,
+        "entertainment_%": 1.07,
+        "total_spending": 628.93,
+        "total_spending_%": 26.82
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Save Big on Home, Tech & Beauty Essentials \ud83c\udfe1\ud83d\udcbb\ud83d\udc84",
-    "loans_email": "Unlock Your Financial Freedom with Personalized Loan Solutions",
-    "credit_cards_email": "Unlock Cash Back Rewards to Crush Your Financial Goals!",
-    "savings_email": "Unlock High-Yield Savings: Grow Your Money Effortlessly"
+    "coupons_email": "Unlock 15% off at Sephora with BEAUTY15 code",
+    "loans_email": "Consolidate debt with $3K-$35K loans at 6.99%-19.99% APR",
+    "credit_cards_email": "$200 cash back after $1.5K spend with Citi Double Cash",
+    "savings_email": "Earn 4.30% APY at Marcus to accelerate savings goals"
   }
 }

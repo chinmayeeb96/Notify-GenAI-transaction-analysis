@@ -11,13 +11,7 @@ def run_savings_agent(user_info, transaction_data, savings_data):
     - Risk tolerance and liquidity needs
     - Interest rates and account features
     
-    Return a JSON object with this exact format:
-    {
-        "recommendations": ["HY1", "HY2", "HY3"],
-        "email_subject": "Your creative, catchy email subject for the top recommended product (keep under 60 characters)"
-    }
-    
-    The email subject should be attention-grabbing, personalized, and make the user want to open the email about the top savings account.
+    Return ONLY a simple JSON array of the top 3 savings account IDs, like: ["HY1", "HY2", "HY3"]
     """
     
     agent = build_agent(system_prompt)
