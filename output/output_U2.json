@@ -59,49 +59,39 @@
     {
       "month": "02",
       "year": "2023",
-      "ai_summary": "In February 2023, your total income was $3,250, and your total spending was $523.96 (16.1% of income). The largest expense categories were General Services (Insurance) at $150 (4.6%), General Merchandise (Clothing and Electronics) at $165.49 (5.1%), and Food (Groceries, Restaurants, and Fast Food) at $91.48 (2.8%). To optimize your budget, consider reducing discretionary spending on clothing, electronics, and dining out. Focus on essential expenses and prioritize saving for retirement.",
+      "ai_summary": "In February 2023, your total income was $3,250, and your total spending was $523.46, which is around 16% of your income. The largest expense category was General Services (Insurance) at $150, followed by General Merchandise (Clothing and Electronics) at $165.49. Food expenses (Groceries, Restaurants, and Fast Food) totaled $91.48. Transportation costs for gas were $32. While your spending is relatively controlled, you could consider reducing discretionary expenses on clothing, electronics, and dining out to allocate more funds towards your retirement savings. Explore insurance options to potentially lower your premium costs.",
       "categories_expenses": {
-        "total_income": "-3250.00",
+        "total_income": "-3250.0",
         "food": "91.48",
-        "food_%": "2.8%",
-        "transportation": "32.00",
-        "transportation_%": "1.0%",
+        "food_%": "2.81",
+        "transportation": "32.0",
+        "transportation_%": "0.98",
         "entertainment": "29.99",
-        "entertainment_%": "0.9%",
-        "total_spending": "523.96",
-        "total_spending_%": "16.1%"
+        "entertainment_%": "0.92",
+        "total_spending": "523.46",
+        "total_spending_%": "16.11"
       }
     },
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "Your total income for March was $3,750, and your total spending was $807.47, which is around 21.5% of your income. The largest expense categories were Transportation ($120), Insurance ($150), and Savings Transfer ($200). While saving is good, you may want to review your insurance costs. You spent a reasonable amount on groceries, dining out, and entertainment. To optimize your budget, consider reducing discretionary spending on clothing, electronics, and personal care services.",
+      "ai_summary": "Your total income for March was $3,750, and your total spending was $807.47 (21.5% of income). The largest expense categories were Transportation ($120, 3.2%), General Services ($150, 4%), and Food ($111.99, 3%). To optimize your budget, consider reducing discretionary spending on clothing, electronics, and dining out. Additionally, allocating more funds towards retirement savings would help achieve your financial goal of planning for retirement.",
       "categories_expenses": {
         "total_income": "-3750.0",
         "food": "111.99",
-        "food_%": "2.99%",
+        "food_%": "3.0",
         "transportation": "120.0",
-        "transportation_%": "3.2%",
+        "transportation_%": "3.2",
         "entertainment": "15.99",
-        "entertainment_%": "0.43%",
-        "insurance": "150.0",
-        "insurance_%": "4.0%",
-        "personal_care": "35.0",
-        "personal_care_%": "0.93%",
-        "clothing": "89.5",
-        "clothing_%": "2.39%",
-        "electronics": "55.99",
-        "electronics_%": "1.49%",
-        "savings_transfer": "200.0",
-        "savings_transfer_%": "5.33%",
+        "entertainment_%": "0.4",
         "total_spending": "807.47",
-        "total_spending_%": "21.53%"
+        "total_spending_%": "21.5"
       }
     },
     {
       "month": "04",
       "year": "2023",
-      "ai_summary": "Your total income for April was $3,750, and your total spending was $769.78, which is around 20.5% of your income. The largest expense category was Food at $193.31 (5.2% of income), followed by Transportation at $65 (1.7% of income) and Entertainment at $60.98 (1.6% of income). You also made a $150 transfer to your savings account and paid $200 towards your credit card bill. Overall, your spending seems reasonable, but you could consider reducing discretionary expenses like dining out and clothing to boost your savings further for retirement.",
+      "ai_summary": "Your total income for April was $3,750, and your total spending was $769.78, which is around 20.5% of your income. The largest expense category was Food at $193.31 (5.2% of income), followed by Transportation at $65 (1.7% of income), and Entertainment at $60.98 (1.6% of income). You also made a $150 transfer to your savings account and paid $200 towards your credit card bill. While your spending is within a reasonable range, you could consider reducing discretionary expenses like dining out and entertainment subscriptions to boost your savings for retirement.",
       "categories_expenses": {
         "total_income": "-3750.0",
         "food": "193.31",
@@ -117,9 +107,9 @@
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Exclusive: 20% off at Bed Bath & Beyond with HOME20NOW",
-    "loans_email": "Rates as low as 6.99% on $3,000-$35,000 personal loans",
-    "credit_cards_email": "Earn $200 cash back after $1,500 spend with Citi Double Cash",
-    "savings_email": "Grow your nest egg with 4.30% APY at Marcus by Goldman Sachs"
+    "coupons_email": "Mary, get 20% off at Bed Bath & Beyond with code HOME20NOW! Spruce up your home before 10/15. Retirement means more cozy time indoors!",
+    "loans_email": "Psst Mary, Chase has personal loans from 6.99% APR for excellent credit like yours. Borrow $3K-$35K for that dream RV!",
+    "credit_cards_email": "Yo Mary, the Citi Double Cash card gives $200 cash after spending $1,500 in 6 months! Perfect for racking up rewards on retirement splurges.",
+    "savings_email": "Mary, Marcus by Goldman Sachs is offering a sizzling 4.3% APY on their Performance Savings! No minimums, unlimited withdrawals for your golden years."
   }
 }

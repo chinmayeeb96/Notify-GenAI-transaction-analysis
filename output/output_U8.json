@@ -13,19 +13,19 @@
   "tags": [],
   "recommendations": {
     "coupons": [
-      "CO2",
+      "CO1",
       "CO4",
-      "CO1"
+      "CO5"
     ],
     "loans": [
-      "LN3",
       "LN1",
+      "LN3",
       "LN4"
     ],
     "credit_cards": [
+      "CC3",
       "CC4",
-      "CC1",
-      "CC3"
+      "CC5"
     ],
     "high_yield_savings": [
       "HY3",
@@ -37,25 +37,25 @@
     {
       "month": "01",
       "year": "2023",
-      "ai_summary": "In January 2023, your total income was $8,500, and your total spending was $2,829.99, which is 33.29% of your income. The largest expense category was housing with $1,200 (14.12%) spent on mortgage payments. Food expenses were $395 (4.65%), including groceries and dining out. Entertainment expenses were $209.99 (2.47%), covering streaming services and event tickets. Transportation costs were $75 (0.88%) for gas. Personal care expenses were $150 (1.76%) for salon services. You also transferred $500 (5.88%) to your savings account, which is a positive step towards your goal of saving for a home. To optimize your budget, consider reducing discretionary spending on entertainment, clothing, and personal care services. Additionally, explore ways to lower housing costs or negotiate your mortgage rate.",
+      "ai_summary": "Your total income for January was $8,500, and your total spending was $2,729.99, which is around 32% of your income. The largest expense category was housing with $1,200 for your mortgage payment. You spent $350 on groceries, $264.99 on entertainment, $150 on personal care, $275 on transportation and clothing. While your spending is within a reasonable range, there are opportunities to optimize your budget. Consider reducing discretionary expenses like entertainment and clothing to boost your savings for your home purchase goal.",
       "categories_expenses": {
-        "total_income": -8500.0,
-        "food": 395.0,
-        "food_%": 4.65,
-        "transportation": 75.0,
-        "transportation_%": 0.88,
-        "entertainment": 209.99,
-        "entertainment_%": 2.47,
-        "housing": 1200.0,
-        "housing_%": 14.12,
-        "personal_care": 150.0,
-        "personal_care_%": 1.76,
-        "clothing": 200.0,
-        "clothing_%": 2.35,
-        "savings": 500.0,
-        "savings_%": 5.88,
-        "total_spending": 2829.99,
-        "total_spending_%": 33.29
+        "total_income": "-8500.0",
+        "food": "395.0",
+        "food_%": "4.65",
+        "transportation": "75.0",
+        "transportation_%": "0.88",
+        "entertainment": "264.99",
+        "entertainment_%": "3.12",
+        "housing": "1200.0",
+        "housing_%": "14.12",
+        "personal_care": "150.0",
+        "personal_care_%": "1.76",
+        "clothing": "200.0",
+        "clothing_%": "2.35",
+        "savings": "500.0",
+        "savings_%": "5.88",
+        "total_spending": "2729.99",
+        "total_spending_%": "32.12"
       }
     },
     {
@@ -77,49 +77,49 @@
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "Your total income for March was $8,500, and your total spending was $5,560.99, which is 65.4% of your income. The largest expense categories were Travel ($2,000), Loan Payments ($2,500), and Food ($275.5). To better align with your goal of saving for a home, consider reducing discretionary spending on travel and dining out. Look for opportunities to cut back on non-essential expenses and increase your savings rate.",
+      "ai_summary": "Your total income for March was $8,500, and your total spending was $5,560.99, which is 65.4% of your income. The largest expense categories were Travel ($2,000), Loan Payments ($2,500), and Food ($275.5). To better align with your goal of saving for a home, consider reducing discretionary spending on travel and dining out. Look for opportunities to cut entertainment costs like Netflix. Increase your savings rate by setting a budget and automating transfers to a dedicated savings account.",
       "categories_expenses": {
-        "total_income": "-8500.0",
-        "food": "275.5",
-        "food_%": "3.24",
-        "transportation": "75.0",
-        "transportation_%": "0.88",
-        "entertainment": "89.99",
-        "entertainment_%": "1.06",
-        "personal_care": "350.0",
-        "personal_care_%": "4.12",
-        "clothing": "220.0",
-        "clothing_%": "2.59",
-        "travel": "2000.0",
-        "travel_%": "23.53",
-        "loan_payments": "2500.0",
-        "loan_payments_%": "29.41",
-        "total_spending": "5560.99",
-        "total_spending_%": "65.43"
+        "total_income": 8500.0,
+        "food": 275.5,
+        "food_%": 3.24,
+        "transportation": 75.0,
+        "transportation_%": 0.88,
+        "entertainment": 89.99,
+        "entertainment_%": 1.06,
+        "personal_care": 350.0,
+        "personal_care_%": 4.12,
+        "clothing": 220.0,
+        "clothing_%": 2.59,
+        "travel": 2000.0,
+        "travel_%": 23.53,
+        "loan_payments": 2500.0,
+        "loan_payments_%": 29.41,
+        "total_spending": 5560.99,
+        "total_spending_%": 65.43
       }
     },
     {
       "month": "04",
       "year": "2023",
-      "ai_summary": "In April 2023, your total income was $7,500, and your total spending was $3,840.49, which is 51.2% of your income. Your largest expenses were mortgage payment ($1,500), clothing ($200), and insurance ($300). You spent a significant amount on personal care ($350) and dining out ($150). To better align with your goal of saving for a home, consider reducing discretionary spending on entertainment, personal care, and dining out. Explore budgeting tools or automated savings plans to boost your savings rate.",
+      "ai_summary": "In April 2023, your total income was $7,500, and your total spending was $3,840.49, which is 51.2% of your income. Your major expenses were mortgage payment ($1,500), personal care ($350), clothing ($200), and insurance ($300). While some expenses like groceries and gas are necessary, you could optimize your spending on entertainment, dining out, and personal care. Consider setting a budget for discretionary expenses and explore cost-saving opportunities to accelerate your home savings goal.",
       "categories_expenses": {
         "total_income": "-7500.0",
         "food": "275.5",
-        "food_%": "3.67",
+        "food_%": "3.67%",
         "transportation": "75.0",
-        "transportation_%": "1.0",
-        "entertainment": "189.99",
-        "entertainment_%": "2.53",
+        "transportation_%": "1.0%",
+        "entertainment": "139.99",
+        "entertainment_%": "1.87%",
         "personal_care": "350.0",
-        "personal_care_%": "4.67",
-        "clothing": "200.0",
-        "clothing_%": "2.67",
+        "personal_care_%": "4.67%",
         "mortgage": "1500.0",
-        "mortgage_%": "20.0",
+        "mortgage_%": "20.0%",
+        "clothing": "200.0",
+        "clothing_%": "2.67%",
         "insurance": "300.0",
-        "insurance_%": "4.0",
+        "insurance_%": "4.0%",
         "total_spending": "3840.49",
-        "total_spending_%": "51.2"
+        "total_spending_%": "51.2%"
       }
     },
     {
@@ -127,7 +127,7 @@
       "year": "2023",
       "ai_summary": "In May 2023, your total income was $7,500, and your total spending was $6,231.48, which is 83.09% of your income. Your largest expenses were rent ($2,500), travel ($2,000), and personal care ($350). To achieve your goal of saving for a home, you should focus on reducing discretionary spending on travel, entertainment, and dining out. Consider setting a monthly budget and tracking your expenses to identify areas for improvement.",
       "categories_expenses": {
-        "total_income": 7500.0,
+        "total_income": -7500.0,
         "food": 346.0,
         "food_%": 4.61,
         "transportation": 0.0,
@@ -147,15 +147,15 @@
     {
       "month": "06",
       "year": "2023",
-      "ai_summary": "Your total income for June was $8,500, and your total spending was $8,311.16, which is 97.8% of your income. You spent a significant portion on travel ($4,100) and housing ($1,550). While investing $1,500 is commendable, you should focus on reducing discretionary expenses like dining out and entertainment to accelerate your home savings goal.",
+      "ai_summary": "Your total income for June was $8,500, and your total spending was $8,311.16, which is 97.8% of your income. The largest expense categories were Travel ($4,100), Housing ($1,550), and Food ($321.17). To achieve your goal of saving for a home, you should focus on reducing discretionary spending on travel and dining out. Consider setting a monthly budget and tracking expenses closely. Additionally, explore investment products like high-yield savings accounts or money market funds to grow your savings.",
       "categories_expenses": {
         "total_income": "-8500.0",
         "food": "321.17",
         "food_%": "3.8%",
         "transportation": "0.0",
         "transportation_%": "0.0%",
-        "entertainment": "239.99",
-        "entertainment_%": "2.8%",
+        "entertainment": "89.99",
+        "entertainment_%": "1.1%",
         "housing": "1550.0",
         "housing_%": "18.2%",
         "travel": "4100.0",
@@ -171,9 +171,9 @@
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Save Big on Home Upgrades, Tech, and Summer Fashion!",
-    "loans_email": "Unlock Your Dream Home with Our Low-Rate Mortgage Options",
-    "credit_cards_email": "Unlock Unbeatable Rewards on Dining, Travel & Everyday Buys!",
-    "savings_email": "Unlock High-Yield Savings: Grow Your Nest Egg Faster!"
+    "coupons_email": "Jack, you're a Gap guy, right? Use SUMMER25 to get 25% off your next $50+ purchase before 9/30. Freshen up that wardrobe while saving big!",
+    "loans_email": "Need some extra cash, Jack? Chase is offering personal loans from $3,000 to $35,000 at rates as low as 6.99% APR. Perfect for your home savings goal!",
+    "credit_cards_email": "Yo Jack, check out the Citi Double Cash card! Earn $200 cash back after spending $1,500 in 6 months. That's a nice boost for your home fund.",
+    "savings_email": "Jack, you're 27 and saving for a home - smart move! Open a Marcus savings account to earn a sweet 4.30% APY on your nest egg."
   }
 }

@@ -19,17 +19,17 @@
     ],
     "loans": [
       "LN1",
-      "LN4",
-      "LN2"
+      "LN2",
+      "LN4"
     ],
     "credit_cards": [
+      "CC3",
       "CC1",
-      "CC4",
-      "CC3"
+      "CC4"
     ],
     "high_yield_savings": [
-      "HY1",
       "HY3",
+      "HY1",
       "HY5"
     ]
   },
@@ -37,61 +37,65 @@
     {
       "month": "01",
       "year": "2023",
-      "ai_summary": "Your total income for January was $3,500, and your total spending was $626.56, which is around 18% of your income. The largest expense category was Food at $163.06 (4.7% of income), followed by Entertainment at $70 (2%), and Transportation at $42.5 (1.2%). To optimize your budget, consider reducing discretionary spending on clothing, electronics, and dining out. Explore subscription bundling for entertainment services. Maintain a balanced lifestyle while prioritizing savings for your financial goals.",
+      "ai_summary": "Your total income for January was $3,500, and your total spending was $556.56, which is around 16% of your income. The largest expense category was General Merchandise at $245, followed by Food at $163.06 and Entertainment at $70. While your spending is within a reasonable range, there are opportunities to optimize your budget. Consider reducing discretionary expenses on clothing, electronics, and entertainment subscriptions. Additionally, explore cost-effective alternatives for dining out and groceries to minimize food costs.",
       "categories_expenses": {
         "total_income": -3500.0,
         "food": 163.06,
-        "food_%": 4.7,
+        "food_%": 4.66,
         "transportation": 42.5,
-        "transportation_%": 1.2,
+        "transportation_%": 1.21,
         "entertainment": 70.0,
         "entertainment_%": 2.0,
-        "total_spending": 626.56,
-        "total_spending_%": 17.9
+        "general_merchandise": 245.0,
+        "general_merchandise_%": 7.0,
+        "personal_care": 35.0,
+        "personal_care_%": 1.0,
+        "total_spending": 556.56,
+        "total_spending_%": 15.9
       }
     },
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "In March 2023, your total income was $3,250, and your total spending was $602.16, which is 18.5% of your income. Your major expenses were Clothing & Accessories ($150), Entertainment ($132.99), Food ($144.17), and Transportation ($35). To optimize your budget, consider reducing discretionary spending on clothing and entertainment. Additionally, explore cost-effective alternatives for dining out and groceries. Maintaining a balanced lifestyle while being mindful of expenses can help you achieve your financial goals.",
+      "ai_summary": "In March 2023, your total income was $3,250, and your total spending was $602.16, which is 18.5% of your income. Your largest expense category was Entertainment at $152.99 (4.7%), followed by Food at $144.16 (4.4%), and Clothing at $150 (4.6%). To better align with your financial goal of achieving work-life balance with financial freedom, consider reducing discretionary spending on entertainment and clothing. Additionally, explore cost-effective meal planning and cooking at home to minimize restaurant and fast food expenses.",
       "categories_expenses": {
         "total_income": 3250.0,
-        "food": 144.17,
-        "food_%": 4.44,
+        "food": 144.16,
+        "food_%": 4.4,
         "transportation": 35.0,
-        "transportation_%": 1.08,
-        "entertainment": 132.99,
-        "entertainment_%": 4.09,
+        "transportation_%": 1.1,
+        "entertainment": 152.99,
+        "entertainment_%": 4.7,
         "clothing": 150.0,
-        "clothing_%": 4.62,
-        "personal_care": 55.0,
-        "personal_care_%": 1.69,
+        "clothing_%": 4.6,
         "medical": 65.0,
         "medical_%": 2.0,
+        "personal_care": 55.0,
+        "personal_care_%": 1.7,
         "total_spending": 602.16,
-        "total_spending_%": 18.52
+        "total_spending_%": 18.5
       }
     },
     {
       "month": "04",
       "year": "2023",
-      "ai_summary": "Your total income for April was $3,250, and your total spending was $570.24, which is 17.5% of your income. The largest expense category was Food at $212.74 (6.5%), followed by Transportation at $110 (3.4%), and Entertainment at $12.99 (0.4%). To optimize your budget, consider cooking more meals at home and reducing dining out expenses. Additionally, explore carpooling or public transportation options to reduce gas costs. Overall, your spending appears reasonable, but there's room for improvement in certain categories to align with your financial goals.",
+      "ai_summary": "Your total income for April was $3,250, and your total spending was $570.24, which is 17.5% of your income. The largest expense category was Food at $212.74 (6.5%), followed by Transportation at $110 (3.4%), and Entertainment at $12.99 (0.4%). To optimize your budget, consider cooking more meals at home and reducing dining out expenses. Additionally, explore carpooling or public transportation options to reduce gas costs. Overall, your spending appears reasonable, but there's room for improvement in certain categories to achieve better financial freedom.",
       "categories_expenses": {
-        "total_income": 3250.0,
-        "food": 212.74,
-        "food_%": 6.5,
-        "transportation": 110.0,
-        "transportation_%": 3.4,
-        "entertainment": 12.99,
-        "entertainment_%": 0.4,
-        "total_spending": 570.24,
-        "total_spending_%": 17.5
+        "total_income": "-3250.0",
+        "food": "212.74",
+        "food_%": "6.5",
+        "transportation": "110.0",
+        "transportation_%": "3.4",
+        "entertainment": "12.99",
+        "entertainment_%": "0.4",
+        "total_spending": "570.24",
+        "total_spending_%": "17.5"
       }
     },
     {
       "month": "02",
       "year": "2023",
-      "ai_summary": "In February 2023, your total income was $3,500, and your total spending was $2,070.57, which is 59.16% of your income. The largest expense category was Rent and Utilities at $1,595, followed by Food and Drink at $133.32. Your spending on Entertainment and Transportation was relatively low. To optimize your budget, consider reducing discretionary expenses like dining out and shopping. Additionally, explore ways to lower your rent or utility costs. Maintaining a balanced lifestyle while saving for financial goals is crucial.",
+      "ai_summary": "In February 2023, your total income was $3,500, and your total spending was $2,070.57, which is 59.16% of your income. Your largest expense category was rent and utilities at $1,595, followed by food at $133.32 (3.81% of income). While your rent is a fixed cost, you could optimize your food spending by cooking more at home and limiting restaurant visits. Additionally, consider reducing discretionary expenses like entertainment ($45) and general merchandise ($150) to align with your financial goals. Explore budgeting tools or savings accounts to better manage your finances.",
       "categories_expenses": {
         "total_income": "-3500.0",
         "food": "133.32",
@@ -107,41 +111,41 @@
     {
       "month": "05",
       "year": "2023",
-      "ai_summary": "In May 2023, your total income was $3,250, and your total spending was $517.10, which is around 16% of your income. Your major expenses were on clothing ($150), restaurants ($75.50), groceries ($88.67), transportation ($35), and entertainment ($77.99). To optimize your budget, consider cooking more at home, limiting impulse purchases, and finding cheaper entertainment options. Additionally, explore investment products to grow your savings for financial freedom.",
+      "ai_summary": "In May 2023, your total income was $3,250, and your total spending was $517.10, which is around 15.9% of your income. Your major expenses were Clothing & Accessories ($150), Restaurants ($75.5), Groceries ($88.67), Transportation ($35), and Entertainment ($77.99). While your spending on essentials like groceries and transportation seems reasonable, you may want to cut back on discretionary expenses like dining out, entertainment, and shopping to better align with your financial goals of achieving work-life balance and financial freedom. Consider setting a budget and tracking your expenses more closely to identify areas for optimization.",
       "categories_expenses": {
-        "total_income": "-3250.00",
-        "food": "164.17",
-        "food_%": "5.05",
-        "transportation": "35.00",
-        "transportation_%": "1.08",
-        "entertainment": "77.99",
-        "entertainment_%": "2.40",
-        "total_spending": "517.10",
-        "total_spending_%": "15.91"
+        "total_income": 3250.0,
+        "food": 164.17,
+        "food_%": 5.05,
+        "transportation": 35.0,
+        "transportation_%": 1.08,
+        "entertainment": 77.99,
+        "entertainment_%": 2.4,
+        "total_spending": 517.1,
+        "total_spending_%": 15.92
       }
     },
     {
       "month": "06",
       "year": "2023",
-      "ai_summary": "In June 2023, your total income was $3,500, and your total spending was $537.65, which is around 15.4% of your income. The major expense categories were Food ($131.16, 3.8%), Entertainment ($12.99, 0.4%), Transportation ($35, 1%), and Miscellaneous ($358.5, 10.2%). While your spending on essentials like food and transportation seems reasonable, you could optimize your entertainment and miscellaneous expenses. Consider cutting back on online shopping and cable/internet costs to save more for your financial goals.",
+      "ai_summary": "Your total income for June was $3,500, and your total spending was $537.65 (15.4% of income). The largest expense categories were Medical ($150, 4.3%), Rent & Utilities ($120, 3.4%), and Food ($131.17, 3.8%). While your spending is within reasonable limits, there are opportunities to optimize your budget. Consider cooking more at home to reduce restaurant expenses, and explore cost-effective entertainment options beyond TV subscriptions. Maintaining a balanced lifestyle while being mindful of expenses can help achieve your financial goals.",
       "categories_expenses": {
-        "total_income": 3500.0,
-        "food": 131.16,
-        "food_%": 3.8,
-        "transportation": 35.0,
-        "transportation_%": 1.0,
-        "entertainment": 12.99,
-        "entertainment_%": 0.4,
-        "total_spending": 537.65,
-        "total_spending_%": 15.4
+        "total_income": "-3500.0",
+        "food": "131.17",
+        "food_%": "3.8%",
+        "transportation": "35.0",
+        "transportation_%": "1.0%",
+        "entertainment": "12.99",
+        "entertainment_%": "0.4%",
+        "total_spending": "537.65",
+        "total_spending_%": "15.4%"
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Unlock Unbeatable Deals: Save Big on Top Brands Today!",
-    "loans_email": "Unlock Financial Freedom with Our Personalized Loan Solutions",
-    "credit_cards_email": "Unlock Travel Rewards and Elevated Dining Experiences!",
-    "savings_email": "Unlock Higher Earnings: Premium Savings for Smart Savers"
+    "coupons_email": "Yo Peter, wanna score a sweet BOGO deal at Best Buy? \ud83e\udd11 Use code 'BOGO23TECH' to get buy-one-get-one-free on tech accessories over $75. But hurry, this offer expires 9/25!",
+    "loans_email": "Peter, need some extra cash? \ud83d\udcb0 Chase is offering personal loans from $3K to $35K with rates as low as 6.99% APR. Perfect for funding that dream vacay or home reno!",
+    "credit_cards_email": "Listen up, Peter! \ud83d\udc42 The Citi Double Cash card is dishing out a $200 cash bonus after you spend $1,500 in 6 months. That's free money for your wallet! \ud83d\udcb8",
+    "savings_email": "Peter, Marcus by Goldman Sachs is serving up a sizzling 4.3% APY on their Performance Savings account! \ud83d\udd25 No minimum balance required to start stacking that cash."
   }
 }
