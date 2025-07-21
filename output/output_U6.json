@@ -1,0 +1,155 @@
+{
+  "userinfo": {
+    "User_id": "U6",
+    "User_name": "Robert Clark",
+    "Credit_score": 710,
+    "Age": 72,
+    "Financial_goals": "Plan for retirement",
+    "Gender": "Male",
+    "Address": "890 Birch St, Miami, FL",
+    "Pin": 33101,
+    "Email": "robert.clark@email.com"
+  },
+  "tags": [],
+  "recommendations": {
+    "coupons": [
+      "CO4",
+      "CO1",
+      "CO2"
+    ],
+    "loans": [
+      "LN3",
+      "LN1",
+      "LN4"
+    ],
+    "credit_cards": [
+      "CC3",
+      "CC1",
+      "CC4"
+    ],
+    "high_yield_savings": [
+      "HY3",
+      "HY1",
+      "HY5"
+    ]
+  },
+  "monthly_spend_analysis_data": [
+    {
+      "month": "01",
+      "year": "2023",
+      "ai_summary": "Robert, your total income for January was $3,500, and your total spending was $474.12, which is 13.5% of your income. Your largest expense category was General Merchandise at $239.99 (6.9% of income), followed by Food at $89.15 (2.5%), Transportation at $65 (1.9%), and Entertainment at $27.98 (0.8%). While your overall spending is reasonable, you could consider reducing discretionary expenses on clothing, electronics, and dining out to allocate more funds towards your retirement savings. Additionally, exploring cost-effective entertainment options could help optimize your budget further.",
+      "categories_expenses": {
+        "total_income": 3500.0,
+        "food": 89.15,
+        "food_%": 2.5,
+        "transportation": 65.0,
+        "transportation_%": 1.9,
+        "entertainment": 27.98,
+        "entertainment_%": 0.8,
+        "general_merchandise": 239.99,
+        "general_merchandise_%": 6.9,
+        "personal_care": 35.0,
+        "personal_care_%": 1.0,
+        "total_spending": 474.12,
+        "total_spending_%": 13.5
+      }
+    },
+    {
+      "month": "02",
+      "year": "2023",
+      "ai_summary": "In February 2023, your total income was $3,750, and your total spending was $475.55, which is 12.7% of your income. The largest expense category was Food at $172.08 (4.6% of income), followed by Entertainment at $22.98 (0.6%), and Transportation at $42.5 (1.1%). To optimize your budget, consider reducing dining out expenses and exploring more cost-effective entertainment options. Additionally, review your recurring subscriptions and utilities to identify potential savings. Overall, your spending appears reasonable for your retirement planning goals.",
+      "categories_expenses": {
+        "total_income": 3750.0,
+        "food": 172.08,
+        "food_%": 4.6,
+        "transportation": 42.5,
+        "transportation_%": 1.1,
+        "entertainment": 22.98,
+        "entertainment_%": 0.6,
+        "personal_care": 35.0,
+        "personal_care_%": 0.9,
+        "clothing": 89.99,
+        "clothing_%": 2.4,
+        "utilities": 125.0,
+        "utilities_%": 3.3,
+        "total_spending": 475.55,
+        "total_spending_%": 12.7
+      }
+    },
+    {
+      "month": "03",
+      "year": "2023",
+      "ai_summary": "Robert, your total income for March was $3,750, and your total spending was $604.21, which is around 16% of your income. Your largest expenses were in the Food ($204.24, 5.4%), Entertainment ($214.98, 5.7%), and Clothing ($89.99, 2.4%) categories. While your spending is reasonable, you could optimize your budget by cutting back on dining out and entertainment expenses. Consider cooking more at home and finding free or low-cost entertainment options. Additionally, explore retirement planning products to ensure you're on track with your financial goals.",
+      "categories_expenses": {
+        "total_income": "-3750.00",
+        "food": "204.24",
+        "food_%": "5.4",
+        "transportation": "35.00",
+        "transportation_%": "0.9",
+        "entertainment": "214.98",
+        "entertainment_%": "5.7",
+        "clothing": "89.99",
+        "clothing_%": "2.4",
+        "total_spending": "604.21",
+        "total_spending_%": "16.1"
+      }
+    },
+    {
+      "month": "04",
+      "year": "2023",
+      "ai_summary": "In April 2023, your total income was $3,500, and your total spending was $477.39, which is 13.64% of your income. Your major expenses were Clothing & Accessories ($89.99), Internet & Cable ($150), and Gas ($60). While your spending on essentials like groceries and restaurants is reasonable, you could optimize your budget by reducing discretionary expenses like entertainment and clothing. Consider setting a monthly budget and tracking your spending to better align with your retirement goals.",
+      "categories_expenses": {
+        "total_income": "-3500.0",
+        "food": "94.16",
+        "food_%": "2.69",
+        "transportation": "60.0",
+        "transportation_%": "1.71",
+        "entertainment": "62.99",
+        "entertainment_%": "1.8",
+        "total_spending": "477.39",
+        "total_spending_%": "13.64"
+      }
+    },
+    {
+      "month": "05",
+      "year": "2023",
+      "ai_summary": "In May 2023, your total income was $3,750, and your total spending was $422.63, which is around 11.3% of your income. Your largest expense category was General Merchandise at $209.99 (5.6% of income), followed by Food & Dining at $130.11 (3.5% of income), Entertainment at $22.98 (0.6% of income), and Transportation at $50 (1.3% of income). While your overall spending seems reasonable, you could consider reducing discretionary expenses on clothing, electronics, and dining out to allocate more funds towards your retirement savings.",
+      "categories_expenses": {
+        "total_income": 3750.0,
+        "food": 130.11,
+        "food_%": 3.5,
+        "transportation": 50.0,
+        "transportation_%": 1.3,
+        "entertainment": 22.98,
+        "entertainment_%": 0.6,
+        "general_merchandise": 209.99,
+        "general_merchandise_%": 5.6,
+        "total_spending": 422.63,
+        "total_spending_%": 11.3
+      }
+    },
+    {
+      "month": "06",
+      "year": "2023",
+      "ai_summary": "In June 2023, your total income was $3,750, and your total spending was $512.96 (13.7% of income). The largest expense categories were Clothing & Accessories ($89.99, 2.4%), Food & Dining ($145.48, 3.9%), and Transportation ($42.5, 1.1%). You saved $150 in your savings account, which is a good habit. However, your spending on non-essential categories like Entertainment and Clothing could be optimized. Consider setting a budget for discretionary expenses and explore cost-saving opportunities in essential categories like Groceries and Gas.",
+      "categories_expenses": {
+        "total_income": -3750.0,
+        "food": 145.48,
+        "food_%": 3.9,
+        "transportation": 42.5,
+        "transportation_%": 1.1,
+        "entertainment": 28.99,
+        "entertainment_%": 0.8,
+        "total_spending": 512.96,
+        "total_spending_%": 13.7
+      }
+    }
+  ],
+  "email_notifications": {
+    "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
+    "coupons_email": "Upgrade Your Tech & Style with Unbeatable Savings!",
+    "loans_email": "Secure Your Retirement with Our Tailored Mortgage Solutions",
+    "credit_cards_email": "Unlock Unbeatable Cash Back and Travel Rewards for Your Lifestyle!",
+    "savings_email": "Maximize Your Retirement Savings with Our Top High-Yield Accounts"
+  }
+}

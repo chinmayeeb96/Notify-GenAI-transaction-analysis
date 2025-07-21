@@ -1,4 +1,4 @@
-User Id,Txn ID,Txn Amount,Txn Date,Txn Category,Txn Mode,Merchant Code,Merchant Name,Payment Network,Issuer Name
+User_id,Txn ID,Txn Amount,Txn Date,Txn Category,Txn Mode,Merchant Code,Merchant Name,Payment Network,Issuer Name
 U1,TU101001,-4500.0,2023-01-02,INCOME_WAGES,Direct Deposit,EMP01,Tech Corp,ACH,Chase
 U1,TU101002,89.99,2023-01-03,ENTERTAINMENT_TV_AND_MOVIES,Credit Card,NF01,Netflix,Mastercard,Amex
 U1,TU101003,14.99,2023-01-03,ENTERTAINMENT_MUSIC_AND_AUDIO,Credit Card,SPO1,Spotify,Visa,Citi

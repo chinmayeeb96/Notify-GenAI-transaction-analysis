@@ -1,0 +1,177 @@
+{
+  "userinfo": {
+    "User_id": "U9",
+    "User_name": "Chris Turner",
+    "Credit_score": 680,
+    "Age": 29,
+    "Financial_goals": "Build investment portfolio",
+    "Gender": "Male",
+    "Address": "543 Beach Rd, San Diego, CA",
+    "Pin": 92101,
+    "Email": "chris.turner@email.com"
+  },
+  "tags": [],
+  "recommendations": {
+    "coupons": [
+      "CO4",
+      "CO2",
+      "CO1"
+    ],
+    "loans": [
+      "LN1",
+      "LN4",
+      "LN5"
+    ],
+    "credit_cards": [
+      "CC1",
+      "CC4",
+      "CC3"
+    ],
+    "high_yield_savings": [
+      "HY3",
+      "HY1",
+      "HY5"
+    ]
+  },
+  "monthly_spend_analysis_data": [
+    {
+      "month": "04",
+      "year": "2023",
+      "ai_summary": "Your total income for April was $5,250, and your total spending was $3,421.25, which is 65.2% of your income. The largest expense category was housing (mortgage payment of $2,500), followed by entertainment ($150 for Netflix). You spent $85.75 on groceries, $65 on gas, $120.5 on clothing, $45 at restaurants, $200 on insurance, $75 on gym membership, and $180 on electronics. To optimize your budget, consider reducing discretionary spending on entertainment, dining out, and non-essential purchases. Focus on building your investment portfolio by allocating a portion of your income towards long-term investments.",
+      "categories_expenses": {
+        "total_income": "-5250.0",
+        "food": "130.75",
+        "food_%": "2.49%",
+        "transportation": "65.0",
+        "transportation_%": "1.24%",
+        "entertainment": "150.0",
+        "entertainment_%": "2.86%",
+        "housing": "2500.0",
+        "housing_%": "47.62%",
+        "personal_care": "75.0",
+        "personal_care_%": "1.43%",
+        "general_merchandise": "300.5",
+        "general_merchandise_%": "5.72%",
+        "insurance": "200.0",
+        "insurance_%": "3.81%",
+        "total_spending": "3421.25",
+        "total_spending_%": "65.2%"
+      }
+    },
+    {
+      "month": "01",
+      "year": "2023",
+      "ai_summary": "In January 2023, your total income was $5,200, and your total spending was $3,917.74, which is 75.34% of your income. Your largest expenses were mortgage payment ($2,100), groceries ($156.78), and electronics ($199.99). To optimize your budget, consider reducing discretionary spending on entertainment, clothing, and electronics. Additionally, explore investment opportunities to grow your portfolio and achieve your financial goals.",
+      "categories_expenses": {
+        "total_income": -5200.0,
+        "food": 202.77,
+        "food_%": 3.9,
+        "transportation": 65.0,
+        "transportation_%": 1.25,
+        "entertainment": 104.98,
+        "entertainment_%": 2.02,
+        "housing": 2100.0,
+        "housing_%": 40.38,
+        "debt_payments": 125.5,
+        "debt_payments_%": 2.41,
+        "shopping": 320.49,
+        "shopping_%": 6.16,
+        "total_spending": 3917.74,
+        "total_spending_%": 75.34
+      }
+    },
+    {
+      "month": "05",
+      "year": "2023",
+      "ai_summary": "In May 2023, your total income was $5,500, and your total spending was $4,841.74, which is 88% of your income. Your largest expenses were rent ($2,200), car payment ($1,500), and clothing ($450). While you spent reasonably on groceries, restaurants, and entertainment, consider reducing discretionary spending on clothing and personal care. To build your investment portfolio, allocate a portion of your income towards investments each month.",
+      "categories_expenses": {
+        "total_income": -5500.0,
+        "food": 350.25,
+        "food_%": 6.37,
+        "transportation": 120.5,
+        "transportation_%": 2.19,
+        "entertainment": 120.99,
+        "entertainment_%": 2.2,
+        "housing": 2200.0,
+        "housing_%": 40.0,
+        "personal_care": 75.0,
+        "personal_care_%": 1.36,
+        "clothing": 450.0,
+        "clothing_%": 8.18,
+        "loan_payments": 1500.0,
+        "loan_payments_%": 27.27,
+        "total_spending": 4841.74,
+        "total_spending_%": 88.03
+      }
+    },
+    {
+      "month": "06",
+      "year": "2023",
+      "ai_summary": "In June 2023, your total income was $5,250, and your total spending was $3,037.73, which is 57.9% of your income. The largest expense category was rent at $2,200 (41.9% of income). Other significant expenses were groceries at $125.5 (2.4%), entertainment at $89.99 (1.7%), and dining out at $65.75 (1.3%). To optimize your budget, consider reducing discretionary spending on entertainment, dining out, and personal care. Additionally, explore investment options to grow your portfolio and achieve your financial goals.",
+      "categories_expenses": {
+        "total_income": 5250.0,
+        "food": 204.24,
+        "food_%": 3.9,
+        "transportation": 45.0,
+        "transportation_%": 0.9,
+        "entertainment": 89.99,
+        "entertainment_%": 1.7,
+        "rent": 2200.0,
+        "rent_%": 41.9,
+        "personal_care": 150.0,
+        "personal_care_%": 2.9,
+        "clothing": 78.5,
+        "clothing_%": 1.5,
+        "insurance": 220.0,
+        "insurance_%": 4.2,
+        "total_spending": 3037.73,
+        "total_spending_%": 57.9
+      }
+    },
+    {
+      "month": "02",
+      "year": "2023",
+      "ai_summary": "In February 2023, your total income was $5,500, and your total spending was $3,002.48, which is 54.59% of your income. Your largest expense was rent at $2,200 (40% of income). You spent $226.24 (4.11%) on food, $35 (0.64%) on transportation, $89.99 (1.64%) on entertainment, and $451.25 (8.2%) on other expenses. To optimize your budget, consider reducing discretionary spending on entertainment and dining out. Focus on building your investment portfolio by allocating a portion of your income towards low-cost index funds or a robo-advisor.",
+      "categories_expenses": {
+        "total_income": -5500.0,
+        "food": 226.24,
+        "food_%": 4.11,
+        "transportation": 35.0,
+        "transportation_%": 0.64,
+        "entertainment": 89.99,
+        "entertainment_%": 1.64,
+        "total_spending": 3002.48,
+        "total_spending_%": 54.59
+      }
+    },
+    {
+      "month": "03",
+      "year": "2023",
+      "ai_summary": "Your total income for March was $5,250, and your total spending was $2,653.49, which is around 50.5% of your income. The largest expense categories were Loan Payments (34.3%), Entertainment (6.1%), and General Merchandise (15.1%). To optimize your budget, consider reducing discretionary spending on entertainment, clothing, and electronics. Additionally, explore investment opportunities aligned with your goal of building an investment portfolio.",
+      "categories_expenses": {
+        "total_income": "-5250.00",
+        "food": "130.50",
+        "food_%": "2.5%",
+        "transportation": "65.00",
+        "transportation_%": "1.2%",
+        "entertainment": "162.99",
+        "entertainment_%": "3.1%",
+        "loan_payments": "1800.00",
+        "loan_payments_%": "34.3%",
+        "general_merchandise": "400.00",
+        "general_merchandise_%": "7.6%",
+        "personal_care": "75.00",
+        "personal_care_%": "1.4%",
+        "total_spending": "2653.49",
+        "total_spending_%": "50.5%"
+      }
+    }
+  ],
+  "email_notifications": {
+    "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
+    "coupons_email": "Upgrade Your Tech & Home with Unbeatable Savings!",
+    "loans_email": "Unlock Your Financial Potential with Tailored Loan Solutions",
+    "credit_cards_email": "Unlock Unbeatable Travel Rewards and Elevated Dining Experiences!",
+    "savings_email": "Unlock High Returns with Marcus Performance Savings"
+  }
+}

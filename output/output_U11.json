@@ -1,0 +1,151 @@
+{
+  "userinfo": {
+    "User_id": "U11",
+    "User_name": "Kevin Ross",
+    "Credit_score": 730,
+    "Age": 26,
+    "Financial_goals": "Save for emergency fund",
+    "Gender": "Male",
+    "Address": "234 Lake St, Portland, OR",
+    "Pin": 97201,
+    "Email": "kevin.ross@email.com"
+  },
+  "tags": [],
+  "recommendations": {
+    "coupons": [
+      "CO2",
+      "CO4",
+      "CO5"
+    ],
+    "loans": [
+      "LN1",
+      "LN4",
+      "LN5"
+    ],
+    "credit_cards": [
+      "CC1",
+      "CC3",
+      "CC5"
+    ],
+    "high_yield_savings": [
+      "HY3",
+      "HY1",
+      "HY5"
+    ]
+  },
+  "monthly_spend_analysis_data": [
+    {
+      "month": "06",
+      "year": "2023",
+      "ai_summary": "In June 2023, your total income was $3,200 from your job. Your major expenses were groceries ($111.99, 3.5% of income), food and drinks ($31, 1% of income), transportation ($35, 1.1% of income), and entertainment ($47.48, 1.5% of income). Your total spending was $225.47, which is 7.1% of your income. While your spending is relatively low, you could optimize your budget further by cooking more at home and reducing dining out expenses. Additionally, consider evaluating your entertainment subscriptions and education costs to align with your financial goals.",
+      "categories_expenses": {
+        "total_income": "-3200.0",
+        "food": "111.99",
+        "food_%": "3.5",
+        "transportation": "35.0",
+        "transportation_%": "1.1",
+        "entertainment": "47.48",
+        "entertainment_%": "1.5",
+        "total_spending": "225.47",
+        "total_spending_%": "7.1"
+      }
+    },
+    {
+      "month": "03",
+      "year": "2023",
+      "ai_summary": "In March 2023, your total income was $3,200, and your total spending was $265.37 (8.3% of income). The major expense categories were Food ($108.16, 3.4%), Entertainment ($27.98, 0.9%), and Transportation ($15, 0.5%). To achieve your goal of building an emergency fund, consider reducing discretionary spending on entertainment and dining out. Explore budgeting apps or automated savings tools to help allocate funds towards your emergency fund.",
+      "categories_expenses": {
+        "total_income": "-3200.0",
+        "food": "108.16",
+        "food_%": "3.4",
+        "transportation": "15.0",
+        "transportation_%": "0.5",
+        "entertainment": "27.98",
+        "entertainment_%": "0.9",
+        "total_spending": "265.37",
+        "total_spending_%": "8.3"
+      }
+    },
+    {
+      "month": "04",
+      "year": "2023",
+      "ai_summary": "In April 2023, your total income was $3,500, and your total spending was $238.71, which is 6.82% of your income. You spent the most on groceries ($78.25), followed by entertainment ($27.98), food and drinks ($19.49), personal care ($25), transportation ($15), and education ($22.99). To optimize your budget, consider cooking more meals at home and limiting dining out. Additionally, review your entertainment subscriptions and keep only the essential ones. Overall, you're making good progress towards your emergency fund goal by keeping expenses relatively low.",
+      "categories_expenses": {
+        "total_income": "3500.0",
+        "food": "19.49",
+        "food_%": "0.56",
+        "transportation": "15.0",
+        "transportation_%": "0.43",
+        "entertainment": "27.98",
+        "entertainment_%": "0.8",
+        "groceries": "78.25",
+        "groceries_%": "2.24",
+        "personal_care": "25.0",
+        "personal_care_%": "0.71",
+        "education": "22.99",
+        "education_%": "0.66",
+        "total_spending": "238.71",
+        "total_spending_%": "6.82"
+      }
+    },
+    {
+      "month": "02",
+      "year": "2023",
+      "ai_summary": "In February 2023, your total income was $2,750, and your total spending was $402.96 (14.6% of income). The largest expense category was Food ($134.48, 4.9% of income), followed by Entertainment ($80.99, 2.9%), Transportation ($35, 1.3%), and Education ($89.99, 3.3%). To optimize your budget, consider cooking more meals at home and limiting dining out. Additionally, review your entertainment subscriptions and keep only the essential ones. Overall, you're making good progress towards your emergency fund goal by keeping expenses relatively low.",
+      "categories_expenses": {
+        "total_income": "-2750.0",
+        "food": "134.48",
+        "food_%": "4.9",
+        "transportation": "35.0",
+        "transportation_%": "1.3",
+        "entertainment": "80.99",
+        "entertainment_%": "2.9",
+        "education": "89.99",
+        "education_%": "3.3",
+        "clothing": "65.0",
+        "clothing_%": "2.4",
+        "total_spending": "402.96",
+        "total_spending_%": "14.6"
+      }
+    },
+    {
+      "month": "05",
+      "year": "2023",
+      "ai_summary": "In May 2023, your total income was $3,250, and your total spending was $1,165.45, which is 35.8% of your income. Your largest expense category was rent at $850 (26.2% of income). Food expenses, including groceries, coffee, and restaurants, totaled $80.99 (2.5% of income). Entertainment expenses like Spotify, Netflix, and gym membership amounted to $59.98 (1.8% of income). You also spent $65 on clothing. While your spending is within a reasonable range, you could optimize your budget by reducing discretionary expenses like dining out and entertainment subscriptions. Consider building an emergency fund by allocating a portion of your income towards savings each month.",
+      "categories_expenses": {
+        "total_income": "-3250.0",
+        "food": "80.99",
+        "food_%": "2.5%",
+        "transportation": "0.0",
+        "transportation_%": "0.0%",
+        "entertainment": "59.98",
+        "entertainment_%": "1.8%",
+        "total_spending": "1165.45",
+        "total_spending_%": "35.8%"
+      }
+    },
+    {
+      "month": "01",
+      "year": "2023",
+      "ai_summary": "In January 2023, your total income was $2,750, and your total spending was $355.64, which is around 12.9% of your income. Your major expenses were on food ($77.17, 2.8%), entertainment ($57.98, 2.1%), and transportation ($65, 2.4%). While your spending is relatively controlled, you could optimize your budget further. Consider cooking more at home to reduce restaurant expenses and explore cheaper entertainment options. Additionally, review your subscriptions and memberships to eliminate unnecessary costs. Consistently tracking your expenses will help you achieve your financial goal of building an emergency fund.",
+      "categories_expenses": {
+        "total_income": "-2750.0",
+        "food": "77.17",
+        "food_%": "2.8",
+        "transportation": "65.0",
+        "transportation_%": "2.4",
+        "entertainment": "57.98",
+        "entertainment_%": "2.1",
+        "total_spending": "355.64",
+        "total_spending_%": "12.9"
+      }
+    }
+  ],
+  "email_notifications": {
+    "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
+    "coupons_email": "Save Big on Home, Tech & Beauty - Limited Time Offers!",
+    "loans_email": "Unlock Your Financial Potential with Tailored Loan Solutions",
+    "credit_cards_email": "Unlock Unbeatable Rewards with the Chase Sapphire Preferred",
+    "savings_email": "Unlock High-Yield Savings: Grow Your Money Effortlessly!"
+  }
+}

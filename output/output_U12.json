@@ -1,0 +1,157 @@
+{
+  "userinfo": {
+    "User_id": "U12",
+    "User_name": "Patricia Green",
+    "Credit_score": 820,
+    "Age": 65,
+    "Financial_goals": "Plan for retirement",
+    "Gender": "Female",
+    "Address": "678 Hill Ave, Denver, CO",
+    "Pin": 80201,
+    "Email": "patricia.green@email.com"
+  },
+  "tags": [],
+  "recommendations": {
+    "coupons": [
+      "CO2",
+      "CO4",
+      "CO5"
+    ],
+    "loans": [
+      "LN1",
+      "LN3",
+      "LN4"
+    ],
+    "credit_cards": [
+      "CC1",
+      "CC4",
+      "CC3"
+    ],
+    "high_yield_savings": [
+      "HY3",
+      "HY1",
+      "HY5"
+    ]
+  },
+  "monthly_spend_analysis_data": [
+    {
+      "month": "02",
+      "year": "2023",
+      "ai_summary": "Your total income for the month was $3,500, and your total spending was $2,005.49, which is 57.3% of your income. The largest expense categories were Rent & Utilities ($1,200), Entertainment ($349.99), and Food & Drink ($165). To optimize your budget, consider reducing discretionary spending on entertainment and dining out. Additionally, explore retirement savings options to align with your financial goal of planning for retirement.",
+      "categories_expenses": {
+        "total_income": "-3500.0",
+        "food": "165.0",
+        "food_%": "4.71",
+        "transportation": "35.0",
+        "transportation_%": "1.0",
+        "entertainment": "349.99",
+        "entertainment_%": "10.0",
+        "total_spending": "2005.49",
+        "total_spending_%": "57.3"
+      }
+    },
+    {
+      "month": "06",
+      "year": "2023",
+      "ai_summary": "In June 2023, your total income was $3,500, and your total spending was $1,937.74, which is 55.36% of your income. Your largest expense category was Loan Payments & Mortgage at $1,500 (42.86% of income). Food expenses were $169.25 (4.84% of income), Entertainment was $82.99 (2.37% of income), and Transportation was $35 (1% of income). To optimize your budget, consider reducing discretionary spending on entertainment and dining out. Additionally, explore refinancing options for your mortgage to potentially lower your monthly payments.",
+      "categories_expenses": {
+        "total_income": "-3500.0",
+        "food": "169.25",
+        "food_%": "4.84",
+        "transportation": "35.0",
+        "transportation_%": "1.0",
+        "entertainment": "82.99",
+        "entertainment_%": "2.37",
+        "total_spending": "1937.74",
+        "total_spending_%": "55.36"
+      }
+    },
+    {
+      "month": "03",
+      "year": "2023",
+      "ai_summary": "Your total income for March was $3,500, and your total spending was $2,134.72, which is around 61% of your income. The largest expense category was housing (mortgage payment of $1,500), followed by entertainment ($302.98 or 8.7% of income) and food ($146.74 or 4.2% of income). While your housing costs are expected, you could optimize your entertainment and food spending to save more for retirement. Consider setting a budget for discretionary categories and exploring cost-effective entertainment options.",
+      "categories_expenses": {
+        "total_income": "-3500.0",
+        "food": "146.74",
+        "food_%": "4.2",
+        "transportation": "35.0",
+        "transportation_%": "1.0",
+        "entertainment": "302.98",
+        "entertainment_%": "8.7",
+        "housing": "1500.0",
+        "housing_%": "42.9",
+        "total_spending": "2134.72",
+        "total_spending_%": "61.0"
+      }
+    },
+    {
+      "month": "05",
+      "year": "2023",
+      "ai_summary": "In May 2023, your total income was $4,500, and your total spending was $3,764.22, which is 83.65% of your income. Your largest expenses were mortgage payment ($1,800), car payment ($350), and entertainment ($289.99). To optimize your budget, consider reducing discretionary spending on entertainment and dining out. Additionally, explore refinancing options for your mortgage and car loan to potentially lower monthly payments. Maintain an emergency fund and contribute to retirement savings to achieve your financial goals.",
+      "categories_expenses": {
+        "total_income": "-4500.00",
+        "food": "111.25",
+        "food_%": "2.47%",
+        "transportation": "430.00",
+        "transportation_%": "9.56%",
+        "entertainment": "289.99",
+        "entertainment_%": "6.44%",
+        "loan_payments": "2150.00",
+        "loan_payments_%": "47.78%",
+        "shopping": "120.00",
+        "shopping_%": "2.67%",
+        "total_spending": "3764.22",
+        "total_spending_%": "83.65%"
+      }
+    },
+    {
+      "month": "04",
+      "year": "2023",
+      "ai_summary": "In April 2023, your total income was $5,200, and your total spending was $2,023.48, which is 38.9% of your income. Your largest expense category was Loan Payments & Mortgage at $1,500 (28.8% of income). Entertainment expenses like gambling, video games, and music subscriptions totaled $277.98 (5.3% of income). Food expenses, including restaurants and groceries, were $110 (2.1% of income). While your spending on entertainment and food is reasonable, consider reducing discretionary expenses like gambling to better align with your retirement goal. Explore debt consolidation options to manage your mortgage payment more effectively.",
+      "categories_expenses": {
+        "total_income": -5200.0,
+        "food": 110.0,
+        "food_%": 2.1,
+        "transportation": 35.0,
+        "transportation_%": 0.7,
+        "entertainment": 277.98,
+        "entertainment_%": 5.3,
+        "loan_payments": 1500.0,
+        "loan_payments_%": 28.8,
+        "other": 100.5,
+        "other_%": 1.9,
+        "total_spending": 2023.48,
+        "total_spending_%": 38.9
+      }
+    },
+    {
+      "month": "01",
+      "year": "2023",
+      "ai_summary": "Your total income for January was $3,500, and your total spending was $1,988.48, which is 56.8% of your income. The largest expense categories were Rent and Utilities ($1,200, 34.3%), Entertainment ($439.99, 12.6%), and Transportation ($65, 1.9%). While your spending on essentials like rent and utilities is reasonable, your entertainment expenses, particularly on gambling, seem high. To better align with your retirement goal, consider reducing discretionary spending on gambling and non-essential entertainment. Additionally, explore low-cost hobbies or activities to keep entertained without overspending.",
+      "categories_expenses": {
+        "total_income": "-3500.0",
+        "food": "58.99",
+        "food_%": "1.7%",
+        "transportation": "65.0",
+        "transportation_%": "1.9%",
+        "entertainment": "439.99",
+        "entertainment_%": "12.6%",
+        "rent_and_utilities": "1200.0",
+        "rent_and_utilities_%": "34.3%",
+        "clothing": "75.5",
+        "clothing_%": "2.2%",
+        "loan_payments": "150.0",
+        "loan_payments_%": "4.3%",
+        "total_spending": "1988.48",
+        "total_spending_%": "56.8%"
+      }
+    }
+  ],
+  "email_notifications": {
+    "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
+    "coupons_email": "Save Big on Home, Tech & Beauty - Limited Time Offers!",
+    "loans_email": "Unlock Your Retirement Dreams with Personalized Loan Options",
+    "credit_cards_email": "Unlock Unbeatable Travel Rewards with the Chase Sapphire Preferred",
+    "savings_email": "Patricia, Unlock Higher Earnings with Our Top Savings Pick"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "userinfo": {
+    "User_id": "U5",
+    "User_name": "David Miller",
+    "Credit_score": 800,
+    "Age": 42,
+    "Financial_goals": "Save for children\u2019s education",
+    "Gender": "Male",
+    "Address": "567 Cedar Ln, Chicago, IL",
+    "Pin": 60601,
+    "Email": "david.miller@email.com"
+  },
+  "tags": [],
+  "recommendations": {
+    "coupons": [
+      "CO2",
+      "CO4",
+      "CO5"
+    ],
+    "loans": [
+      "LN1",
+      "LN3",
+      "LN4"
+    ],
+    "credit_cards": [
+      "CC1",
+      "CC4",
+      "CC3"
+    ],
+    "high_yield_savings": [
+      "HY3",
+      "HY1",
+      "HY5"
+    ]
+  },
+  "monthly_spend_analysis_data": [
+    {
+      "month": "01",
+      "year": "2023",
+      "ai_summary": "Your total income for January was $8,500, and your total spending was $2,729.99, which is 32.12% of your income. The largest expense category was Loan Payments & Mortgage at $1,200 (14.12% of income). Food & Groceries was $350 (4.12%), Entertainment was $209.99 (2.47%), Transportation was $75 (0.88%), and Personal Care was $150 (1.76%). Consider reducing discretionary spending on Entertainment, Clothing, and Personal Care to increase savings for your children's education goal. Look into automating transfers to a dedicated savings account each month.",
+      "categories_expenses": {
+        "total_income": "-8500.0",
+        "food": "350.0",
+        "food_%": "4.12",
+        "transportation": "75.0",
+        "transportation_%": "0.88",
+        "entertainment": "209.99",
+        "entertainment_%": "2.47",
+        "personal_care": "150.0",
+        "personal_care_%": "1.76",
+        "clothing": "200.0",
+        "clothing_%": "2.35",
+        "loan_payments": "1200.0",
+        "loan_payments_%": "14.12",
+        "savings": "500.0",
+        "savings_%": "5.88",
+        "total_spending": "2729.99",
+        "total_spending_%": "32.12"
+      }
+    },
+    {
+      "month": "02",
+      "year": "2023",
+      "ai_summary": "Your total income for February was $8,500, and your total spending was $4,432.22, which is 52.14% of your income. The largest expense categories were Rent and Utilities ($2,500, 29.41%), Transportation ($350, 4.12%), and Food ($311.25, 3.66%). To optimize your budget, consider reducing dining out expenses and exploring more cost-effective entertainment options. Additionally, setting aside a portion of your income for your children's education fund would help achieve your financial goal.",
+      "categories_expenses": {
+        "total_income": "-8500.0",
+        "food": "311.25",
+        "food_%": "3.66",
+        "transportation": "350.0",
+        "transportation_%": "4.12",
+        "entertainment": "195.97",
+        "entertainment_%": "2.31",
+        "personal_care": "75.0",
+        "personal_care_%": "0.88",
+        "rent_and_utilities": "2500.0",
+        "rent_and_utilities_%": "29.41",
+        "loan_payments": "350.0",
+        "loan_payments_%": "4.12",
+        "total_spending": "4432.22",
+        "total_spending_%": "52.14"
+      }
+    },
+    {
+      "month": "03",
+      "year": "2023",
+      "ai_summary": "In March 2023, your total income was $8,500, and your total spending was $5,560.99, which is 65.4% of your income. Your largest expenses were mortgage payment ($2,500), travel ($2,000), and groceries ($125.5). To better manage your finances, consider reducing discretionary spending on travel, dining out, and personal care. Additionally, explore investment options to grow your savings for your children's education.",
+      "categories_expenses": {
+        "total_income": 8500.0,
+        "food": 275.5,
+        "food_%": 3.24,
+        "transportation": 75.0,
+        "transportation_%": 0.88,
+        "entertainment": 89.99,
+        "entertainment_%": 1.06,
+        "housing": 2500.0,
+        "housing_%": 29.41,
+        "personal_care": 350.0,
+        "personal_care_%": 4.12,
+        "travel": 2000.0,
+        "travel_%": 23.53,
+        "shopping": 220.0,
+        "shopping_%": 2.59,
+        "total_spending": 5560.99,
+        "total_spending_%": 65.43
+      }
+    },
+    {
+      "month": "04",
+      "year": "2023",
+      "ai_summary": "In April 2023, your total income was $7,500, and your total spending was $3,840.49, which is 51.2% of your income. Your largest expenses were mortgage payment ($1,500), clothing ($200), and insurance ($300). To better align with your goal of saving for children's education, consider reducing discretionary spending on personal care, entertainment, and dining out. Look for opportunities to cut costs on recurring expenses like insurance and subscriptions. Explore high-yield savings accounts or education-focused investment options to grow your savings.",
+      "categories_expenses": {
+        "total_income": "-7500.0",
+        "food": "275.5",
+        "food_%": "3.67%",
+        "transportation": "75.0",
+        "transportation_%": "1.0%",
+        "entertainment": "139.99",
+        "entertainment_%": "1.87%",
+        "personal_care": "350.0",
+        "personal_care_%": "4.67%",
+        "clothing": "200.0",
+        "clothing_%": "2.67%",
+        "insurance": "300.0",
+        "insurance_%": "4.0%",
+        "mortgage": "1500.0",
+        "mortgage_%": "20.0%",
+        "total_spending": "3840.49",
+        "total_spending_%": "51.2%"
+      }
+    },
+    {
+      "month": "05",
+      "year": "2023",
+      "ai_summary": "Your total income for the month was $7,500, and your total spending was $6,232.48, which is 83.1% of your income. The largest expense categories were Rent and Utilities ($2,500, 33.3%), Travel ($2,000, 26.7%), and Personal Care ($350, 4.7%). To optimize your budget, consider reducing discretionary spending on travel, dining out, and personal care services. Additionally, explore setting up a dedicated savings account for your children's education fund to automatically allocate a portion of your income towards that goal.",
+      "categories_expenses": {
+        "total_income": "-7500.0",
+        "food": "226.25",
+        "food_%": "3.0%",
+        "transportation": "0.0",
+        "transportation_%": "0.0%",
+        "entertainment": "135.98",
+        "entertainment_%": "1.8%",
+        "rent_and_utilities": "2500.0",
+        "rent_and_utilities_%": "33.3%",
+        "personal_care": "350.0",
+        "personal_care_%": "4.7%",
+        "travel": "2000.0",
+        "travel_%": "26.7%",
+        "total_spending": "6232.48",
+        "total_spending_%": "83.1%"
+      }
+    },
+    {
+      "month": "06",
+      "year": "2023",
+      "ai_summary": "Your total income for June was $8,500, and your total spending was $8,311.16, which is 97.8% of your income. The largest expense categories were Travel ($4,100), Loan Payments ($1,200), and Investment ($1,500). While investing for the future is commendable, your travel and dining expenses seem high. Consider reducing discretionary spending in these areas to align with your goal of saving for your children's education. Explore travel rewards credit cards to optimize your spending if you frequently travel.",
+      "categories_expenses": {
+        "total_income": "-8500.0",
+        "food": "321.17",
+        "food_%": "3.8%",
+        "transportation": "0.0",
+        "transportation_%": "0.0%",
+        "entertainment": "89.99",
+        "entertainment_%": "1.1%",
+        "personal_care": "150.0",
+        "personal_care_%": "1.8%",
+        "housing": "1550.0",
+        "housing_%": "18.2%",
+        "travel": "4100.0",
+        "travel_%": "48.2%",
+        "investments": "1500.0",
+        "investments_%": "17.6%",
+        "total_spending": "8311.16",
+        "total_spending_%": "97.8%"
+      }
+    }
+  ],
+  "email_notifications": {
+    "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
+    "coupons_email": "Save Big on Home, Tech & Beauty - Limited Time Offers!",
+    "loans_email": "Unlock Your Dreams: Personalized Loan Solutions for David",
+    "credit_cards_email": "Unlock Unbeatable Travel Rewards and Elevated Dining Experiences!",
+    "savings_email": "Unlock Higher Savings Potential: Top Picks for David"
+  }
+}

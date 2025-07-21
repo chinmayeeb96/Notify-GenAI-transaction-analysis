@@ -1,0 +1,117 @@
+{
+  "userinfo": {
+    "User_id": "U2",
+    "User_name": "Mary Jones",
+    "Credit_score": 780,
+    "Age": 68,
+    "Financial_goals": "Plan for retirement",
+    "Gender": "Female",
+    "Address": "456 Maple Ave, New York, NY",
+    "Pin": 10001,
+    "Email": "mary.jones@email.com"
+  },
+  "tags": [],
+  "recommendations": {
+    "coupons": [
+      "CO2",
+      "CO4",
+      "CO5"
+    ],
+    "loans": [
+      "LN1",
+      "LN3",
+      "LN4"
+    ],
+    "credit_cards": [
+      "CC1",
+      "CC3",
+      "CC4"
+    ],
+    "high_yield_savings": [
+      "HY3",
+      "HY1",
+      "HY5"
+    ]
+  },
+  "monthly_spend_analysis_data": [
+    {
+      "month": "01",
+      "year": "2023",
+      "ai_summary": "Your total income for January was $3,750, and your total spending was $2,147.47, which is 57.3% of your income. The largest expense category was rent and utilities at $1,650 (44% of income). Food expenses were $138.49 (3.7% of income), transportation was $65 (1.7% of income), and entertainment was $45.99 (1.2% of income). To optimize your budget, consider reducing discretionary spending on entertainment and dining out. Additionally, explore ways to lower your housing and utility costs. With your retirement goal in mind, consider investing a portion of your income into a retirement account.",
+      "categories_expenses": {
+        "total_income": "-3750.00",
+        "food": "138.49",
+        "food_%": "3.7",
+        "transportation": "65.00",
+        "transportation_%": "1.7",
+        "entertainment": "45.99",
+        "entertainment_%": "1.2",
+        "total_spending": "2147.47",
+        "total_spending_%": "57.3"
+      }
+    },
+    {
+      "month": "02",
+      "year": "2023",
+      "ai_summary": "In February 2023, your total income was $3,250 and your total spending was $523.96, which is around 16% of your income. The major expense categories were General Merchandise ($165.49), Food ($91.48), Transportation ($32), and Entertainment ($29.99). While your spending is within a reasonable range, there are opportunities to optimize your budget. Consider reducing discretionary expenses on clothing, electronics, and dining out. Additionally, explore cost-effective entertainment options like streaming services or local events. Maintaining a balanced budget will help you achieve your retirement goals.",
+      "categories_expenses": {
+        "total_income": "-3250.00",
+        "food": "91.48",
+        "food_%": "2.81",
+        "transportation": "32.00",
+        "transportation_%": "0.98",
+        "entertainment": "29.99",
+        "entertainment_%": "0.92",
+        "total_spending": "523.96",
+        "total_spending_%": "16.12"
+      }
+    },
+    {
+      "month": "03",
+      "year": "2023",
+      "ai_summary": "Your total income for March was $3,750, and your total spending was $807.47, which is around 21.5% of your income. The largest expense categories were Transportation ($120), General Services ($150), and Transfer to Savings ($200). While saving is good, you may want to review your insurance and transportation costs for potential savings. Your discretionary spending on clothing, dining out, and entertainment was relatively modest. To better plan for retirement, consider increasing your savings rate and exploring investment options.",
+      "categories_expenses": {
+        "total_income": "-3750.00",
+        "food": "111.98",
+        "food_%": "2.99%",
+        "transportation": "120.00",
+        "transportation_%": "3.20%",
+        "entertainment": "15.99",
+        "entertainment_%": "0.43%",
+        "general_merchandise": "145.49",
+        "general_merchandise_%": "3.88%",
+        "personal_care": "35.00",
+        "personal_care_%": "0.93%",
+        "general_services": "150.00",
+        "general_services_%": "4.00%",
+        "transfer_out": "200.00",
+        "transfer_out_%": "5.33%",
+        "total_spending": "807.47",
+        "total_spending_%": "21.53%"
+      }
+    },
+    {
+      "month": "04",
+      "year": "2023",
+      "ai_summary": "In April 2023, your total income was $3,750, and your total spending was $769.78, which is 20.5% of your income. Your major expenses were Food ($193.31, 5.2%), Transportation ($65, 1.7%), Entertainment ($60.98, 1.6%), and Clothing ($89.5, 2.4%). You also made a $150 transfer to your savings account and paid $200 towards your credit card bill. While your spending is within a reasonable range, you could optimize your budget by reducing discretionary expenses like dining out and entertainment subscriptions. Consider setting a monthly budget and tracking your expenses to stay on track with your retirement goals.",
+      "categories_expenses": {
+        "total_income": "-3750.0",
+        "food": "193.31",
+        "food_%": "5.2",
+        "transportation": "65.0",
+        "transportation_%": "1.7",
+        "entertainment": "60.98",
+        "entertainment_%": "1.6",
+        "total_spending": "769.78",
+        "total_spending_%": "20.5"
+      }
+    }
+  ],
+  "email_notifications": {
+    "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
+    "coupons_email": "Save Big on Home, Tech & Beauty - Limited Time Offers!",
+    "loans_email": "Unlock Your Retirement Dreams with Personalized Loan Options",
+    "credit_cards_email": "Unlock Unbeatable Travel Rewards and Cash Back Potential!",
+    "savings_email": "Unlock Higher Earnings: Premium Savings for Your Retirement"
+  }
+}
