@@ -37,7 +37,11 @@
     {
       "month": "01",
       "year": "2023",
+<<<<<<< HEAD
       "ai_summary": "In January 2023, your total income was $4,500, and your total spending was $2,030.41, which is 45.12% of your income. Your largest expense category was Rent & Utilities at $1,500 (33.33% of income). Food & Dining accounted for $191.50 (4.26% of income), Entertainment was $114.97 (2.56% of income), and Personal Care & Shopping was $224.98 (5% of income). To better manage your finances, consider reducing discretionary spending on entertainment, shopping, and dining out. Additionally, building an emergency fund should be a priority to prepare for unexpected expenses.",
+=======
+      "ai_summary": "In January 2023, your total income was $4,500, and your total spending was $2,190.44, which is 48.68% of your income. Your largest expense category was Rent and Utilities at $1,500 (33.33% of income). Food and Drink accounted for $191.5 (4.26% of income), Entertainment was $114.97 (2.56% of income), and Personal Care was $45 (1% of income). While your spending on essentials like rent and groceries seems reasonable, you could optimize your entertainment and personal care expenses to better align with your goal of building an emergency fund. Consider cutting back on non-essential subscriptions and gym memberships temporarily until you reach your savings target.",
+>>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
       "categories_expenses": {
         "total_income": -4500.0,
         "food": 191.5,
@@ -46,18 +50,33 @@
         "transportation_%": 0.0,
         "entertainment": 114.97,
         "entertainment_%": 2.56,
+<<<<<<< HEAD
         "rent_and_utilities": 1500.0,
         "rent_and_utilities_%": 33.33,
         "personal_care_and_shopping": 224.98,
         "personal_care_and_shopping_%": 5.0,
         "total_spending": 2030.41,
         "total_spending_%": 45.12
+=======
+        "personal_care": 45.0,
+        "personal_care_%": 1.0,
+        "rent_and_utilities": 1500.0,
+        "rent_and_utilities_%": 33.33,
+        "general_merchandise": 279.98,
+        "general_merchandise_%": 6.22,
+        "total_spending": 2190.44,
+        "total_spending_%": 48.68
+>>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
       }
     },
     {
       "month": "02",
       "year": "2023",
+<<<<<<< HEAD
       "ai_summary": "In February 2023, your total income was $4,500, and your total spending was $714.54, which is around 15.9% of your income. Your major expenses were in the categories of Entertainment ($164.97, 3.7%), General Merchandise ($325.49, 7.2%), Food & Dining ($144.07, 3.2%), and Transportation ($35, 0.8%). While your spending is within a reasonable range, there are opportunities to optimize your budget. Consider reducing discretionary expenses like clothing, electronics, and entertainment subscriptions. Additionally, focus on building an emergency fund to achieve your financial goal.",
+=======
+      "ai_summary": "In February 2023, your total income was $4,500, and your total spending was $708.53, which is around 15.7% of your income. The largest expense category was Entertainment at $164.97 (3.7% of income), followed by Food at $144.27 (3.2% of income). While your spending is relatively controlled, there are opportunities to optimize your budget further. Consider reducing discretionary expenses like entertainment subscriptions and dining out. Additionally, setting aside a portion of your income for an emergency fund aligns with your financial goal.",
+>>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
       "categories_expenses": {
         "total_income": -4500.0,
         "food": 144.07,
@@ -77,7 +96,11 @@
     {
       "month": "03",
       "year": "2023",
+<<<<<<< HEAD
       "ai_summary": "In March 2023, your total income was $4,500, and your total spending was $468.12, which is around 10.4% of your income. Your major expenses were on general merchandise ($219.98), food and dining ($100.67), and entertainment ($37.97). To achieve your goal of building an emergency fund, you should focus on reducing discretionary spending on non-essential items and entertainment. Consider setting a monthly budget and tracking your expenses to identify areas where you can cut back. Additionally, explore ways to increase your income through side gigs or investments.",
+=======
+      "ai_summary": "In March 2023, your total income was $4,500, and your total spending was $478.11, which is 10.62% of your income. Your largest expense category was General Merchandise at $205.48 (4.57% of income), followed by Food & Drink at $100.67 (2.24% of income). While your spending is within a reasonable range, you could optimize your budget by cutting back on non-essential purchases and setting aside funds for your emergency fund goal. Consider subscribing to a budgeting app or opening a dedicated savings account to better track your progress.",
+>>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
       "categories_expenses": {
         "total_income": "-4500.0",
         "food": "100.67",
@@ -99,6 +122,7 @@
     {
       "month": "04",
       "year": "2023",
+<<<<<<< HEAD
       "ai_summary": "In April 2023, your total income was $3,500, and your total spending was $2,087.97, which is around 59.7% of your income. Your largest expense category was rent and utilities at $1,500 (42.9% of income). Other significant expenses included general merchandise ($289.99, 8.3%), food and dining ($80, 2.3%), and entertainment ($27.98, 0.8%). To better manage your finances, consider reducing discretionary spending on electronics, clothing, and dining out. Additionally, explore cost-saving opportunities for rent and utilities. Prioritize building an emergency fund to achieve your financial goals.",
       "categories_expenses": {
         "total_income": "-3500.0",
@@ -160,14 +184,40 @@
         "general_merchandise_%": 6.2,
         "total_spending": 2230.45,
         "total_spending_%": 49.5
+=======
+      "ai_summary": "In April 2023, your total income was $3,500, and your total spending was $2,177.96, which is 62.2% of your income. Your largest expenses were rent ($1,500), electronics ($289.99), and clothing ($120). While entertainment and dining out were relatively low, you could optimize your budget by reducing non-essential spending on electronics and clothing. Consider setting a monthly budget and tracking your expenses to better align with your goal of building an emergency fund.",
+      "categories_expenses": {
+        "total_income": -3500.0,
+        "food": 80.0,
+        "food_%": 2.29,
+        "transportation": 0.0,
+        "transportation_%": 0.0,
+        "entertainment": 27.98,
+        "entertainment_%": 0.8,
+        "housing": 1500.0,
+        "housing_%": 42.86,
+        "personal_care": 60.0,
+        "personal_care_%": 1.71,
+        "general_merchandise": 409.99,
+        "general_merchandise_%": 11.71,
+        "total_spending": 2177.96,
+        "total_spending_%": 62.23
+>>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
+<<<<<<< HEAD
     "coupons_email": "Exclusive BOGO at Best Buy: Buy 1, get 1 free tech deal",
     "loans_email": "Need cash? Borrow $3,000-$35,000 at 6.99%-19.99% APR",
     "credit_cards_email": "Chase Sapphire: Earn 60K bonus points, 3X on dining",
     "savings_email": "Marcus 4.30% APY: Grow your emergency fund faster"
+=======
+    "coupons_email": "John, listen up! I've got the BOGO deal of the century for you. Buy one electronic, get one free at Best Buy with code BOGO23TECH. This offer's hotter than a laptop on a summer day, so act fast before it expires 9/25!",
+    "loans_email": "Yo John, I've got the 411 on a sweet personal loan deal from Chase. Score rates as low as 6.99% APR on $3K-$35K! With your good credit, this loan will have lower interest than your uncle's bad jokes. Apply now before they're all snatched up!",
+    "credit_cards_email": "John, you sly dog! How'd you like $200 cash back just for using a new credit card? Citi's Double Cash card is offering a juicy welcome bonus after spending $1,500 in 6 months. It's like getting paid to spend money - the American dream!",
+    "savings_email": "Listen up, John! I've found the holy grail of savings accounts for your emergency fund. Marcus by Goldman Sachs is offering a scorching 4.3% APY with no minimums or fees. It's like printing free money! Let's get that rainy day fund fattened up faster than your aunt's fruitcake."
+>>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
   }
 }

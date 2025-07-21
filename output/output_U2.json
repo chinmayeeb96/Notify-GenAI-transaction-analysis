@@ -53,6 +53,7 @@
     {
       "month": "02",
       "year": "2023",
+<<<<<<< HEAD
       "ai_summary": "In February 2023, your total income was $3,250, and your total spending was $523.96 (16.1% of income). The major expense categories were General Merchandise ($165.49, 5.1%), Food & Drink ($90.48, 2.8%), Transportation ($32, 1%), and Entertainment ($29.99, 0.9%). While your spending is within a reasonable range, there are opportunities to optimize your budget further. Consider reducing discretionary expenses on clothing, electronics, and dining out. Additionally, explore cost-effective entertainment options and plan your grocery trips to minimize food waste. By making small adjustments, you can allocate more funds towards your retirement savings.",
       "categories_expenses": {
         "total_income": "-3250.00",
@@ -70,28 +71,57 @@
         "insurance_%": "4.6",
         "total_spending": "523.96",
         "total_spending_%": "16.1"
+=======
+      "ai_summary": "In February 2023, your total income was $3,250, and your total spending was $523.46, which is around 16% of your income. The largest expense category was General Services (Insurance) at $150, followed by General Merchandise (Clothing and Electronics) at $165.49. Food expenses (Groceries, Restaurants, and Fast Food) totaled $91.48. Transportation costs for gas were $32. While your spending is relatively controlled, you could consider reducing discretionary expenses on clothing, electronics, and dining out to allocate more funds towards your retirement savings. Explore insurance options to potentially lower your premium costs.",
+      "categories_expenses": {
+        "total_income": "-3250.0",
+        "food": "91.48",
+        "food_%": "2.81",
+        "transportation": "32.0",
+        "transportation_%": "0.98",
+        "entertainment": "29.99",
+        "entertainment_%": "0.92",
+        "total_spending": "523.46",
+        "total_spending_%": "16.11"
+>>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
       }
     },
     {
       "month": "03",
       "year": "2023",
+<<<<<<< HEAD
       "ai_summary": "Your monthly income was $3,750, and you spent $797.47 across various categories. Food and groceries accounted for $111.98 (3.0% of income), transportation was $120.0 (3.2%), entertainment was $15.99 (0.4%), and other expenses like clothing, insurance, and personal care totaled $549.5 (14.7%). You saved $200 this month, which is great for your retirement goal. However, you could optimize spending on non-essentials like dining out and electronics to increase your savings rate.",
       "categories_expenses": {
         "total_income": "-3750.0",
         "food": "111.98",
+=======
+      "ai_summary": "Your total income for March was $3,750, and your total spending was $807.47 (21.5% of income). The largest expense categories were Transportation ($120, 3.2%), General Services ($150, 4%), and Food ($111.99, 3%). To optimize your budget, consider reducing discretionary spending on clothing, electronics, and dining out. Additionally, allocating more funds towards retirement savings would help achieve your financial goal of planning for retirement.",
+      "categories_expenses": {
+        "total_income": "-3750.0",
+        "food": "111.99",
+>>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
         "food_%": "3.0",
         "transportation": "120.0",
         "transportation_%": "3.2",
         "entertainment": "15.99",
         "entertainment_%": "0.4",
+<<<<<<< HEAD
         "total_spending": "797.47",
         "total_spending_%": "21.3"
+=======
+        "total_spending": "807.47",
+        "total_spending_%": "21.5"
+>>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
       }
     },
     {
       "month": "04",
       "year": "2023",
+<<<<<<< HEAD
       "ai_summary": "In April 2023, your total income was $3,750, and your total spending was $808.79, which is 21.6% of your income. Your major expenses were Groceries ($125.32), Gas ($65), Clothing ($89.5), and Restaurant ($55). You also made a $150 transfer to your savings account and paid $200 towards your credit card bill. While your spending is within a reasonable range, you could optimize your budget by cutting back on discretionary expenses like clothing and dining out. Additionally, consider increasing your savings contributions to accelerate your retirement planning.",
+=======
+      "ai_summary": "Your total income for April was $3,750, and your total spending was $769.78, which is around 20.5% of your income. The largest expense category was Food at $193.31 (5.2% of income), followed by Transportation at $65 (1.7% of income), and Entertainment at $60.98 (1.6% of income). You also made a $150 transfer to your savings account and paid $200 towards your credit card bill. While your spending is within a reasonable range, you could consider reducing discretionary expenses like dining out and entertainment subscriptions to boost your savings for retirement.",
+>>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
       "categories_expenses": {
         "total_income": "-3750.0",
         "food": "193.31",
@@ -113,9 +143,16 @@
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
+<<<<<<< HEAD
     "coupons_email": "Mary, unlock 25% off at Gap with code SUMMER25",
     "loans_email": "Mary, get $3,000-$35,000 personal loans at 6.99% APR",
     "credit_cards_email": "Mary, earn $200 cash back with the Citi Double Cash card",
     "savings_email": "Mary, grow your savings with 4.30% APY at Marcus"
+=======
+    "coupons_email": "Mary, get 20% off at Bed Bath & Beyond with code HOME20NOW! Spruce up your home before 10/15. Retirement means more cozy time indoors!",
+    "loans_email": "Psst Mary, Chase has personal loans from 6.99% APR for excellent credit like yours. Borrow $3K-$35K for that dream RV!",
+    "credit_cards_email": "Yo Mary, the Citi Double Cash card gives $200 cash after spending $1,500 in 6 months! Perfect for racking up rewards on retirement splurges.",
+    "savings_email": "Mary, Marcus by Goldman Sachs is offering a sizzling 4.3% APY on their Performance Savings! No minimums, unlimited withdrawals for your golden years."
+>>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
   }
 }
