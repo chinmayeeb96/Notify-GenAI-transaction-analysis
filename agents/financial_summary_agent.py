@@ -9,6 +9,7 @@ def summarize_user(user_info, monthly_data):
         "month": "01",
         "year": "2023", 
         "ai_summary": "Brief AI-generated summary of spending patterns and recommendations",
+        "spending_tags": ["tag1", "tag2"],
         "categories_expenses": {
             "total_income": "dollar_amount",
             "food": "dollar_amount",
@@ -28,8 +29,23 @@ def summarize_user(user_info, monthly_data):
     - Calculate percentages relative to total income
     - Provide insights on spending patterns and goal progress
     - Suggest budget optimization opportunities
-    - Genrate the summary as if you are telling to the user. For example: "Your are spending this much in this category. Yo need to minimize this spending" etc.
+    - Generate the summary as if you are telling to the user. For example: "You are spending this much in this category. You need to minimize this spending" etc.
     - Keep the summary short and informative so that the user will not get bored after reading this.
+    - Assign exactly two spending behavior tags based on the user's highest spending categories and patterns. Choose from tags like:
+      - "Foodie" (high food/dining spending)
+      - "Shopaholic" (high shopping/merchandise spending)
+      - "Travel Enthusiast" (high travel spending)
+      - "Entertainment Buff" (high entertainment spending)
+      - "Home-Centered" (high housing/utilities spending)
+      - "Budget Master" (well-balanced spending)
+      - "Saver" (low overall spending relative to income)
+      - "Investor" (investment-focused spending)
+      - "Health Conscious" (high health/wellness spending)
+      - "Education Focused" (high education spending)
+      - "Family First" (family-oriented spending)
+      - "Tech Enthusiast" (high technology spending)
+      - "Commuter" (high transportation spending)
+      - Or create your own based on the unique spending pattern
     
     Return ONLY valid JSON, no other text.
     """

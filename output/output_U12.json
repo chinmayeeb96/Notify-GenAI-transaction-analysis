@@ -10,146 +10,279 @@
     "Pin": 80201,
     "Email": "patricia.green@email.com"
   },
-  "tags": [],
+  "tags": [
+    "Entertainment Buff",
+    "Home-Centered"
+  ],
   "recommendations": {
     "coupons": [
-      "CO4",
-      "CO1",
-      "CO2"
+      {
+        "coupon_id": "CO1",
+        "coupon_code": "SUMMER25",
+        "discount_percentage": "25%",
+        "minimum_purchase": "$50.00",
+        "expiry_date": "2023-09-30",
+        "product_category": "Clothing",
+        "terms_conditions": "Excludes sale items and accessories. Cannot be combined with other offers.",
+        "usage_limit": 1,
+        "merchant_name": "Gap"
+      },
+      {
+        "coupon_id": "CO2",
+        "coupon_code": "HOME20NOW",
+        "discount_percentage": "20%",
+        "minimum_purchase": "$100.00",
+        "expiry_date": "2023-10-15",
+        "product_category": "Home Decor",
+        "terms_conditions": "Valid on regular-priced items only. Excludes clearance and doorbusters.",
+        "usage_limit": 3,
+        "merchant_name": "Bed Bath & Beyond"
+      },
+      {
+        "coupon_id": "CO4",
+        "coupon_code": "BOGO23TECH",
+        "discount_percentage": "BOGO",
+        "minimum_purchase": "$75.00",
+        "expiry_date": "2023-09-25",
+        "product_category": "Electronics",
+        "terms_conditions": "Buy one get one free on select accessories. Higher priced item must be purchased first.",
+        "usage_limit": 2,
+        "merchant_name": "Best Buy"
+      }
     ],
     "loans": [
-      "LN1",
-      "LN3",
-      "LN4"
+      {
+        "loan_id": "LN4",
+        "loan_type": "Home Equity Loan",
+        "interest_rate_range": "5.75% - 9.25%",
+        "term_length": "5-20 years",
+        "minimum_amount": "$25000",
+        "maximum_amount": "$250000",
+        "required_credit_score": "680+",
+        "processing_fee": "$75",
+        "bank_name": "Citibank"
+      },
+      {
+        "loan_id": "LN1",
+        "loan_type": "Personal Loan",
+        "interest_rate_range": "6.99% - 19.99%",
+        "term_length": "1-5 years",
+        "minimum_amount": "$3000",
+        "maximum_amount": "$35000",
+        "required_credit_score": "680+",
+        "processing_fee": "$0",
+        "bank_name": "Chase"
+      },
+      {
+        "loan_id": "LN3",
+        "loan_type": "Mortgage",
+        "interest_rate_range": "4.25% - 6.50%",
+        "term_length": "15 or 30 years",
+        "minimum_amount": "$100000",
+        "maximum_amount": "$5000000",
+        "required_credit_score": "700+",
+        "processing_fee": "1% of loan amount",
+        "bank_name": "Wells Fargo"
+      }
     ],
     "credit_cards": [
-      "CC3",
-      "CC1",
-      "CC4"
+      {
+        "card_id": "CC1",
+        "card_name": "Chase Sapphire Preferred",
+        "annual_fee": "$95",
+        "rewards_rate": "2X points on travel, 3X on dining, 1X on all other purchases",
+        "welcome_bonus": "60,000 bonus points after spending $4,000 in first 3 months",
+        "apr_range": "18.99% - 25.99%",
+        "credit_score_requirement": "740-850",
+        "benefits": "Travel insurance, no foreign transaction fees, 1:1 point transfer to airline partners, 25% more value when redeeming for travel",
+        "issuer": "Chase",
+        "payment_network": "Visa",
+        "cashback_categories": "Dining, Travel, Streaming services"
+      },
+      {
+        "card_id": "CC2",
+        "card_name": "Capital One Venture X",
+        "annual_fee": "$395",
+        "rewards_rate": "2X miles on all purchases, 5X on flights, 10X on hotels",
+        "welcome_bonus": "75,000 miles after spending $4,000 in first 3 months",
+        "apr_range": "19.99% - 26.99%",
+        "credit_score_requirement": "760-850",
+        "benefits": "$300 annual travel credit, Priority Pass lounge access, TSA PreCheck or Global Entry credit, 10,000 anniversary bonus miles",
+        "issuer": "Capital One",
+        "payment_network": "Visa",
+        "cashback_categories": "Travel, Hotels, Car rentals"
+      },
+      {
+        "card_id": "CC3",
+        "card_name": "Citi Double Cash",
+        "annual_fee": "$0",
+        "rewards_rate": "1% when you buy, 1% when you pay",
+        "welcome_bonus": "$200 cash back after spending $1,500 in first 6 months",
+        "apr_range": "16.99% - 26.99%",
+        "credit_score_requirement": "690-850",
+        "benefits": "0% intro APR for 18 months on balance transfers, access to Citi Entertainment, virtual account numbers, late fee pass",
+        "issuer": "Citi",
+        "payment_network": "Mastercard",
+        "cashback_categories": "All purchases"
+      }
     ],
     "high_yield_savings": [
-      "HY3",
-      "HY1",
-      "HY5"
+      {
+        "id": "HY1",
+        "account_name": "Premium Yield Savings",
+        "apy_rate": "4.35%",
+        "minimum_balance": "$0",
+        "features": "No monthly fees, 24/7 mobile banking, daily compound interest, free ACH transfers",
+        "bank_name": "Ally Bank",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY3",
+        "account_name": "Performance Savings",
+        "apy_rate": "4.30%",
+        "minimum_balance": "$0",
+        "features": "No hidden fees, automatic savings tools, savings goals tracking, unlimited withdrawals",
+        "bank_name": "Marcus by Goldman Sachs",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY5",
+        "account_name": "Complete Savings",
+        "apy_rate": "4.00%",
+        "minimum_balance": "$0",
+        "features": "No minimum balance fees, mobile check deposit, automatic savings roundups, budgeting tools",
+        "bank_name": "Capital One",
+        "account_category": "Standard Savings"
+      }
     ]
   },
   "monthly_spend_analysis_data": [
     {
-      "month": "02",
+      "month": "01",
       "year": "2023",
-      "ai_summary": "Your total income for the month was $3,500, and your total spending was $2,005.49, which is 57.3% of your income. The largest expense categories were Rent & Utilities ($1,200), Entertainment ($349.99), and Food & Drink ($165). While your spending on essentials like rent and groceries seems reasonable, you may want to cut back on discretionary expenses like gambling, video games, and dining out. Consider setting a budget for entertainment and sticking to it. Additionally, explore low-cost hobbies or activities to reduce spending in this area. Overall, your financial situation appears stable, but optimizing your discretionary spending could help you save more for your retirement goals.",
+      "ai_summary": "Patricia, your spending on entertainment, particularly gambling, is concerning given your retirement planning goal. You've spent 12.6% of your income on gambling alone this month. Consider redirecting these funds towards retirement savings. Your housing costs are reasonable at 34.3% of income, but there's room to reduce food and transportation expenses. To better align with your retirement goal, focus on cutting non-essential spending and increasing savings.",
+      "spending_tags": [
+        "Entertainment Buff",
+        "Home-Centered"
+      ],
       "categories_expenses": {
-        "total_income": "-3500.0",
-        "food": "165.0",
-        "food_%": "4.71",
-        "transportation": "35.0",
-        "transportation_%": "1.0",
-        "entertainment": "349.99",
-        "entertainment_%": "10.0",
-        "rent_and_utilities": "1200.0",
-        "rent_and_utilities_%": "34.29",
-        "loan_payments": "150.0",
-        "loan_payments_%": "4.29",
-        "general_merchandise": "75.5",
-        "general_merchandise_%": "2.16",
-        "total_spending": "2005.49",
-        "total_spending_%": "57.3"
+        "total_income": "3500.00",
+        "food": "57.99",
+        "food_%": "1.66%",
+        "transportation": "215.00",
+        "transportation_%": "6.14%",
+        "entertainment": "439.99",
+        "entertainment_%": "12.57%",
+        "total_spending": "1988.48",
+        "total_spending_%": "56.81%"
       }
     },
     {
-      "month": "06",
+      "month": "02",
       "year": "2023",
-      "ai_summary": "In June 2023, your total income was $3,500, and your total spending was $1,937.74, which is 55.36% of your income. Your largest expense category was Loan Payments & Mortgage at $1,500 (42.86% of income). Food expenses were $169.25 (4.84% of income), Entertainment was $82.99 (2.37% of income), and Transportation was $35 (1% of income). To optimize your budget, consider reducing discretionary spending on entertainment and dining out. Additionally, explore refinancing options for your mortgage to potentially lower your monthly payments.",
+      "ai_summary": "Patricia, your retirement planning needs attention. Your entertainment spending, particularly on gambling, is concerning. You're allocating 10% of your income to entertainment, which is high for someone nearing retirement. Consider redirecting this money towards savings or investments. Your food expenses are reasonable, but there's room for improvement in grocery shopping. Your housing costs are manageable at 34% of income. To better prepare for retirement, focus on reducing non-essential expenses and increasing your savings rate.",
+      "spending_tags": [
+        "Entertainment Buff",
+        "Home-Centered"
+      ],
       "categories_expenses": {
-        "total_income": "-3500.0",
-        "food": "169.25",
-        "food_%": "4.84",
-        "transportation": "35.0",
-        "transportation_%": "1.0",
-        "entertainment": "82.99",
-        "entertainment_%": "2.37",
-        "total_spending": "1937.74",
-        "total_spending_%": "55.36"
+        "total_income": "3500.00",
+        "food": "165.00",
+        "food_%": "4.71%",
+        "transportation": "35.00",
+        "transportation_%": "1.00%",
+        "entertainment": "349.99",
+        "entertainment_%": "10.00%",
+        "total_spending": "1975.49",
+        "total_spending_%": "56.44%"
       }
     },
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "Your total income for March was $3,500, and your total spending was $2,134.72, which is around 61% of your income. The largest expense category was housing (mortgage payment of $1,500), followed by entertainment ($302.98 or 8.7% of income), food ($146.74 or 4.2% of income), and transportation ($35 or 1% of income). While your housing expense is expected, you may want to review your entertainment and food spending to see if there are opportunities to cut back. Consider setting a budget for discretionary categories like entertainment and dining out. Additionally, explore retirement savings options to maximize your income during this phase of life.",
+      "ai_summary": "Patricia, your spending patterns show some areas of concern given your retirement planning goal. You're allocating a significant portion of your income to entertainment and non-essential purchases. While your mortgage payment is reasonable, your food and entertainment expenses are higher than ideal. Consider reducing gambling and video game expenses, and focus more on saving for retirement. Try cooking at home more often to cut down on restaurant expenses.",
+      "spending_tags": [
+        "Entertainment Buff",
+        "Foodie"
+      ],
       "categories_expenses": {
-        "total_income": "-3500.0",
-        "food": "146.74",
-        "food_%": "4.2",
-        "transportation": "35.0",
-        "transportation_%": "1.0",
+        "total_income": "3500.00",
+        "food": "145.75",
+        "food_%": "4.16%",
+        "transportation": "35.00",
+        "transportation_%": "1.00%",
         "entertainment": "302.98",
-        "entertainment_%": "8.7",
-        "total_spending": "2134.72",
-        "total_spending_%": "61.0"
-      }
-    },
-    {
-      "month": "05",
-      "year": "2023",
-      "ai_summary": "Your total income for the month was $4,500, and your total spending was $3,164.23, which is around 70% of your income. The largest expense categories were housing (mortgage payment of $1,800), transportation (car payment of $350 and gas of $80), and entertainment ($89.99 on video games and $200 at a casino). To optimize your budget, consider reducing discretionary spending on entertainment and dining out. Additionally, explore refinancing options for your mortgage and car loan to potentially lower those fixed costs. Overall, focus on building an emergency fund and increasing retirement contributions.",
-      "categories_expenses": {
-        "total_income": "-4500.0",
-        "food": "111.25",
-        "food_%": "2.47%",
-        "transportation": "430.0",
-        "transportation_%": "9.56%",
-        "entertainment": "302.98",
-        "entertainment_%": "6.73%",
-        "housing": "1800.0",
-        "housing_%": "40.0%",
-        "other": "520.0",
-        "other_%": "11.56%",
-        "total_spending": "3164.23",
-        "total_spending_%": "70.32%"
+        "entertainment_%": "8.66%",
+        "total_spending": "2133.73",
+        "total_spending_%": "60.96%"
       }
     },
     {
       "month": "04",
       "year": "2023",
-      "ai_summary": "In April 2023, your total income was $5,200, and your total spending was $2,023.48, which is around 39% of your income. Your largest expense category was Loan Payments & Mortgage at $1,500 (28.8% of income). Entertainment expenses like gambling, video games, and music subscriptions totaled $277.98 (5.3% of income). Food expenses, including restaurants and groceries, were $110 (2.1% of income). While your spending on essentials like housing is reasonable, you may want to review your entertainment and gambling expenses to align with your retirement goals. Consider setting a budget for discretionary spending and exploring low-cost hobbies or activities.",
+      "ai_summary": "Patricia, your spending patterns show some areas of concern, especially considering your retirement planning goal. You're spending a significant amount on entertainment and gambling, which could hinder your retirement savings. Your mortgage payment is reasonable, but there's room for improvement in other areas. Consider reducing entertainment expenses and redirecting those funds towards retirement savings or investments. Also, your food expenses seem balanced between groceries and dining out, which is good, but there might be opportunities to save more by cooking at home more often.",
+      "spending_tags": [
+        "Entertainment Buff",
+        "Home-Centered"
+      ],
       "categories_expenses": {
-        "total_income": -5200.0,
-        "food": 110.0,
-        "food_%": 2.1,
-        "transportation": 35.0,
-        "transportation_%": 0.7,
-        "entertainment": 277.98,
-        "entertainment_%": 5.3,
-        "loan_payments_mortgage": 1500.0,
-        "loan_payments_mortgage_%": 28.8,
-        "shopping": 75.5,
-        "shopping_%": 1.5,
-        "total_spending": 2023.48,
-        "total_spending_%": 38.9
+        "total_income": "5200.00",
+        "food": "110.00",
+        "food_%": "2.12",
+        "transportation": "35.00",
+        "transportation_%": "0.67",
+        "entertainment": "277.98",
+        "entertainment_%": "5.35",
+        "total_spending": "1998.48",
+        "total_spending_%": "38.43"
       }
     },
     {
-      "month": "01",
+      "month": "05",
       "year": "2023",
-      "ai_summary": "Your total income for January was $3,500, and your total spending was $1,988.48, which is 56.8% of your income. Your largest expense categories were Rent and Utilities ($1,200, 34.3% of income), Entertainment ($439.99, 12.6% of income), and Food and Drink ($57.99, 1.7% of income). While your rent is a necessary expense, you may want to consider reducing your entertainment and gambling spending to better align with your retirement goals. Additionally, setting a budget for discretionary categories like dining out and clothing could help optimize your spending.",
+      "ai_summary": "Patricia, your spending patterns show a mix of essential expenses and leisure activities. While you're managing your mortgage and car payments, there's a noticeable amount spent on entertainment, particularly gambling. As you're planning for retirement, it's crucial to balance your current lifestyle with future financial security. Consider redirecting some entertainment spending towards retirement savings or investments. Your food expenses are moderate, but there's room for optimization by reducing restaurant meals. Given your age and financial goal, it's advisable to review your retirement plan and possibly increase your savings rate.",
+      "spending_tags": [
+        "Entertainment Buff",
+        "Home-Centered"
+      ],
       "categories_expenses": {
-        "total_income": "-3500.0",
-        "food": "57.99",
-        "food_%": "1.7",
-        "transportation": "215.0",
-        "transportation_%": "6.1",
-        "entertainment": "439.99",
-        "entertainment_%": "12.6",
-        "total_spending": "1988.48",
-        "total_spending_%": "56.8"
+        "total_income": "4500.00",
+        "food": "111.25",
+        "food_%": "2.47",
+        "transportation": "430.00",
+        "transportation_%": "9.56",
+        "entertainment": "302.98",
+        "entertainment_%": "6.73",
+        "total_spending": "2764.23",
+        "total_spending_%": "61.43"
+      }
+    },
+    {
+      "month": "06",
+      "year": "2023",
+      "ai_summary": "Patricia, your spending patterns show a mix of essential expenses and discretionary spending. While you're allocating a significant portion to mortgage payments, which is good for your long-term financial stability, there are areas where you could optimize your spending to better align with your retirement planning goal. Your food and entertainment expenses, including gambling, could be areas to review. Consider redirecting some of this spending towards retirement savings or investments to support your financial goals.",
+      "spending_tags": [
+        "Home-Centered",
+        "Entertainment Buff"
+      ],
+      "categories_expenses": {
+        "total_income": "3500.00",
+        "food": "169.75",
+        "food_%": "4.85%",
+        "transportation": "35.00",
+        "transportation_%": "1.00%",
+        "entertainment": "82.99",
+        "entertainment_%": "2.37%",
+        "total_spending": "1937.74",
+        "total_spending_%": "55.36%"
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Patricia, you tech-savvy retiree! Grab this BOGO23TECH coupon for Buy One Get One Free on accessories over $75 at Best Buy. But hurry, it expires on 9/25!",
-    "loans_email": "Need some extra cash, Patricia? Chase is offering personal loans from $3,000 to $35,000 at rates as low as 6.99% APR. Perfect for funding your next adventure!",
-    "credit_cards_email": "Yo Patricia! Double up on that cash back with the Citi Double Cash card. Earn $200 after spending $1,500 in 6 months. Treat yourself to something nice!",
-    "savings_email": "Patricia, you savvy saver! Marcus by Goldman Sachs is offering a 4.30% APY on their Performance Savings account with no minimums. Stash that cash for your golden years!"
+    "coupons_email": "Gap-ing hole in your wardrobe, Patricia? \ud83d\udc5a 25% off might just fill it!",
+    "loans_email": "Patricia, your home's hiding treasure! \ud83c\udfe0\ud83d\udcb0 Unlock it with Citibank's 5.75% equity loan.",
+    "credit_cards_email": "Retire in style, Patricia! \ud83c\udf34 Chase's 60k bonus points could be your ticket to paradise.",
+    "savings_email": "Patricia, your money's snoozing! \ud83d\ude34 Wake it up with Ally's 4.35% APY."
   }
 }

@@ -10,295 +10,279 @@
     "Pin": 60601,
     "Email": "david.miller@email.com"
   },
-  "tags": [],
+  "tags": [
+    "Home-Centered",
+    "Travel Enthusiast"
+  ],
   "recommendations": {
     "coupons": [
-      "CO1",
-      "CO4",
-      "CO5"
+      {
+        "coupon_id": "CO5",
+        "coupon_code": "BEAUTY15",
+        "discount_percentage": "15%",
+        "minimum_purchase": "$35.00",
+        "expiry_date": "2023-10-20",
+        "product_category": "Skincare",
+        "terms_conditions": "Valid on all products except gift sets. Online orders only.",
+        "usage_limit": 5,
+        "merchant_name": "Sephora"
+      },
+      {
+        "coupon_id": "CO1",
+        "coupon_code": "SUMMER25",
+        "discount_percentage": "25%",
+        "minimum_purchase": "$50.00",
+        "expiry_date": "2023-09-30",
+        "product_category": "Clothing",
+        "terms_conditions": "Excludes sale items and accessories. Cannot be combined with other offers.",
+        "usage_limit": 1,
+        "merchant_name": "Gap"
+      },
+      {
+        "coupon_id": "CO2",
+        "coupon_code": "HOME20NOW",
+        "discount_percentage": "20%",
+        "minimum_purchase": "$100.00",
+        "expiry_date": "2023-10-15",
+        "product_category": "Home Decor",
+        "terms_conditions": "Valid on regular-priced items only. Excludes clearance and doorbusters.",
+        "usage_limit": 3,
+        "merchant_name": "Bed Bath & Beyond"
+      }
     ],
     "loans": [
-      "LN1",
-      "LN3",
-      "LN4"
+      {
+        "loan_id": "LN1",
+        "loan_type": "Personal Loan",
+        "interest_rate_range": "6.99% - 19.99%",
+        "term_length": "1-5 years",
+        "minimum_amount": "$3000",
+        "maximum_amount": "$35000",
+        "required_credit_score": "680+",
+        "processing_fee": "$0",
+        "bank_name": "Chase"
+      },
+      {
+        "loan_id": "LN4",
+        "loan_type": "Home Equity Loan",
+        "interest_rate_range": "5.75% - 9.25%",
+        "term_length": "5-20 years",
+        "minimum_amount": "$25000",
+        "maximum_amount": "$250000",
+        "required_credit_score": "680+",
+        "processing_fee": "$75",
+        "bank_name": "Citibank"
+      },
+      {
+        "loan_id": "LN3",
+        "loan_type": "Mortgage",
+        "interest_rate_range": "4.25% - 6.50%",
+        "term_length": "15 or 30 years",
+        "minimum_amount": "$100000",
+        "maximum_amount": "$5000000",
+        "required_credit_score": "700+",
+        "processing_fee": "1% of loan amount",
+        "bank_name": "Wells Fargo"
+      }
     ],
     "credit_cards": [
-      "CC1",
-      "CC4",
-      "CC3"
+      {
+        "card_id": "CC1",
+        "card_name": "Chase Sapphire Preferred",
+        "annual_fee": "$95",
+        "rewards_rate": "2X points on travel, 3X on dining, 1X on all other purchases",
+        "welcome_bonus": "60,000 bonus points after spending $4,000 in first 3 months",
+        "apr_range": "18.99% - 25.99%",
+        "credit_score_requirement": "740-850",
+        "benefits": "Travel insurance, no foreign transaction fees, 1:1 point transfer to airline partners, 25% more value when redeeming for travel",
+        "issuer": "Chase",
+        "payment_network": "Visa",
+        "cashback_categories": "Dining, Travel, Streaming services"
+      },
+      {
+        "card_id": "CC2",
+        "card_name": "Capital One Venture X",
+        "annual_fee": "$395",
+        "rewards_rate": "2X miles on all purchases, 5X on flights, 10X on hotels",
+        "welcome_bonus": "75,000 miles after spending $4,000 in first 3 months",
+        "apr_range": "19.99% - 26.99%",
+        "credit_score_requirement": "760-850",
+        "benefits": "$300 annual travel credit, Priority Pass lounge access, TSA PreCheck or Global Entry credit, 10,000 anniversary bonus miles",
+        "issuer": "Capital One",
+        "payment_network": "Visa",
+        "cashback_categories": "Travel, Hotels, Car rentals"
+      },
+      {
+        "card_id": "CC3",
+        "card_name": "Citi Double Cash",
+        "annual_fee": "$0",
+        "rewards_rate": "1% when you buy, 1% when you pay",
+        "welcome_bonus": "$200 cash back after spending $1,500 in first 6 months",
+        "apr_range": "16.99% - 26.99%",
+        "credit_score_requirement": "690-850",
+        "benefits": "0% intro APR for 18 months on balance transfers, access to Citi Entertainment, virtual account numbers, late fee pass",
+        "issuer": "Citi",
+        "payment_network": "Mastercard",
+        "cashback_categories": "All purchases"
+      }
     ],
     "high_yield_savings": [
-      "HY3",
-      "HY1",
-      "HY5"
+      {
+        "id": "HY1",
+        "account_name": "Premium Yield Savings",
+        "apy_rate": "4.35%",
+        "minimum_balance": "$0",
+        "features": "No monthly fees, 24/7 mobile banking, daily compound interest, free ACH transfers",
+        "bank_name": "Ally Bank",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY3",
+        "account_name": "Performance Savings",
+        "apy_rate": "4.30%",
+        "minimum_balance": "$0",
+        "features": "No hidden fees, automatic savings tools, savings goals tracking, unlimited withdrawals",
+        "bank_name": "Marcus by Goldman Sachs",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY5",
+        "account_name": "Complete Savings",
+        "apy_rate": "4.00%",
+        "minimum_balance": "$0",
+        "features": "No minimum balance fees, mobile check deposit, automatic savings roundups, budgeting tools",
+        "bank_name": "Capital One",
+        "account_category": "Standard Savings"
+      }
     ]
   },
   "monthly_spend_analysis_data": [
     {
       "month": "01",
       "year": "2023",
-<<<<<<< HEAD
-      "ai_summary": "Your total income for January was $8,500, and your total spending was $2,729.99, which is around 32% of your income. The largest expense categories were Loan Payments (14%), Food (11%), and Entertainment (6%). Consider reducing discretionary spending on entertainment, clothing, and dining out to increase your savings for your children's education. Explore high-yield savings accounts or education savings plans to maximize your savings.",
+      "ai_summary": "You've made good progress in saving, allocating 5.88% of your income to savings. However, your spending on food, entertainment, and personal care is relatively high. To better align with your goal of saving for children's education, consider reducing discretionary expenses and increasing your savings rate. Look into setting up a dedicated education savings account.",
+      "spending_tags": [
+        "Home-Centered",
+        "Entertainment Buff"
+      ],
       "categories_expenses": {
-        "total_income": 8500.0,
-        "food": 945.0,
-        "food_%": 11.12,
-        "transportation": 75.0,
-        "transportation_%": 0.88,
-        "entertainment": 209.99,
-        "entertainment_%": 2.47,
-        "loan_payments": 1200.0,
-        "loan_payments_%": 14.12,
-        "personal_care": 150.0,
-        "personal_care_%": 1.76,
-        "clothing": 200.0,
-        "clothing_%": 2.35,
-        "savings": 500.0,
-        "savings_%": 5.88,
-        "total_spending": 2729.99,
-        "total_spending_%": 32.12
-=======
-      "ai_summary": "Your total income for January was $8,500, and your total spending was $2,729.99, which is 32.12% of your income. The largest expense category was Loan Payments & Mortgage at $1,200 (14.12% of income). Food & Groceries was $350 (4.12%), Entertainment was $209.99 (2.47%), Transportation was $75 (0.88%), and Personal Care was $150 (1.76%). Consider reducing discretionary expenses like Entertainment and Personal Care to increase savings for your children's education goal. Explore high-yield savings accounts or education savings plans to maximize returns on your savings.",
-      "categories_expenses": {
-        "total_income": "-8500.0",
-        "food": "350.0",
-        "food_%": "4.12",
-        "transportation": "75.0",
-        "transportation_%": "0.88",
+        "total_income": "8500.00",
+        "food": "395.00",
+        "food_%": "4.65%",
+        "transportation": "75.00",
+        "transportation_%": "0.88%",
         "entertainment": "209.99",
-        "entertainment_%": "2.47",
-        "personal_care": "150.0",
-        "personal_care_%": "1.76",
-        "loan_payments_mortgage": "1200.0",
-        "loan_payments_mortgage_%": "14.12",
-        "clothing": "200.0",
-        "clothing_%": "2.35",
-        "transfer_out_savings": "500.0",
-        "transfer_out_savings_%": "5.88",
+        "entertainment_%": "2.47%",
         "total_spending": "2729.99",
-        "total_spending_%": "32.12"
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+        "total_spending_%": "32.12%"
       }
     },
     {
       "month": "02",
       "year": "2023",
-<<<<<<< HEAD
-      "ai_summary": "In February, your total income was $8,500, and your total spending was $4,432.22, which is 52.14% of your income. Your largest expenses were rent ($2,500), car payment ($350), and groceries ($125.75). You spent a reasonable amount on entertainment ($195.97) and dining out ($185.50). To optimize your budget, consider reducing discretionary spending on entertainment and dining out. Additionally, explore options to lower your housing and transportation costs. Allocate a portion of your remaining income towards your goal of saving for your children's education.",
-=======
-      "ai_summary": "Your total income for February was $8,500, and your total spending was $4,432.22, which is 52.14% of your income. The largest expense categories were Rent and Utilities ($2,500, 29.41%), Transportation ($350, 4.12%), and Food ($311.25, 3.66%). To optimize your budget, consider reducing dining out expenses and exploring more cost-effective entertainment options. Additionally, setting aside a portion of your income for your children's education fund would help achieve your financial goal.",
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+      "ai_summary": "David, your spending patterns show a focus on housing and entertainment. While you're maintaining a good balance overall, there's room for improvement to align with your goal of saving for your children's education. Your rent takes up a significant portion of your income (29.4%). Consider exploring more affordable housing options or negotiating your rent to free up funds for education savings. Your entertainment expenses, while not excessive, could be trimmed to contribute more towards your financial goal. Look into bundling streaming services or opting for family plans to reduce costs. Remember, small adjustments in daily spending can lead to substantial savings over time for your children's future.",
+      "spending_tags": [
+        "Home-Centered",
+        "Entertainment Buff"
+      ],
       "categories_expenses": {
-        "total_income": "-8500.0",
-        "food": "301.25",
-        "food_%": "3.54",
-        "transportation": "350.0",
+        "total_income": "8500.00",
+        "food": "311.25",
+        "food_%": "3.66",
+        "transportation": "350.00",
         "transportation_%": "4.12",
         "entertainment": "195.97",
         "entertainment_%": "2.31",
-<<<<<<< HEAD
-        "housing": "2500.0",
-        "housing_%": "29.41",
-        "personal_care": "75.0",
-        "personal_care_%": "0.88",
-=======
-        "personal_care": "75.0",
-        "personal_care_%": "0.88",
-        "rent_and_utilities": "2500.0",
-        "rent_and_utilities_%": "29.41",
-        "loan_payments": "350.0",
-        "loan_payments_%": "4.12",
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
-        "total_spending": "4432.22",
-        "total_spending_%": "52.14"
+        "total_spending": "3431.22",
+        "total_spending_%": "40.37"
       }
     },
     {
       "month": "03",
       "year": "2023",
-<<<<<<< HEAD
-      "ai_summary": "Your total income for March was $8,500, and your total spending was $5,560.49, which is around 65% of your income. The largest expense categories were Travel ($2,000), Housing ($2,500 for mortgage), and Food ($275.50). To better align with your goal of saving for children's education, consider reducing discretionary spending on travel, dining out, and personal care. Look for opportunities to cut costs on groceries, entertainment subscriptions, and transportation. Building an emergency fund and investing surplus income could also help achieve your long-term financial goals.",
+      "ai_summary": "David, your spending this month shows a focus on travel and home expenses. While you're maintaining a good balance overall, there's room for improvement in saving for your children's education. Your mortgage payment is reasonable at 29% of income, but travel expenses are high at 23.5%. Consider reducing discretionary spending on personal care and dining out to allocate more towards your education savings goal. Look into setting up a dedicated education savings account to make consistent progress.",
+      "spending_tags": [
+        "Travel Enthusiast",
+        "Home-Centered"
+      ],
       "categories_expenses": {
-        "total_income": "-8500.00",
+        "total_income": "8500.00",
         "food": "275.50",
-        "food_%": "3.24",
+        "food_%": "3.24%",
         "transportation": "75.00",
-        "transportation_%": "0.88",
+        "transportation_%": "0.88%",
         "entertainment": "89.99",
-        "entertainment_%": "1.06",
-        "travel": "2000.00",
-        "travel_%": "23.53",
-        "personal_care": "350.00",
-        "personal_care_%": "4.12",
-        "housing": "2500.00",
-        "housing_%": "29.41",
-        "shopping": "220.00",
-        "shopping_%": "2.59",
-        "total_spending": "5560.49",
-        "total_spending_%": "65.42"
-=======
-      "ai_summary": "In March 2023, your total income was $8,500, and your total spending was $5,560.99, which is 65.4% of your income. Your largest expenses were mortgage payment ($2,500), travel ($2,000), and groceries ($125.5). To better manage your finances, consider reducing discretionary spending on travel, dining out, and personal care. Additionally, explore investment options to grow your savings for your children's education.",
-      "categories_expenses": {
-        "total_income": 8500.0,
-        "food": 275.5,
-        "food_%": 3.24,
-        "transportation": 75.0,
-        "transportation_%": 0.88,
-        "entertainment": 89.99,
-        "entertainment_%": 1.06,
-        "personal_care": 350.0,
-        "personal_care_%": 4.12,
-        "housing": 2500.0,
-        "housing_%": 29.41,
-        "travel": 2000.0,
-        "travel_%": 23.53,
-        "shopping": 220.0,
-        "shopping_%": 2.59,
-        "total_spending": 5560.99,
-        "total_spending_%": 65.43
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+        "entertainment_%": "1.06%",
+        "total_spending": "5510.49",
+        "total_spending_%": "64.83%"
       }
     },
     {
       "month": "04",
       "year": "2023",
-<<<<<<< HEAD
-      "ai_summary": "Your total income for April was $7,500, and your total spending was $3,790.49, which is around 50.5% of your income. You spent a significant portion on mortgage payments ($1,500), personal care ($350), and clothing ($200). While entertainment and food expenses were relatively low, you could optimize your spending further. Consider reducing discretionary expenses and increasing savings for your children's education goals.",
-=======
-      "ai_summary": "In April 2023, your total income was $7,500, and your total spending was $3,840.49, which is 51.2% of your income. Your largest expenses were mortgage payment ($1,500), clothing ($200), and insurance ($300). To better align with your goal of saving for children's education, consider reducing discretionary spending on personal care, entertainment, and dining out. Explore high-yield savings accounts or education savings plans to grow your funds more effectively.",
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+      "ai_summary": "David, your spending this month shows some areas for improvement. While your income is substantial at $7,500, your total spending of $2,840.49 (37.87% of income) includes significant amounts in non-essential categories. Your highest expenses are mortgage ($1,500) and personal care ($350). To align with your goal of saving for children's education, consider reducing spending on luxury items and entertainment. Allocate more towards savings or investment accounts specifically for education funds.",
+      "spending_tags": [
+        "Home-Centered",
+        "Foodie"
+      ],
       "categories_expenses": {
-        "total_income": "-7500.0",
-        "food": "275.5",
+        "total_income": "7500.00",
+        "food": "275.50",
         "food_%": "3.67%",
-        "transportation": "75.0",
-        "transportation_%": "1.0%",
-<<<<<<< HEAD
+        "transportation": "75.00",
+        "transportation_%": "1.00%",
         "entertainment": "139.99",
         "entertainment_%": "1.87%",
-        "personal_care": "350.0",
-        "personal_care_%": "4.67%",
-        "mortgage": "1500.0",
-        "mortgage_%": "20.0%",
-        "clothing": "200.0",
-        "clothing_%": "2.67%",
-        "insurance": "300.0",
-        "insurance_%": "4.0%",
-        "total_spending": "3790.49",
-        "total_spending_%": "50.54%"
-=======
-        "entertainment": "189.99",
-        "entertainment_%": "2.53%",
-        "personal_care": "350.0",
-        "personal_care_%": "4.67%",
-        "clothing": "200.0",
-        "clothing_%": "2.67%",
-        "mortgage": "1500.0",
-        "mortgage_%": "20.0%",
-        "insurance": "300.0",
-        "insurance_%": "4.0%",
-        "total_spending": "3840.49",
-        "total_spending_%": "51.2%"
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+        "total_spending": "2840.49",
+        "total_spending_%": "37.87%"
       }
     },
     {
       "month": "05",
       "year": "2023",
-<<<<<<< HEAD
-      "ai_summary": "In May 2023, your total income was $7,500, and your total spending was $6,332.48, which is 84.43% of your income. Your major expenses were rent ($2,500), travel ($2,000), and food ($346.5). To better align with your goal of saving for children's education, consider reducing discretionary spending on entertainment, dining out, and personal care. Look for opportunities to save on travel costs by booking in advance or exploring alternative options. Additionally, review your housing expenses and explore more cost-effective living arrangements if possible.",
+      "ai_summary": "David, your spending this month shows a focus on travel and luxury. While you have a good income, your expenses are high relative to your goal of saving for children's education. Your rent and travel costs are significant. Consider reducing discretionary spending on dining out and personal care to allocate more towards your savings goal. Look into setting up a dedicated education savings account for your children.",
+      "spending_tags": [
+        "Travel Enthusiast",
+        "Foodie"
+      ],
       "categories_expenses": {
-        "total_income": -7500.0,
-        "food": 346.5,
-        "food_%": 4.62,
-        "transportation": 0.0,
-        "transportation_%": 0.0,
-        "entertainment": 135.98,
-        "entertainment_%": 1.81,
-        "rent": 2500.0,
-        "rent_%": 33.33,
-        "travel": 2000.0,
-        "travel_%": 26.67,
-        "personal_care": 350.0,
-        "personal_care_%": 4.67,
-        "total_spending": 6332.48,
-        "total_spending_%": 84.43
-=======
-      "ai_summary": "Your total income for the month was $7,500, and your total spending was $6,232.48, which is 83.1% of your income. The largest expense categories were Rent and Utilities ($2,500, 33.3%), Travel ($2,000, 26.7%), and Personal Care ($350, 4.7%). To optimize your budget, consider reducing discretionary spending on travel, dining out, and personal care services. Additionally, explore setting up automatic transfers to a dedicated savings account for your children's education fund.",
-      "categories_expenses": {
-        "total_income": "-7500.0",
-        "food": "226.24",
-        "food_%": "3.0%",
-        "transportation": "1200.0",
-        "transportation_%": "16.0%",
+        "total_income": "7500.00",
+        "food": "346.50",
+        "food_%": "4.62",
+        "transportation": "0.00",
+        "transportation_%": "0.00",
         "entertainment": "135.98",
-        "entertainment_%": "1.8%",
-        "rent_and_utilities": "2500.0",
-        "rent_and_utilities_%": "33.3%",
-        "personal_care": "350.0",
-        "personal_care_%": "4.7%",
-        "travel": "2000.0",
-        "travel_%": "26.7%",
-        "total_spending": "6232.48",
-        "total_spending_%": "83.1%"
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+        "entertainment_%": "1.81",
+        "total_spending": "5332.48",
+        "total_spending_%": "71.10"
       }
     },
     {
       "month": "06",
       "year": "2023",
-      "ai_summary": "Your total income for the month was $8,500, and your total spending was $8,711.16, which is 102.5% of your income. The largest expense categories were Travel ($4,100), Loan Payments ($1,200), and Investment ($1,500). To better align with your goal of saving for children's education, consider reducing discretionary spending on travel and entertainment. Look for opportunities to cut costs on groceries and dining out. Additionally, explore increasing contributions to tax-advantaged education savings accounts.",
+      "ai_summary": "David, your spending this month shows a focus on travel and investments. While you're saving for your children's education, your high-end travel expenses (47.6% of income) might be impacting this goal. Consider balancing your luxury travel with your long-term financial objectives. Your investment contributions are positive, but there may be room to increase education-specific savings. Try to reduce discretionary spending to align more closely with your primary financial goal.",
+      "spending_tags": [
+        "Travel Enthusiast",
+        "Investor"
+      ],
       "categories_expenses": {
-        "total_income": "-8500.0",
+        "total_income": "8500.00",
         "food": "321.17",
         "food_%": "3.78%",
-        "transportation": "0.0",
-        "transportation_%": "0.0%",
+        "transportation": "0.00",
+        "transportation_%": "0.00%",
         "entertainment": "89.99",
-<<<<<<< HEAD
         "entertainment_%": "1.06%",
-=======
-        "entertainment_%": "1.1%",
-        "personal_care": "150.0",
-        "personal_care_%": "1.8%",
-        "travel": "4100.0",
-        "travel_%": "48.3%",
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
-        "loan_payments": "1200.0",
-        "loan_payments_%": "14.12%",
-        "utilities": "350.0",
-<<<<<<< HEAD
-        "utilities_%": "4.12%",
-        "personal_care": "150.0",
-        "personal_care_%": "1.76%",
-        "travel": "4100.0",
-        "travel_%": "48.24%",
-        "investment": "1500.0",
-        "investment_%": "17.65%",
-        "total_spending": "8711.16",
-        "total_spending_%": "102.5%"
-=======
-        "utilities_%": "4.1%",
-        "investments": "1500.0",
-        "investments_%": "17.6%",
-        "total_spending": "8311.16",
-        "total_spending_%": "97.8%"
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+        "total_spending": "7711.16",
+        "total_spending_%": "90.72%"
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-<<<<<<< HEAD
-    "coupons_email": "David, unlock 25% off at Gap with SUMMER25 code",
-    "loans_email": "Need funds? Get $3K-$35K personal loan at 6.99% APR",
-    "credit_cards_email": "Earn 60K bonus points after $4K spend with Chase Sapphire",
-    "savings_email": "Grow college fund with 4.30% APY at Marcus savings"
-=======
-    "coupons_email": "David, you know what's cooler than a dad joke? 25% off at Gap with code SUMMER25! Use it before 9/30 to look fly on a budget.",
-    "loans_email": "Yo David, need some extra cash? Chase is offering personal loans from $3K to $35K with rates as low as 6.99% APR. Perfect for funding your kids' tuition!",
-    "credit_cards_email": "David, you're a high roller with an 800 credit score! How about the Chase Sapphire Preferred card with 60,000 bonus points after spending $4K in 3 months? Treat your family to a baller vacation!",
-    "savings_email": "Psst...David, want to make your kids' college fund grow faster? Check out Marcus by Goldman Sachs' 4.30% APY savings account. No minimum balance required!"
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+    "coupons_email": "David, Sephora's 15% off could save your skin(care) and your wallet! Expires 10/20, don't miss out!",
+    "loans_email": "David, Chase's 6.99% APR could be your kids' golden ticket to college. Ready to invest in their future?",
+    "credit_cards_email": "60,000 bonus points = major college savings, David! Chase Sapphire's offer ends soon. Apply now?",
+    "savings_email": "David, Ally's 4.35% APY could turbocharge your kids' college fund. Ready to ally with smarter savings?"
   }
 }

@@ -1,5 +1,5 @@
 from .agent_template import build_agent, AgentState
-from .email_notification_agent_prompts.v5 import system_prompt
+from .email_notification_agent_prompts.v6 import system_prompt
 
 def generate_email_notifications(user_info, top_recommendations, monthly_summaries, product_data):
     """

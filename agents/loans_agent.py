@@ -6,11 +6,11 @@ def run_loans_agent(user_info, transaction_data, loans_data):
     
     Consider:
     - User's income and spending patterns
-    - Debt-to-income ratio
+    - Debt-to-income ratio and credit score
     - Credit utilization patterns
     - Financial goals and loan purpose
     - Risk assessment based on transaction history
-    
+
     Return ONLY a simple JSON array of the top 3 loan IDs, like: ["LN1", "LN2", "LN3"]
     """
     

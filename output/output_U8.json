@@ -10,50 +10,169 @@
     "Pin": 89101,
     "Email": "jack.parker@email.com"
   },
-  "tags": [],
+  "tags": [
+    "Home-Centered",
+    "Travel Enthusiast"
+  ],
   "recommendations": {
     "coupons": [
-      "CO1",
-      "CO4",
-      "CO5"
+      {
+        "coupon_id": "CO5",
+        "coupon_code": "BEAUTY15",
+        "discount_percentage": "15%",
+        "minimum_purchase": "$35.00",
+        "expiry_date": "2023-10-20",
+        "product_category": "Skincare",
+        "terms_conditions": "Valid on all products except gift sets. Online orders only.",
+        "usage_limit": 5,
+        "merchant_name": "Sephora"
+      },
+      {
+        "coupon_id": "CO1",
+        "coupon_code": "SUMMER25",
+        "discount_percentage": "25%",
+        "minimum_purchase": "$50.00",
+        "expiry_date": "2023-09-30",
+        "product_category": "Clothing",
+        "terms_conditions": "Excludes sale items and accessories. Cannot be combined with other offers.",
+        "usage_limit": 1,
+        "merchant_name": "Gap"
+      },
+      {
+        "coupon_id": "CO2",
+        "coupon_code": "HOME20NOW",
+        "discount_percentage": "20%",
+        "minimum_purchase": "$100.00",
+        "expiry_date": "2023-10-15",
+        "product_category": "Home Decor",
+        "terms_conditions": "Valid on regular-priced items only. Excludes clearance and doorbusters.",
+        "usage_limit": 3,
+        "merchant_name": "Bed Bath & Beyond"
+      }
     ],
     "loans": [
-      "LN1",
-      "LN3",
-      "LN4"
+      {
+        "loan_id": "LN2",
+        "loan_type": "Auto Loan",
+        "interest_rate_range": "3.49% - 7.99%",
+        "term_length": "24-72 months",
+        "minimum_amount": "$5000",
+        "maximum_amount": "$100000",
+        "required_credit_score": "660+",
+        "processing_fee": "0.75%",
+        "bank_name": "Bank of America"
+      },
+      {
+        "loan_id": "LN4",
+        "loan_type": "Home Equity Loan",
+        "interest_rate_range": "5.75% - 9.25%",
+        "term_length": "5-20 years",
+        "minimum_amount": "$25000",
+        "maximum_amount": "$250000",
+        "required_credit_score": "680+",
+        "processing_fee": "$75",
+        "bank_name": "Citibank"
+      },
+      {
+        "loan_id": "LN5",
+        "loan_type": "Small Business Loan",
+        "interest_rate_range": "7.50% - 18.00%",
+        "term_length": "1-10 years",
+        "minimum_amount": "$10000",
+        "maximum_amount": "$500000",
+        "required_credit_score": "650+",
+        "processing_fee": "2.5% of loan amount",
+        "bank_name": "US Bank"
+      }
     ],
     "credit_cards": [
-      "CC3",
-      "CC4",
-      "CC5"
+      {
+        "card_id": "CC1",
+        "card_name": "Chase Sapphire Preferred",
+        "annual_fee": "$95",
+        "rewards_rate": "2X points on travel, 3X on dining, 1X on all other purchases",
+        "welcome_bonus": "60,000 bonus points after spending $4,000 in first 3 months",
+        "apr_range": "18.99% - 25.99%",
+        "credit_score_requirement": "740-850",
+        "benefits": "Travel insurance, no foreign transaction fees, 1:1 point transfer to airline partners, 25% more value when redeeming for travel",
+        "issuer": "Chase",
+        "payment_network": "Visa",
+        "cashback_categories": "Dining, Travel, Streaming services"
+      },
+      {
+        "card_id": "CC2",
+        "card_name": "Capital One Venture X",
+        "annual_fee": "$395",
+        "rewards_rate": "2X miles on all purchases, 5X on flights, 10X on hotels",
+        "welcome_bonus": "75,000 miles after spending $4,000 in first 3 months",
+        "apr_range": "19.99% - 26.99%",
+        "credit_score_requirement": "760-850",
+        "benefits": "$300 annual travel credit, Priority Pass lounge access, TSA PreCheck or Global Entry credit, 10,000 anniversary bonus miles",
+        "issuer": "Capital One",
+        "payment_network": "Visa",
+        "cashback_categories": "Travel, Hotels, Car rentals"
+      },
+      {
+        "card_id": "CC3",
+        "card_name": "Citi Double Cash",
+        "annual_fee": "$0",
+        "rewards_rate": "1% when you buy, 1% when you pay",
+        "welcome_bonus": "$200 cash back after spending $1,500 in first 6 months",
+        "apr_range": "16.99% - 26.99%",
+        "credit_score_requirement": "690-850",
+        "benefits": "0% intro APR for 18 months on balance transfers, access to Citi Entertainment, virtual account numbers, late fee pass",
+        "issuer": "Citi",
+        "payment_network": "Mastercard",
+        "cashback_categories": "All purchases"
+      }
     ],
     "high_yield_savings": [
-      "HY3",
-      "HY1",
-      "HY5"
+      {
+        "id": "HY1",
+        "account_name": "Premium Yield Savings",
+        "apy_rate": "4.35%",
+        "minimum_balance": "$0",
+        "features": "No monthly fees, 24/7 mobile banking, daily compound interest, free ACH transfers",
+        "bank_name": "Ally Bank",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY2",
+        "account_name": "Premier High-Yield Savings",
+        "apy_rate": "4.25%",
+        "minimum_balance": "$5000",
+        "features": "Complimentary financial advisor consultations, expedited transfers, premium customer service, wealth management tools",
+        "bank_name": "Chase",
+        "account_category": "Premium"
+      },
+      {
+        "id": "HY3",
+        "account_name": "Performance Savings",
+        "apy_rate": "4.30%",
+        "minimum_balance": "$0",
+        "features": "No hidden fees, automatic savings tools, savings goals tracking, unlimited withdrawals",
+        "bank_name": "Marcus by Goldman Sachs",
+        "account_category": "Online Savings"
+      }
     ]
   },
   "monthly_spend_analysis_data": [
     {
       "month": "01",
       "year": "2023",
-      "ai_summary": "Your total income for January was $8,500, and your total spending was $2,729.99, which is around 32% of your income. The largest expense category was housing with $1,200 for your mortgage payment. You spent $350 on groceries, $264.99 on entertainment, $150 on personal care, $275 on transportation and clothing. While your spending is within a reasonable range, there are opportunities to optimize your budget. Consider reducing discretionary expenses like entertainment and clothing to boost your savings for your home purchase goal.",
+      "ai_summary": "You're making good progress towards your goal of saving for a home, with $500 transferred to savings this month. However, your spending in entertainment and personal care is relatively high. Consider reducing these expenses to boost your savings. Your food spending is moderate, but there's room for improvement. Try meal prepping to cut down on restaurant expenses. Your transportation costs are reasonable, but look for ways to optimize further. Keep up the good work on saving, but aim to increase the amount if possible to reach your home-buying goal faster.",
+      "spending_tags": [
+        "Entertainment Buff",
+        "Home-Centered"
+      ],
       "categories_expenses": {
-        "total_income": "-8500.0",
-        "food": "395.0",
+        "total_income": "8500.00",
+        "food": "395.00",
         "food_%": "4.65",
-        "transportation": "75.0",
+        "transportation": "75.00",
         "transportation_%": "0.88",
-        "entertainment": "264.99",
-        "entertainment_%": "3.12",
-        "housing": "1200.0",
-        "housing_%": "14.12",
-        "personal_care": "150.0",
-        "personal_care_%": "1.76",
-        "clothing": "200.0",
-        "clothing_%": "2.35",
-        "savings": "500.0",
-        "savings_%": "5.88",
+        "entertainment": "209.99",
+        "entertainment_%": "2.47",
         "total_spending": "2729.99",
         "total_spending_%": "32.12"
       }
@@ -61,119 +180,117 @@
     {
       "month": "02",
       "year": "2023",
-      "ai_summary": "Your total income for February was $8,500, and your total spending was $4,432.22, which is 52.14% of your income. The largest expense categories were Rent and Utilities ($2,500, 29.41%), Transportation ($350, 4.12%), and Food ($311.25, 3.66%). To better manage your finances and achieve your goal of saving for a home, consider reducing discretionary spending on entertainment and dining out. Additionally, explore options to lower your rent or transportation costs. Maintaining a budget and tracking expenses can help optimize your spending habits.",
+      "ai_summary": "Jack, your spending patterns show a high focus on rent and entertainment. While you're maintaining a good balance in some areas, there's room for improvement to align with your goal of saving for a home. Your rent takes up a significant portion of your income (29.4%), which might be hindering your saving potential. Consider looking for more affordable housing options. Your entertainment expenses, while not excessive, could be trimmed to boost your savings. Try to cut back on subscriptions and dining out to accelerate your home savings goal.",
+      "spending_tags": [
+        "Home-Centered",
+        "Entertainment Buff"
+      ],
       "categories_expenses": {
-        "total_income": "-8500.0",
+        "total_income": "8500.00",
         "food": "311.25",
         "food_%": "3.66",
-        "transportation": "350.0",
+        "transportation": "350.00",
         "transportation_%": "4.12",
         "entertainment": "195.97",
         "entertainment_%": "2.31",
-        "total_spending": "4432.22",
-        "total_spending_%": "52.14"
+        "total_spending": "3432.22",
+        "total_spending_%": "40.38"
       }
     },
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "Your total income for March was $8,500, and your total spending was $5,560.99, which is 65.4% of your income. The largest expense categories were Travel ($2,000), Loan Payments ($2,500), and Food ($275.5). To better align with your goal of saving for a home, consider reducing discretionary spending on travel and dining out. Look for opportunities to cut entertainment costs like Netflix. Increase your savings rate by setting a budget and automating transfers to a dedicated savings account.",
+      "ai_summary": "Jack, your spending this month is quite high relative to your income. You've spent significantly on travel and housing, which accounts for a large portion of your expenses. While it's great to enjoy life, remember your goal to save for a home. Consider cutting back on non-essential expenses like entertainment and personal care. Your food spending is reasonable, but there's room for improvement in other areas to align with your savings goal.",
+      "spending_tags": [
+        "Travel Enthusiast",
+        "Home-Centered"
+      ],
       "categories_expenses": {
-        "total_income": 8500.0,
-        "food": 275.5,
-        "food_%": 3.24,
-        "transportation": 75.0,
-        "transportation_%": 0.88,
-        "entertainment": 89.99,
-        "entertainment_%": 1.06,
-        "personal_care": 350.0,
-        "personal_care_%": 4.12,
-        "clothing": 220.0,
-        "clothing_%": 2.59,
-        "travel": 2000.0,
-        "travel_%": 23.53,
-        "loan_payments": 2500.0,
-        "loan_payments_%": 29.41,
-        "total_spending": 5560.99,
-        "total_spending_%": 65.43
+        "total_income": "8500.00",
+        "food": "275.50",
+        "food_%": "3.24",
+        "transportation": "75.00",
+        "transportation_%": "0.88",
+        "entertainment": "89.99",
+        "entertainment_%": "1.06",
+        "total_spending": "5510.49",
+        "total_spending_%": "64.83"
       }
     },
     {
       "month": "04",
       "year": "2023",
-      "ai_summary": "In April 2023, your total income was $7,500, and your total spending was $3,840.49, which is 51.2% of your income. Your major expenses were mortgage payment ($1,500), personal care ($350), clothing ($200), and insurance ($300). While some expenses like groceries and gas are necessary, you could optimize your spending on entertainment, dining out, and personal care. Consider setting a budget for discretionary expenses and explore cost-saving opportunities to accelerate your home savings goal.",
+      "ai_summary": "Jack, your spending this month is quite high relative to your income. You're spending significantly on personal care, dining out, and entertainment. While it's important to enjoy life, remember your goal to save for a home. Consider reducing luxury expenses and redirecting funds towards savings. Your mortgage payment is substantial; ensure it's not hindering your ability to save. Look for areas to cut back, especially in discretionary spending categories.",
+      "spending_tags": [
+        "Foodie",
+        "Home-Centered"
+      ],
       "categories_expenses": {
-        "total_income": "-7500.0",
-        "food": "275.5",
+        "total_income": "7500.00",
+        "food": "275.50",
         "food_%": "3.67%",
-        "transportation": "75.0",
-        "transportation_%": "1.0%",
+        "transportation": "75.00",
+        "transportation_%": "1.00%",
         "entertainment": "139.99",
         "entertainment_%": "1.87%",
-        "personal_care": "350.0",
-        "personal_care_%": "4.67%",
-        "mortgage": "1500.0",
-        "mortgage_%": "20.0%",
-        "clothing": "200.0",
-        "clothing_%": "2.67%",
-        "insurance": "300.0",
-        "insurance_%": "4.0%",
-        "total_spending": "3840.49",
-        "total_spending_%": "51.2%"
+        "total_spending": "2840.49",
+        "total_spending_%": "37.87%"
       }
     },
     {
       "month": "05",
       "year": "2023",
-      "ai_summary": "In May 2023, your total income was $7,500, and your total spending was $6,231.48, which is 83.09% of your income. Your largest expenses were rent ($2,500), travel ($2,000), and personal care ($350). To achieve your goal of saving for a home, you should focus on reducing discretionary spending on travel, entertainment, and dining out. Consider setting a monthly budget and tracking your expenses to identify areas for improvement.",
+      "ai_summary": "You're spending significantly on travel and luxury items, which may hinder your goal of saving for a home. Your rent is high at 33% of your income. Consider reducing travel expenses and finding more affordable housing to accelerate your savings. Your food spending is moderate, but there's room for improvement by cooking more at home.",
+      "spending_tags": [
+        "Travel Enthusiast",
+        "Home-Centered"
+      ],
       "categories_expenses": {
-        "total_income": -7500.0,
-        "food": 346.0,
-        "food_%": 4.61,
-        "transportation": 0.0,
-        "transportation_%": 0.0,
-        "entertainment": 135.98,
-        "entertainment_%": 1.81,
-        "rent": 2500.0,
-        "rent_%": 33.33,
-        "personal_care": 350.0,
-        "personal_care_%": 4.67,
-        "travel": 2000.0,
-        "travel_%": 26.67,
-        "total_spending": 6231.48,
-        "total_spending_%": 83.09
+        "total_income": "7500.00",
+        "food": "346.50",
+        "food_%": "4.62",
+        "transportation": "0.00",
+        "transportation_%": "0.00",
+        "entertainment": "135.98",
+        "entertainment_%": "1.81",
+        "total_spending": "5332.48",
+        "total_spending_%": "71.10"
       }
     },
     {
       "month": "06",
       "year": "2023",
-      "ai_summary": "Your total income for June was $8,500, and your total spending was $8,311.16, which is 97.8% of your income. The largest expense categories were Travel ($4,100), Housing ($1,550), and Food ($321.17). To achieve your goal of saving for a home, you should focus on reducing discretionary spending on travel and dining out. Consider setting a monthly budget and tracking expenses closely. Additionally, explore investment products like high-yield savings accounts or money market funds to grow your savings.",
+      "ai_summary": "You're spending significantly on travel and luxury, which may hinder your goal of saving for a home. Your travel expenses alone account for 48.2% of your income. Consider reducing these expenses and redirecting funds towards your home savings goal. Your investment contributions are positive, but you might want to increase them to accelerate your savings. Try to cut back on non-essential expenses like high-end dining and premium subscriptions to boost your savings rate.",
+      "spending_tags": [
+        "Travel Enthusiast",
+        "Luxury Spender"
+      ],
       "categories_expenses": {
-        "total_income": "-8500.0",
+        "total_income": "8500.00",
         "food": "321.17",
-        "food_%": "3.8%",
-        "transportation": "0.0",
-        "transportation_%": "0.0%",
+        "food_%": "3.78%",
+        "transportation": "0.00",
+        "transportation_%": "0.00%",
         "entertainment": "89.99",
-        "entertainment_%": "1.1%",
-        "housing": "1550.0",
-        "housing_%": "18.2%",
-        "travel": "4100.0",
-        "travel_%": "48.2%",
-        "personal_care": "150.0",
-        "personal_care_%": "1.8%",
-        "investments": "1500.0",
-        "investments_%": "17.6%",
-        "total_spending": "8311.16",
-        "total_spending_%": "97.8%"
+        "entertainment_%": "1.06%",
+        "travel": "4100.00",
+        "travel_%": "48.24%",
+        "housing": "1550.00",
+        "housing_%": "18.24%",
+        "personal_care": "150.00",
+        "personal_care_%": "1.76%",
+        "investments": "1500.00",
+        "investments_%": "17.65%",
+        "total_spending": "7711.16",
+        "total_spending_%": "90.72%"
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Jack, you're a Gap guy, right? Use SUMMER25 to get 25% off your next $50+ purchase before 9/30. Freshen up that wardrobe while saving big!",
-    "loans_email": "Need some extra cash, Jack? Chase is offering personal loans from $3,000 to $35,000 at rates as low as 6.99% APR. Perfect for your home savings goal!",
-    "credit_cards_email": "Yo Jack, check out the Citi Double Cash card! Earn $200 cash back after spending $1,500 in 6 months. That's a nice boost for your home fund.",
-    "savings_email": "Jack, you're 27 and saving for a home - smart move! Open a Marcus savings account to earn a sweet 4.30% APY on your nest egg."
+    "coupons_email": "Jack, pamper yourself for pennies! 15% off at Sephora awaits. Your wallet's glow-up starts now.",
+    "loans_email": "Vroom vroom, Jack! Bank of America's revving up auto loans from 3.49%. Time to accelerate your savings?",
+    "credit_cards_email": "Jack, 60,000 bonus points are calling your name! Chase Sapphire's ready to turbocharge your travel game.",
+    "savings_email": "Jack, Ally Bank's offering 4.35% APY! Your home down payment could be growing faster than Vegas real estate."
   }
 }

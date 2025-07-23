@@ -10,156 +10,279 @@
     "Pin": 94101,
     "Email": "emma.white@email.com"
   },
-  "tags": [],
+  "tags": [
+    "Entertainment Buff",
+    "Foodie"
+  ],
   "recommendations": {
     "coupons": [
-      "CO4",
-      "CO5",
-      "CO2"
+      {
+        "coupon_id": "CO4",
+        "coupon_code": "BOGO23TECH",
+        "discount_percentage": "BOGO",
+        "minimum_purchase": "$75.00",
+        "expiry_date": "2023-09-25",
+        "product_category": "Electronics",
+        "terms_conditions": "Buy one get one free on select accessories. Higher priced item must be purchased first.",
+        "usage_limit": 2,
+        "merchant_name": "Best Buy"
+      },
+      {
+        "coupon_id": "CO1",
+        "coupon_code": "SUMMER25",
+        "discount_percentage": "25%",
+        "minimum_purchase": "$50.00",
+        "expiry_date": "2023-09-30",
+        "product_category": "Clothing",
+        "terms_conditions": "Excludes sale items and accessories. Cannot be combined with other offers.",
+        "usage_limit": 1,
+        "merchant_name": "Gap"
+      },
+      {
+        "coupon_id": "CO5",
+        "coupon_code": "BEAUTY15",
+        "discount_percentage": "15%",
+        "minimum_purchase": "$35.00",
+        "expiry_date": "2023-10-20",
+        "product_category": "Skincare",
+        "terms_conditions": "Valid on all products except gift sets. Online orders only.",
+        "usage_limit": 5,
+        "merchant_name": "Sephora"
+      }
     ],
     "loans": [
-      "LN1",
-      "LN2",
-      "LN4"
+      {
+        "loan_id": "LN2",
+        "loan_type": "Auto Loan",
+        "interest_rate_range": "3.49% - 7.99%",
+        "term_length": "24-72 months",
+        "minimum_amount": "$5000",
+        "maximum_amount": "$100000",
+        "required_credit_score": "660+",
+        "processing_fee": "0.75%",
+        "bank_name": "Bank of America"
+      },
+      {
+        "loan_id": "LN5",
+        "loan_type": "Small Business Loan",
+        "interest_rate_range": "7.50% - 18.00%",
+        "term_length": "1-10 years",
+        "minimum_amount": "$10000",
+        "maximum_amount": "$500000",
+        "required_credit_score": "650+",
+        "processing_fee": "2.5% of loan amount",
+        "bank_name": "US Bank"
+      },
+      {
+        "loan_id": "LN1",
+        "loan_type": "Personal Loan",
+        "interest_rate_range": "6.99% - 19.99%",
+        "term_length": "1-5 years",
+        "minimum_amount": "$3000",
+        "maximum_amount": "$35000",
+        "required_credit_score": "680+",
+        "processing_fee": "$0",
+        "bank_name": "Chase"
+      }
     ],
     "credit_cards": [
-      "CC5",
-      "CC3",
-      "CC1"
+      {
+        "card_id": "CC1",
+        "card_name": "Chase Sapphire Preferred",
+        "annual_fee": "$95",
+        "rewards_rate": "2X points on travel, 3X on dining, 1X on all other purchases",
+        "welcome_bonus": "60,000 bonus points after spending $4,000 in first 3 months",
+        "apr_range": "18.99% - 25.99%",
+        "credit_score_requirement": "740-850",
+        "benefits": "Travel insurance, no foreign transaction fees, 1:1 point transfer to airline partners, 25% more value when redeeming for travel",
+        "issuer": "Chase",
+        "payment_network": "Visa",
+        "cashback_categories": "Dining, Travel, Streaming services"
+      },
+      {
+        "card_id": "CC2",
+        "card_name": "Capital One Venture X",
+        "annual_fee": "$395",
+        "rewards_rate": "2X miles on all purchases, 5X on flights, 10X on hotels",
+        "welcome_bonus": "75,000 miles after spending $4,000 in first 3 months",
+        "apr_range": "19.99% - 26.99%",
+        "credit_score_requirement": "760-850",
+        "benefits": "$300 annual travel credit, Priority Pass lounge access, TSA PreCheck or Global Entry credit, 10,000 anniversary bonus miles",
+        "issuer": "Capital One",
+        "payment_network": "Visa",
+        "cashback_categories": "Travel, Hotels, Car rentals"
+      },
+      {
+        "card_id": "CC3",
+        "card_name": "Citi Double Cash",
+        "annual_fee": "$0",
+        "rewards_rate": "1% when you buy, 1% when you pay",
+        "welcome_bonus": "$200 cash back after spending $1,500 in first 6 months",
+        "apr_range": "16.99% - 26.99%",
+        "credit_score_requirement": "690-850",
+        "benefits": "0% intro APR for 18 months on balance transfers, access to Citi Entertainment, virtual account numbers, late fee pass",
+        "issuer": "Citi",
+        "payment_network": "Mastercard",
+        "cashback_categories": "All purchases"
+      }
     ],
     "high_yield_savings": [
-      "HY3",
-      "HY1",
-      "HY5"
+      {
+        "id": "HY1",
+        "account_name": "Premium Yield Savings",
+        "apy_rate": "4.35%",
+        "minimum_balance": "$0",
+        "features": "No monthly fees, 24/7 mobile banking, daily compound interest, free ACH transfers",
+        "bank_name": "Ally Bank",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY3",
+        "account_name": "Performance Savings",
+        "apy_rate": "4.30%",
+        "minimum_balance": "$0",
+        "features": "No hidden fees, automatic savings tools, savings goals tracking, unlimited withdrawals",
+        "bank_name": "Marcus by Goldman Sachs",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY5",
+        "account_name": "Complete Savings",
+        "apy_rate": "4.00%",
+        "minimum_balance": "$0",
+        "features": "No minimum balance fees, mobile check deposit, automatic savings roundups, budgeting tools",
+        "bank_name": "Capital One",
+        "account_category": "Standard Savings"
+      }
     ]
   },
   "monthly_spend_analysis_data": [
     {
       "month": "01",
       "year": "2023",
-      "ai_summary": "Your total income for January was $3,500, and your total spending was $431.12, which is 12.32% of your income. The largest expense category was General Merchandise at $239.99 (6.86% of income), followed by Food at $93.17 (2.66%), Entertainment at $42.97 (1.23%), and Personal Care at $35 (1%). To better manage your finances, consider reducing discretionary spending on non-essential items and entertainment. Additionally, explore budgeting apps or automated savings tools to help allocate funds towards your goal of paying off student loans.",
+      "ai_summary": "Emma, your spending this month shows a focus on entertainment and personal care. While you're maintaining a good balance overall, there's room for improvement to align with your goal of paying off student loans. Your food expenses, particularly dining out, could be reduced. Consider cooking more meals at home to save money. Also, your entertainment spending is relatively high. Try finding free or low-cost alternatives for some of your leisure activities. Remember, small changes can make a big difference in reaching your financial goals!",
+      "spending_tags": [
+        "Entertainment Buff",
+        "Health Conscious"
+      ],
       "categories_expenses": {
-        "total_income": "-3500.0",
+        "total_income": "3500.00",
         "food": "93.17",
         "food_%": "2.66",
-        "transportation": "0.0",
-        "transportation_%": "0.0",
+        "transportation": "0.00",
+        "transportation_%": "0.00",
         "entertainment": "42.97",
         "entertainment_%": "1.23",
-        "general_merchandise": "239.99",
-        "general_merchandise_%": "6.86",
-        "personal_care": "35.0",
-        "personal_care_%": "1.0",
-        "total_spending": "431.12",
-        "total_spending_%": "12.32"
+        "total_spending": "411.13",
+        "total_spending_%": "11.75"
       }
     },
     {
       "month": "02",
       "year": "2023",
-      "ai_summary": "Your total income for February was $3,250, and your total spending was $455.46, which is around 14% of your income. The largest expense category was General Merchandise at $150 (4.6% of income), followed by Food at $95.48 (2.9%), Entertainment at $99.98 (3.1%), Transportation at $55 (1.7%), and Personal Care at $35 (1.1%). While your spending is relatively controlled, you could optimize your budget further by reducing discretionary expenses like clothing and entertainment. Consider setting a monthly budget for these categories and explore cost-effective alternatives for entertainment and personal care. Additionally, focus on paying off your student loans as per your financial goal.",
+      "ai_summary": "Emma, your spending this month shows a focus on food, entertainment, and personal care. You're spending 4.7% of your income on groceries and eating out, which is reasonable. However, your entertainment expenses, including video games and music subscriptions, account for 3.1% of your income. To achieve your goal of paying off student loans, consider reducing discretionary spending in these areas. Your clothing purchase from Nike was significant; try to limit such expenses if they're not essential. Remember to allocate more towards your student loan payments to make faster progress on your financial goal.",
+      "spending_tags": [
+        "Foodie",
+        "Entertainment Buff"
+      ],
       "categories_expenses": {
-        "total_income": 3250.0,
-        "food": 95.48,
-        "food_%": 2.9,
-        "transportation": 55.0,
-        "transportation_%": 1.7,
-        "entertainment": 99.98,
-        "entertainment_%": 3.1,
-        "personal_care": 35.0,
-        "personal_care_%": 1.1,
-        "general_merchandise": 150.0,
-        "general_merchandise_%": 4.6,
-        "total_spending": 455.46,
-        "total_spending_%": 14.0
+        "total_income": "3250.00",
+        "food": "95.98",
+        "food_%": "2.95",
+        "transportation": "55.00",
+        "transportation_%": "1.69",
+        "entertainment": "99.98",
+        "entertainment_%": "3.08",
+        "total_spending": "435.96",
+        "total_spending_%": "13.41"
       }
     },
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "Your total income for March was $3,500, and your total spending was $469.47, which is 13.41% of your income. The largest expense category was General Merchandise (Clothing) at $150 (4.29% of income). Other significant expenses were Entertainment ($99.98, 2.86%), Food ($99.99, 2.86%), and Transportation ($65, 1.86%). To better manage your finances, consider reducing discretionary spending on clothing, entertainment, and dining out. Additionally, explore budgeting apps or automated savings tools to help you allocate funds towards your goal of paying off student loans.",
+      "ai_summary": "Emma, your spending this month shows a mix of essential and discretionary expenses. You're allocating a significant portion of your income to entertainment and clothing, which might be areas to review for potential savings. Remember your goal to pay off student loans - consider redirecting some of these funds towards that objective. Your food expenses are moderate, but there's room for optimization by reducing dining out and coffee purchases. Keep up the good work with your fitness investment, as it contributes to your overall well-being.",
+      "spending_tags": [
+        "Entertainment Buff",
+        "Shopaholic"
+      ],
       "categories_expenses": {
-        "total_income": "-3500.0",
-        "food": "86.99",
-        "food_%": "2.49",
-        "transportation": "65.0",
-        "transportation_%": "1.86",
+        "total_income": "3500.00",
+        "food": "99.99",
+        "food_%": "2.86%",
+        "transportation": "65.00",
+        "transportation_%": "1.86%",
         "entertainment": "99.98",
-        "entertainment_%": "2.86",
-        "general_merchandise": "150.0",
-        "general_merchandise_%": "4.29",
-        "personal_care": "35.0",
-        "personal_care_%": "1.0",
-        "subscriptions": "9.99",
-        "subscriptions_%": "0.29",
-        "total_spending": "469.47",
-        "total_spending_%": "13.41"
+        "entertainment_%": "2.86%",
+        "total_spending": "449.47",
+        "total_spending_%": "12.84%"
       }
     },
     {
       "month": "04",
       "year": "2023",
-      "ai_summary": "Your total income for April was $3,500, and your total spending was $480.87 (13.7% of income). The largest expense categories were General Merchandise ($219.98), Food ($107.15), and Entertainment ($35.98). To achieve your goal of paying off student loans, consider reducing discretionary spending on non-essentials and setting up automatic transfers to a dedicated loan repayment account.",
+      "ai_summary": "Emma, your spending this month shows a mix of essential and discretionary expenses. You're allocating significant amounts to food, entertainment, and personal care. While it's great that you're investing in your health with gym membership, there's room to optimize your spending to align with your goal of paying off student loans. Consider reducing dining out and entertainment expenses to free up more funds for loan repayment. Your income is healthy, but your total spending is about 13% of your income, which leaves ample room for savings and debt reduction.",
+      "spending_tags": [
+        "Foodie",
+        "Health Conscious"
+      ],
       "categories_expenses": {
-        "total_income": -3500.0,
-        "food": 107.15,
-        "food_%": 3.06,
-        "transportation": 42.75,
-        "transportation_%": 1.22,
-        "entertainment": 35.98,
-        "entertainment_%": 1.03,
-        "personal_care": 65.0,
-        "personal_care_%": 1.86,
-        "general_merchandise": 219.98,
-        "general_merchandise_%": 6.28,
-        "total_spending": 480.87,
-        "total_spending_%": 13.74
+        "total_income": "3500.00",
+        "food": "97.65",
+        "food_%": "2.79%",
+        "transportation": "42.75",
+        "transportation_%": "1.22%",
+        "entertainment": "35.98",
+        "entertainment_%": "1.03%",
+        "total_spending": "460.86",
+        "total_spending_%": "13.17%"
       }
     },
     {
       "month": "05",
       "year": "2023",
-      "ai_summary": "In May 2023, your total income was $3,500, and your total spending was $1,566.30, which is 44.8% of your income. Your largest expense was rent at $1,200 (34.3% of income). You spent $162.99 (4.7%) on food, $15 (0.4%) on transportation, and $125.31 (3.6%) on entertainment. To better manage your finances, consider reducing discretionary spending on entertainment and dining out. Additionally, explore options to lower your rent or find a roommate to split costs. Prioritize paying off your student loans by allocating a fixed portion of your income towards loan repayments each month.",
+      "ai_summary": "Emma, your spending this month shows some areas for improvement. While you're maintaining a good balance in some categories, your entertainment expenses are quite high at 3.6% of your income. To achieve your goal of paying off student loans, consider reducing discretionary spending on video games and subscriptions. Your food expenses, including groceries and dining out, account for 2.3% of your income, which is reasonable. However, there's room to save more by cooking at home more often. Your rent takes up a significant portion (34.3%) of your income, which is common in San Francisco but leaves less for loan repayment. Look for ways to increase your income or reduce housing costs if possible. Remember, every dollar saved can go towards your student loans.",
+      "spending_tags": [
+        "Entertainment Buff",
+        "Home-Centered"
+      ],
       "categories_expenses": {
-        "total_income": -3500.0,
-        "food": 162.99,
-        "food_%": 4.7,
-        "transportation": 15.0,
-        "transportation_%": 0.4,
-        "entertainment": 125.31,
-        "entertainment_%": 3.6,
-        "total_spending": 1566.3,
-        "total_spending_%": 44.8
+        "total_income": "3500.00",
+        "food": "80.99",
+        "food_%": "2.3%",
+        "transportation": "15.00",
+        "transportation_%": "0.4%",
+        "entertainment": "125.98",
+        "entertainment_%": "3.6%",
+        "total_spending": "1567.29",
+        "total_spending_%": "44.8%"
       }
     },
     {
       "month": "06",
       "year": "2023",
-      "ai_summary": "Your total income for the month was $3,500, and your total spending was $532.97 (15.2% of income). The largest expense categories were Clothing & Accessories ($150, 4.3%), Food ($133.49, 3.8%), and Entertainment ($99.98, 2.9%). To better manage your finances and achieve your goal of paying off student loans, consider reducing discretionary spending on clothing, entertainment, and dining out. Additionally, explore budgeting apps or automated savings tools to allocate funds towards loan repayment.",
+      "ai_summary": "Emma, your spending this month shows a focus on food, entertainment, and personal care. While you're maintaining a good balance in some areas, there's room for improvement to align with your goal of paying off student loans. Your food expenses, particularly eating out, are quite high at 4.2% of your income. Consider cooking more meals at home to reduce this. Your entertainment spending is also significant. While it's important to enjoy yourself, try to find free or low-cost alternatives. On a positive note, you're investing in your health with gym membership and fitness clothing. To make progress on your student loans, consider allocating more of your income towards debt repayment and creating a stricter budget for discretionary expenses.",
+      "spending_tags": [
+        "Foodie",
+        "Entertainment Buff"
+      ],
       "categories_expenses": {
-        "total_income": -3500.0,
-        "food": 133.49,
-        "food_%": 3.8,
-        "transportation": 42.0,
-        "transportation_%": 1.2,
-        "entertainment": 99.98,
-        "entertainment_%": 2.9,
-        "personal_care": 35.0,
-        "personal_care_%": 1.0,
-        "clothing": 150.0,
-        "clothing_%": 4.3,
-        "subscriptions": 9.99,
-        "subscriptions_%": 0.3,
-        "total_spending": 532.97,
-        "total_spending_%": 15.2
+        "total_income": "3500.00",
+        "food": "145.99",
+        "food_%": "4.17",
+        "transportation": "42.00",
+        "transportation_%": "1.20",
+        "entertainment": "99.98",
+        "entertainment_%": "2.86",
+        "total_spending": "472.97",
+        "total_spending_%": "13.51"
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Emma, you tech-savvy queen! Here's a BOGO deal you can't resist - get two for the price of one on electronics at Best Buy with code BOGO23TECH. But only if you spend $75+ by 9/25. Time to upgrade that laptop!",
-    "loans_email": "Emma, listen up! Chase is offering personal loans from $3K to $35K with rates as low as 6.99% APR. With your credit score, you could qualify to consolidate those pesky student loans. Imagine the relief!",
-    "credit_cards_email": "Emma, brace yourself for this epic cash back offer from Discover! Their 'Cashback Match' will DOUBLE all the cash back you earn in year one. Plus, 5% back on rotating categories like groceries. Your wallet will thank you!",
-    "savings_email": "Emma, let's get that savings game on point! Marcus by Goldman Sachs is offering a stellar 4.30% APY on their Performance Savings account. No minimum balance required - just pure interest-earning power for your loan payoff fund!"
+    "coupons_email": "Great Savings Await You!",
+    "loans_email": "Perfect Loan Options For You!",
+    "credit_cards_email": "Amazing Credit Card Benefits!",
+    "savings_email": "Grow Your Money Faster!"
   }
 }

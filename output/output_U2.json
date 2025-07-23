@@ -10,149 +10,279 @@
     "Pin": 10001,
     "Email": "mary.jones@email.com"
   },
-  "tags": [],
+  "tags": [
+    "Budget Master",
+    "Saver"
+  ],
   "recommendations": {
     "coupons": [
-      "CO1",
-      "CO4",
-      "CO5"
+      {
+        "coupon_id": "CO2",
+        "coupon_code": "HOME20NOW",
+        "discount_percentage": "20%",
+        "minimum_purchase": "$100.00",
+        "expiry_date": "2023-10-15",
+        "product_category": "Home Decor",
+        "terms_conditions": "Valid on regular-priced items only. Excludes clearance and doorbusters.",
+        "usage_limit": 3,
+        "merchant_name": "Bed Bath & Beyond"
+      },
+      {
+        "coupon_id": "CO5",
+        "coupon_code": "BEAUTY15",
+        "discount_percentage": "15%",
+        "minimum_purchase": "$35.00",
+        "expiry_date": "2023-10-20",
+        "product_category": "Skincare",
+        "terms_conditions": "Valid on all products except gift sets. Online orders only.",
+        "usage_limit": 5,
+        "merchant_name": "Sephora"
+      },
+      {
+        "coupon_id": "CO4",
+        "coupon_code": "BOGO23TECH",
+        "discount_percentage": "BOGO",
+        "minimum_purchase": "$75.00",
+        "expiry_date": "2023-09-25",
+        "product_category": "Electronics",
+        "terms_conditions": "Buy one get one free on select accessories. Higher priced item must be purchased first.",
+        "usage_limit": 2,
+        "merchant_name": "Best Buy"
+      }
     ],
     "loans": [
-      "LN1",
-      "LN3",
-      "LN4"
+      {
+        "loan_id": "LN4",
+        "loan_type": "Home Equity Loan",
+        "interest_rate_range": "5.75% - 9.25%",
+        "term_length": "5-20 years",
+        "minimum_amount": "$25000",
+        "maximum_amount": "$250000",
+        "required_credit_score": "680+",
+        "processing_fee": "$75",
+        "bank_name": "Citibank"
+      },
+      {
+        "loan_id": "LN1",
+        "loan_type": "Personal Loan",
+        "interest_rate_range": "6.99% - 19.99%",
+        "term_length": "1-5 years",
+        "minimum_amount": "$3000",
+        "maximum_amount": "$35000",
+        "required_credit_score": "680+",
+        "processing_fee": "$0",
+        "bank_name": "Chase"
+      },
+      {
+        "loan_id": "LN3",
+        "loan_type": "Mortgage",
+        "interest_rate_range": "4.25% - 6.50%",
+        "term_length": "15 or 30 years",
+        "minimum_amount": "$100000",
+        "maximum_amount": "$5000000",
+        "required_credit_score": "700+",
+        "processing_fee": "1% of loan amount",
+        "bank_name": "Wells Fargo"
+      }
     ],
     "credit_cards": [
-      "CC3",
-      "CC1",
-      "CC4"
+      {
+        "card_id": "CC1",
+        "card_name": "Chase Sapphire Preferred",
+        "annual_fee": "$95",
+        "rewards_rate": "2X points on travel, 3X on dining, 1X on all other purchases",
+        "welcome_bonus": "60,000 bonus points after spending $4,000 in first 3 months",
+        "apr_range": "18.99% - 25.99%",
+        "credit_score_requirement": "740-850",
+        "benefits": "Travel insurance, no foreign transaction fees, 1:1 point transfer to airline partners, 25% more value when redeeming for travel",
+        "issuer": "Chase",
+        "payment_network": "Visa",
+        "cashback_categories": "Dining, Travel, Streaming services"
+      },
+      {
+        "card_id": "CC2",
+        "card_name": "Capital One Venture X",
+        "annual_fee": "$395",
+        "rewards_rate": "2X miles on all purchases, 5X on flights, 10X on hotels",
+        "welcome_bonus": "75,000 miles after spending $4,000 in first 3 months",
+        "apr_range": "19.99% - 26.99%",
+        "credit_score_requirement": "760-850",
+        "benefits": "$300 annual travel credit, Priority Pass lounge access, TSA PreCheck or Global Entry credit, 10,000 anniversary bonus miles",
+        "issuer": "Capital One",
+        "payment_network": "Visa",
+        "cashback_categories": "Travel, Hotels, Car rentals"
+      },
+      {
+        "card_id": "CC3",
+        "card_name": "Citi Double Cash",
+        "annual_fee": "$0",
+        "rewards_rate": "1% when you buy, 1% when you pay",
+        "welcome_bonus": "$200 cash back after spending $1,500 in first 6 months",
+        "apr_range": "16.99% - 26.99%",
+        "credit_score_requirement": "690-850",
+        "benefits": "0% intro APR for 18 months on balance transfers, access to Citi Entertainment, virtual account numbers, late fee pass",
+        "issuer": "Citi",
+        "payment_network": "Mastercard",
+        "cashback_categories": "All purchases"
+      }
     ],
     "high_yield_savings": [
-      "HY3",
-      "HY1",
-      "HY5"
+      {
+        "id": "HY1",
+        "account_name": "Premium Yield Savings",
+        "apy_rate": "4.35%",
+        "minimum_balance": "$0",
+        "features": "No monthly fees, 24/7 mobile banking, daily compound interest, free ACH transfers",
+        "bank_name": "Ally Bank",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY3",
+        "account_name": "Performance Savings",
+        "apy_rate": "4.30%",
+        "minimum_balance": "$0",
+        "features": "No hidden fees, automatic savings tools, savings goals tracking, unlimited withdrawals",
+        "bank_name": "Marcus by Goldman Sachs",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY5",
+        "account_name": "Complete Savings",
+        "apy_rate": "4.00%",
+        "minimum_balance": "$0",
+        "features": "No minimum balance fees, mobile check deposit, automatic savings roundups, budgeting tools",
+        "bank_name": "Capital One",
+        "account_category": "Standard Savings"
+      }
     ]
   },
   "monthly_spend_analysis_data": [
     {
       "month": "01",
       "year": "2023",
-      "ai_summary": "Based on your monthly transactions, your total income was $3,750, and your total spending was $2,046.48, which is 54.6% of your income. The largest expense categories were Rent and Utilities ($1,650), Food ($160.99), and Transportation ($65). To optimize your budget, consider reducing discretionary spending on clothing, entertainment, and dining out. Additionally, explore retirement savings options like a 401(k) or IRA to maximize your retirement funds.",
+      "ai_summary": "You're doing well with budgeting, Mary! Your total spending is about 57% of your income, which is good. However, your rent takes up a significant portion (40%) of your income. Consider exploring senior housing options or downsizing to reduce this expense and boost your retirement savings. Your food and entertainment spending seem reasonable, but there might be room to cut back on utilities. Look into energy-saving measures or senior discounts on cable and internet services to further optimize your budget for retirement planning.",
+      "spending_tags": [
+        "Home-Centered",
+        "Budget Master"
+      ],
       "categories_expenses": {
-        "total_income": "-3750.0",
-        "food": "198.48",
-        "food_%": "5.29",
-        "transportation": "65.0",
-        "transportation_%": "1.73",
+        "total_income": "3750.00",
+        "food": "160.99",
+        "food_%": "4.29%",
+        "transportation": "65.00",
+        "transportation_%": "1.73%",
         "entertainment": "45.99",
-        "entertainment_%": "1.23",
-        "total_spending": "2046.48",
-        "total_spending_%": "54.6"
+        "entertainment_%": "1.23%",
+        "total_spending": "2146.97",
+        "total_spending_%": "57.25%"
       }
     },
     {
       "month": "02",
       "year": "2023",
-<<<<<<< HEAD
-      "ai_summary": "In February 2023, your total income was $3,250, and your total spending was $523.96 (16.1% of income). The major expense categories were General Merchandise ($165.49, 5.1%), Food & Drink ($90.48, 2.8%), Transportation ($32, 1%), and Entertainment ($29.99, 0.9%). While your spending is within a reasonable range, there are opportunities to optimize your budget further. Consider reducing discretionary expenses on clothing, electronics, and dining out. Additionally, explore cost-effective entertainment options and plan your grocery trips to minimize food waste. By making small adjustments, you can allocate more funds towards your retirement savings.",
+      "ai_summary": "You're managing your finances well, Mary, with a balanced spending approach. Your total spending is about 19% of your income, which is commendable. However, there's room for improvement in retirement planning. Consider reducing discretionary spending on clothing and electronics to allocate more towards retirement savings. Your food expenses are reasonable, but you could save more by cooking at home instead of dining out. Remember, every small saving counts towards your retirement goal.",
+      "spending_tags": [
+        "Budget Master",
+        "Saver"
+      ],
       "categories_expenses": {
-        "total_income": "-3250.00",
-        "food": "90.48",
-        "food_%": "2.8",
+        "total_income": "3250.00",
+        "food": "81.48",
+        "food_%": "2.51%",
         "transportation": "32.00",
-        "transportation_%": "1.0",
+        "transportation_%": "0.98%",
         "entertainment": "29.99",
-        "entertainment_%": "0.9",
-        "general_merchandise": "165.49",
-        "general_merchandise_%": "5.1",
-        "personal_care": "65.00",
-        "personal_care_%": "2.0",
-        "insurance": "150.00",
-        "insurance_%": "4.6",
-        "total_spending": "523.96",
-        "total_spending_%": "16.1"
-=======
-      "ai_summary": "In February 2023, your total income was $3,250, and your total spending was $523.46, which is around 16% of your income. The largest expense category was General Services (Insurance) at $150, followed by General Merchandise (Clothing and Electronics) at $165.49. Food expenses (Groceries, Restaurants, and Fast Food) totaled $91.48. Transportation costs for gas were $32. While your spending is relatively controlled, you could consider reducing discretionary expenses on clothing, electronics, and dining out to allocate more funds towards your retirement savings. Explore insurance options to potentially lower your premium costs.",
-      "categories_expenses": {
-        "total_income": "-3250.0",
-        "food": "91.48",
-        "food_%": "2.81",
-        "transportation": "32.0",
-        "transportation_%": "0.98",
-        "entertainment": "29.99",
-        "entertainment_%": "0.92",
-        "total_spending": "523.46",
-        "total_spending_%": "16.11"
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+        "entertainment_%": "0.92%",
+        "total_spending": "623.96",
+        "total_spending_%": "19.20%"
       }
     },
     {
       "month": "03",
       "year": "2023",
-<<<<<<< HEAD
-      "ai_summary": "Your monthly income was $3,750, and you spent $797.47 across various categories. Food and groceries accounted for $111.98 (3.0% of income), transportation was $120.0 (3.2%), entertainment was $15.99 (0.4%), and other expenses like clothing, insurance, and personal care totaled $549.5 (14.7%). You saved $200 this month, which is great for your retirement goal. However, you could optimize spending on non-essentials like dining out and electronics to increase your savings rate.",
+      "ai_summary": "Mary, your spending this month is well-balanced, with a focus on essential categories. You've allocated 3% to groceries, 5% to transportation, and 3% to dining out. It's great to see you're saving 5% of your income. However, to better plan for retirement, consider increasing your savings rate. Your insurance and personal care expenses are reasonable. To optimize your budget, you might want to review your entertainment subscriptions and look for ways to reduce gas expenses, perhaps by using public transportation more often.",
+      "spending_tags": [
+        "Budget Master",
+        "Saver"
+      ],
       "categories_expenses": {
-        "total_income": "-3750.0",
-        "food": "111.98",
-=======
-      "ai_summary": "Your total income for March was $3,750, and your total spending was $807.47 (21.5% of income). The largest expense categories were Transportation ($120, 3.2%), General Services ($150, 4%), and Food ($111.99, 3%). To optimize your budget, consider reducing discretionary spending on clothing, electronics, and dining out. Additionally, allocating more funds towards retirement savings would help achieve your financial goal of planning for retirement.",
-      "categories_expenses": {
-        "total_income": "-3750.0",
-        "food": "111.99",
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
-        "food_%": "3.0",
-        "transportation": "120.0",
-        "transportation_%": "3.2",
+        "total_income": "3750.00",
+        "food": "110.99",
+        "food_%": "2.96",
+        "transportation": "120.00",
+        "transportation_%": "3.20",
         "entertainment": "15.99",
-        "entertainment_%": "0.4",
-<<<<<<< HEAD
-        "total_spending": "797.47",
-        "total_spending_%": "21.3"
-=======
-        "total_spending": "807.47",
-        "total_spending_%": "21.5"
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+        "entertainment_%": "0.43",
+        "total_spending": "777.47",
+        "total_spending_%": "20.73"
       }
     },
     {
       "month": "04",
       "year": "2023",
-<<<<<<< HEAD
-      "ai_summary": "In April 2023, your total income was $3,750, and your total spending was $808.79, which is 21.6% of your income. Your major expenses were Groceries ($125.32), Gas ($65), Clothing ($89.5), and Restaurant ($55). You also made a $150 transfer to your savings account and paid $200 towards your credit card bill. While your spending is within a reasonable range, you could optimize your budget by cutting back on discretionary expenses like clothing and dining out. Additionally, consider increasing your savings contributions to accelerate your retirement planning.",
-=======
-      "ai_summary": "Your total income for April was $3,750, and your total spending was $769.78, which is around 20.5% of your income. The largest expense category was Food at $193.31 (5.2% of income), followed by Transportation at $65 (1.7% of income), and Entertainment at $60.98 (1.6% of income). You also made a $150 transfer to your savings account and paid $200 towards your credit card bill. While your spending is within a reasonable range, you could consider reducing discretionary expenses like dining out and entertainment subscriptions to boost your savings for retirement.",
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+      "ai_summary": "You've maintained a balanced budget this month, with savings and debt payments showing financial responsibility. Your food and entertainment expenses are moderate. To better plan for retirement, consider increasing your savings rate and exploring investment options suitable for your age group.",
+      "spending_tags": [
+        "Budget Master",
+        "Saver"
+      ],
       "categories_expenses": {
-        "total_income": "-3750.0",
+        "total_income": "3750.00",
         "food": "193.31",
         "food_%": "5.15%",
-        "transportation": "65.0",
+        "transportation": "65.00",
         "transportation_%": "1.73%",
         "entertainment": "60.98",
         "entertainment_%": "1.63%",
-        "shopping": "89.5",
-        "shopping_%": "2.39%",
-        "savings": "150.0",
-        "savings_%": "4.0%",
-        "loan_payments": "200.0",
-        "loan_payments_%": "5.33%",
-        "total_spending": "808.79",
-        "total_spending_%": "21.6%"
+        "total_spending": "758.79",
+        "total_spending_%": "20.23%"
+      }
+    },
+    {
+      "month": "05",
+      "year": "2023",
+      "ai_summary": "You're doing well with saving, allocating 5.33% of your income to savings. However, your spending on transportation (3.2%) and food (2.96%) is notable. Consider reducing these expenses to boost your retirement savings. Your entertainment costs are low, which is positive. To better plan for retirement, consider increasing your savings rate and exploring investment options suited for your age.",
+      "spending_tags": [
+        "Saver",
+        "Home-Centered"
+      ],
+      "categories_expenses": {
+        "total_income": "3750.00",
+        "food": "110.99",
+        "food_%": "2.96",
+        "transportation": "120.00",
+        "transportation_%": "3.20",
+        "entertainment": "15.99",
+        "entertainment_%": "0.43",
+        "total_spending": "777.47",
+        "total_spending_%": "20.73"
+      }
+    },
+    {
+      "month": "06",
+      "year": "2023",
+      "ai_summary": "You're managing your finances well, but there's room for improvement to support your retirement goals. Your housing costs are significant at 44% of your income. Consider downsizing or exploring senior living options to reduce this expense. Your food spending is moderate at 4.3%, but you could save more by cooking at home. Your entertainment and personal care expenses are reasonable, showing a balanced lifestyle. To boost your retirement savings, look into increasing your investments and cutting non-essential expenses.",
+      "spending_tags": [
+        "Home-Centered",
+        "Budget Master"
+      ],
+      "categories_expenses": {
+        "total_income": "3750.00",
+        "food": "160.99",
+        "food_%": "4.29",
+        "transportation": "65.00",
+        "transportation_%": "1.73",
+        "entertainment": "45.99",
+        "entertainment_%": "1.23",
+        "total_spending": "2046.97",
+        "total_spending_%": "54.59"
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-<<<<<<< HEAD
-    "coupons_email": "Mary, unlock 25% off at Gap with code SUMMER25",
-    "loans_email": "Mary, get $3,000-$35,000 personal loans at 6.99% APR",
-    "credit_cards_email": "Mary, earn $200 cash back with the Citi Double Cash card",
-    "savings_email": "Mary, grow your savings with 4.30% APY at Marcus"
-=======
-    "coupons_email": "Mary, get 20% off at Bed Bath & Beyond with code HOME20NOW! Spruce up your home before 10/15. Retirement means more cozy time indoors!",
-    "loans_email": "Psst Mary, Chase has personal loans from 6.99% APR for excellent credit like yours. Borrow $3K-$35K for that dream RV!",
-    "credit_cards_email": "Yo Mary, the Citi Double Cash card gives $200 cash after spending $1,500 in 6 months! Perfect for racking up rewards on retirement splurges.",
-    "savings_email": "Mary, Marcus by Goldman Sachs is offering a sizzling 4.3% APY on their Performance Savings! No minimums, unlimited withdrawals for your golden years."
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+    "coupons_email": "Mary, spruce up your nest! \ud83d\udc26 20% off at Bed Bath & Beyond awaits.",
+    "loans_email": "Mary, unlock your home's potential! \ud83c\udfe0 Citibank's offering 5.75% APR on home equity loans.",
+    "credit_cards_email": "Mary, jet-set in style! \u2708\ufe0f Chase's 60k bonus points could fuel your retirement adventures.",
+    "savings_email": "Mary, your money could be working harder! \ud83d\udcaa Ally Bank's offering a juicy 4.35% APY."
   }
 }

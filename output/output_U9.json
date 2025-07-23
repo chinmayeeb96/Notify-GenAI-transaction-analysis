@@ -10,159 +10,279 @@
     "Pin": 92101,
     "Email": "chris.turner@email.com"
   },
-  "tags": [],
+  "tags": [
+    "Home-Centered",
+    "Foodie"
+  ],
   "recommendations": {
     "coupons": [
-      "CO4",
-      "CO2",
-      "CO5"
+      {
+        "coupon_id": "CO1",
+        "coupon_code": "SUMMER25",
+        "discount_percentage": "25%",
+        "minimum_purchase": "$50.00",
+        "expiry_date": "2023-09-30",
+        "product_category": "Clothing",
+        "terms_conditions": "Excludes sale items and accessories. Cannot be combined with other offers.",
+        "usage_limit": 1,
+        "merchant_name": "Gap"
+      },
+      {
+        "coupon_id": "CO2",
+        "coupon_code": "HOME20NOW",
+        "discount_percentage": "20%",
+        "minimum_purchase": "$100.00",
+        "expiry_date": "2023-10-15",
+        "product_category": "Home Decor",
+        "terms_conditions": "Valid on regular-priced items only. Excludes clearance and doorbusters.",
+        "usage_limit": 3,
+        "merchant_name": "Bed Bath & Beyond"
+      },
+      {
+        "coupon_id": "CO3",
+        "coupon_code": "TRAVEL50",
+        "discount_percentage": "50%",
+        "minimum_purchase": "$300.00",
+        "expiry_date": "2023-11-05",
+        "product_category": "Travel",
+        "terms_conditions": "Valid on hotel bookings only. Blackout dates apply. Non-refundable.",
+        "usage_limit": 1,
+        "merchant_name": "Expedia"
+      }
     ],
     "loans": [
-      "LN1",
-      "LN4",
-      "LN5"
+      {
+        "loan_id": "LN1",
+        "loan_type": "Personal Loan",
+        "interest_rate_range": "6.99% - 19.99%",
+        "term_length": "1-5 years",
+        "minimum_amount": "$3000",
+        "maximum_amount": "$35000",
+        "required_credit_score": "680+",
+        "processing_fee": "$0",
+        "bank_name": "Chase"
+      },
+      {
+        "loan_id": "LN4",
+        "loan_type": "Home Equity Loan",
+        "interest_rate_range": "5.75% - 9.25%",
+        "term_length": "5-20 years",
+        "minimum_amount": "$25000",
+        "maximum_amount": "$250000",
+        "required_credit_score": "680+",
+        "processing_fee": "$75",
+        "bank_name": "Citibank"
+      },
+      {
+        "loan_id": "LN2",
+        "loan_type": "Auto Loan",
+        "interest_rate_range": "3.49% - 7.99%",
+        "term_length": "24-72 months",
+        "minimum_amount": "$5000",
+        "maximum_amount": "$100000",
+        "required_credit_score": "660+",
+        "processing_fee": "0.75%",
+        "bank_name": "Bank of America"
+      }
     ],
     "credit_cards": [
-      "CC3",
-      "CC1",
-      "CC4"
+      {
+        "card_id": "CC1",
+        "card_name": "Chase Sapphire Preferred",
+        "annual_fee": "$95",
+        "rewards_rate": "2X points on travel, 3X on dining, 1X on all other purchases",
+        "welcome_bonus": "60,000 bonus points after spending $4,000 in first 3 months",
+        "apr_range": "18.99% - 25.99%",
+        "credit_score_requirement": "740-850",
+        "benefits": "Travel insurance, no foreign transaction fees, 1:1 point transfer to airline partners, 25% more value when redeeming for travel",
+        "issuer": "Chase",
+        "payment_network": "Visa",
+        "cashback_categories": "Dining, Travel, Streaming services"
+      },
+      {
+        "card_id": "CC2",
+        "card_name": "Capital One Venture X",
+        "annual_fee": "$395",
+        "rewards_rate": "2X miles on all purchases, 5X on flights, 10X on hotels",
+        "welcome_bonus": "75,000 miles after spending $4,000 in first 3 months",
+        "apr_range": "19.99% - 26.99%",
+        "credit_score_requirement": "760-850",
+        "benefits": "$300 annual travel credit, Priority Pass lounge access, TSA PreCheck or Global Entry credit, 10,000 anniversary bonus miles",
+        "issuer": "Capital One",
+        "payment_network": "Visa",
+        "cashback_categories": "Travel, Hotels, Car rentals"
+      },
+      {
+        "card_id": "CC3",
+        "card_name": "Citi Double Cash",
+        "annual_fee": "$0",
+        "rewards_rate": "1% when you buy, 1% when you pay",
+        "welcome_bonus": "$200 cash back after spending $1,500 in first 6 months",
+        "apr_range": "16.99% - 26.99%",
+        "credit_score_requirement": "690-850",
+        "benefits": "0% intro APR for 18 months on balance transfers, access to Citi Entertainment, virtual account numbers, late fee pass",
+        "issuer": "Citi",
+        "payment_network": "Mastercard",
+        "cashback_categories": "All purchases"
+      }
     ],
     "high_yield_savings": [
-      "HY3",
-      "HY1",
-      "HY5"
+      {
+        "id": "HY1",
+        "account_name": "Premium Yield Savings",
+        "apy_rate": "4.35%",
+        "minimum_balance": "$0",
+        "features": "No monthly fees, 24/7 mobile banking, daily compound interest, free ACH transfers",
+        "bank_name": "Ally Bank",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY2",
+        "account_name": "Premier High-Yield Savings",
+        "apy_rate": "4.25%",
+        "minimum_balance": "$5000",
+        "features": "Complimentary financial advisor consultations, expedited transfers, premium customer service, wealth management tools",
+        "bank_name": "Chase",
+        "account_category": "Premium"
+      },
+      {
+        "id": "HY3",
+        "account_name": "Performance Savings",
+        "apy_rate": "4.30%",
+        "minimum_balance": "$0",
+        "features": "No hidden fees, automatic savings tools, savings goals tracking, unlimited withdrawals",
+        "bank_name": "Marcus by Goldman Sachs",
+        "account_category": "Online Savings"
+      }
     ]
   },
   "monthly_spend_analysis_data": [
     {
-      "month": "04",
-      "year": "2023",
-      "ai_summary": "Your total income for April was $5,250, and your total spending was $3,421.25, which is 65.2% of your income. The largest expense category was housing (mortgage payment of $2,500), followed by entertainment ($150 for Netflix). You spent $85.75 on groceries, $65 on gas, $120.5 on clothing, $45 at restaurants, $200 on insurance, $75 on gym membership, and $180 on electronics. To optimize your budget, consider reducing discretionary spending on entertainment, clothing, and electronics. Focus on building an investment portfolio by allocating a portion of your income towards low-cost index funds or a robo-advisor.",
-      "categories_expenses": {
-        "total_income": "-5250.0",
-        "food": "130.75",
-        "food_%": "2.5%",
-        "transportation": "65.0",
-        "transportation_%": "1.2%",
-        "entertainment": "150.0",
-        "entertainment_%": "2.9%",
-        "total_spending": "3421.25",
-        "total_spending_%": "65.2%"
-      }
-    },
-    {
       "month": "01",
       "year": "2023",
-      "ai_summary": "In January 2023, your total income was $5,200, and your total spending was $3,968.24, which is 76.31% of your income. Your largest expenses were mortgage payment ($2,100), groceries ($156.78), and an electronics purchase ($199.99). To optimize your budget, consider reducing discretionary spending on entertainment, clothing, and electronics. Additionally, explore investment options to grow your portfolio and achieve your financial goals.",
+      "ai_summary": "Chris, your spending is relatively balanced, but there's room for improvement to reach your investment goals. Your mortgage payment is your largest expense at 40% of income. You're spending moderately on groceries and entertainment. To build your investment portfolio, consider reducing discretionary spending on clothing and electronics. Allocate more towards investments to align with your financial goals.",
+      "spending_tags": [
+        "Home-Centered",
+        "Tech Enthusiast"
+      ],
       "categories_expenses": {
-        "total_income": -5200.0,
-        "food": 202.77,
-        "food_%": 3.9,
-        "transportation": 65.0,
-        "transportation_%": 1.25,
-        "entertainment": 104.98,
-        "entertainment_%": 2.02,
-        "housing": 2100.0,
-        "housing_%": 40.38,
-        "debt_payments": 125.5,
-        "debt_payments_%": 2.41,
-        "general_merchandise": 320.49,
-        "general_merchandise_%": 6.16,
-        "total_spending": 3968.24,
-        "total_spending_%": 76.31
-      }
-    },
-    {
-      "month": "05",
-      "year": "2023",
-      "ai_summary": "In May 2023, your total income was $5,500, and your total spending was $4,836.74, which is 87.94% of your income. Your largest expense was rent at $2,200, followed by a car payment of $1,500. You spent $450 on clothing, $200 on dining out, and $150.25 on groceries. While entertainment expenses like Netflix and Spotify were relatively low, consider cutting back on non-essential purchases to boost your savings. Focus on building an investment portfolio by allocating a portion of your income towards low-cost index funds or a robo-advisor.",
-      "categories_expenses": {
-        "total_income": -5500.0,
-        "food": 350.25,
-        "food_%": 6.37,
-        "transportation": 1620.5,
-        "transportation_%": 29.46,
-        "entertainment": 120.99,
-        "entertainment_%": 2.2,
-        "rent": 2200.0,
-        "personal_care": 75.0,
-        "personal_care_%": 1.36,
-        "clothing": 450.0,
-        "clothing_%": 8.18,
-        "total_spending": 4836.74,
-        "total_spending_%": 87.94
-      }
-    },
-    {
-      "month": "06",
-      "year": "2023",
-      "ai_summary": "In June 2023, your total income was $5,250, and your total spending was $3,037.73, which is 57.9% of your income. The largest expense category was rent at $2,200 (41.9% of income). Food expenses, including groceries and restaurants, totaled $204.24 (3.9% of income). Entertainment and personal care expenses were $239.99 (4.6% of income). While your rent is a significant portion of your income, your other expenses seem reasonable. To build your investment portfolio, consider allocating a fixed percentage of your income towards investments each month. You could also explore ways to reduce your rent or increase your income.",
-      "categories_expenses": {
-        "total_income": 5250.0,
-        "food": 204.24,
-        "food_%": 3.9,
-        "transportation": 45.0,
-        "transportation_%": 0.9,
-        "entertainment": 89.99,
-        "entertainment_%": 1.7,
-        "personal_care": 150.0,
-        "personal_care_%": 2.9,
-        "rent": 2200.0,
-        "rent_%": 41.9,
-        "insurance": 220.0,
-        "insurance_%": 4.2,
-        "shopping": 78.5,
-        "shopping_%": 1.5,
-        "total_spending": 3037.73,
-        "total_spending_%": 57.9
+        "total_income": "5200.00",
+        "food": "202.77",
+        "food_%": "3.90",
+        "transportation": "65.00",
+        "transportation_%": "1.25",
+        "entertainment": "104.98",
+        "entertainment_%": "2.02",
+        "total_spending": "2918.74",
+        "total_spending_%": "56.13"
       }
     },
     {
       "month": "02",
       "year": "2023",
-      "ai_summary": "In February 2023, your total income was $5,500, and your total spending was $3,002.48, which is 54.59% of your income. Your major expenses were rent ($2,200), car payment ($250), groceries ($150.25), and gym membership ($120). While entertainment and dining out were relatively low, consider optimizing your spending in these areas. To build your investment portfolio, try allocating a fixed percentage of your income towards investments each month.",
+      "ai_summary": "Chris, your spending is quite high relative to your income. You're allocating a significant portion (40%) to rent, which may be hindering your goal of building an investment portfolio. Your food and entertainment expenses are also notable. To achieve your financial goals, consider reducing discretionary spending and allocating more towards investments. Look for ways to increase your income or find a more affordable living situation to free up funds for your investment goals.",
+      "spending_tags": [
+        "Home-Centered",
+        "Foodie"
+      ],
       "categories_expenses": {
-        "total_income": -5500.0,
-        "food": 241.0,
-        "food_%": 4.38,
-        "transportation": 35.0,
-        "transportation_%": 0.64,
-        "entertainment": 89.99,
-        "entertainment_%": 1.64,
-        "rent": 2200.0,
-        "rent_%": 40.0,
-        "personal_care": 120.0,
-        "personal_care_%": 2.18,
-        "loan_payments": 250.0,
-        "loan_payments_%": 4.55,
-        "general_merchandise": 45.99,
-        "general_merchandise_%": 0.84,
-        "total_spending": 3002.48,
-        "total_spending_%": 54.59
+        "total_income": "5500.00",
+        "food": "241.50",
+        "food_%": "4.39%",
+        "transportation": "285.00",
+        "transportation_%": "5.18%",
+        "entertainment": "89.99",
+        "entertainment_%": "1.64%",
+        "total_spending": "2982.48",
+        "total_spending_%": "54.23%"
       }
     },
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "Your total income for March was $5,250, and your total spending was $2,653.49, which is around 50.5% of your income. The largest expense category was housing (mortgage payment of $1,800), followed by entertainment ($150 for sporting events and $12.99 for streaming). Food expenses were $130.5 (2.5% of income), including $85.5 at restaurants and $45 on groceries. Transportation costs were $65 for gas. Consider reducing discretionary spending on entertainment, clothing ($220), and electronics ($180) to allocate more funds towards your investment portfolio goal. Explore automated savings and investment options to build your portfolio consistently.",
+      "ai_summary": "You're spending significantly on housing and entertainment, with a high mortgage payment. Your investment in fitness is commendable, but there's room to optimize spending in other areas to align with your goal of building an investment portfolio. Consider reducing discretionary expenses like dining out and clothing to free up more funds for investments.",
+      "spending_tags": [
+        "Home-Centered",
+        "Entertainment Buff"
+      ],
       "categories_expenses": {
-        "total_income": -5250.0,
-        "food": 130.5,
-        "food_%": 2.5,
-        "transportation": 65.0,
-        "transportation_%": 1.2,
-        "entertainment": 162.99,
-        "entertainment_%": 3.1,
-        "total_spending": 2653.49,
-        "total_spending_%": 50.5
+        "total_income": "5250.00",
+        "food": "130.50",
+        "food_%": "2.49%",
+        "transportation": "65.00",
+        "transportation_%": "1.24%",
+        "entertainment": "162.99",
+        "entertainment_%": "3.10%",
+        "total_spending": "2633.49",
+        "total_spending_%": "50.16%"
+      }
+    },
+    {
+      "month": "04",
+      "year": "2023",
+      "ai_summary": "Chris, your spending is quite high relative to your income. You're allocating a significant portion (47.6%) to mortgage payments, which is above the recommended 30%. Your entertainment and dining out expenses are also notable. To achieve your goal of building an investment portfolio, consider reducing discretionary spending and allocating more towards investments. Try cooking at home more often and look for free entertainment options to free up funds for your financial goals.",
+      "spending_tags": [
+        "Home-Centered",
+        "Entertainment Buff"
+      ],
+      "categories_expenses": {
+        "total_income": "5250.00",
+        "food": "130.75",
+        "food_%": "2.49%",
+        "transportation": "65.00",
+        "transportation_%": "1.24%",
+        "entertainment": "150.00",
+        "entertainment_%": "2.86%",
+        "total_spending": "3421.25",
+        "total_spending_%": "65.17%"
+      }
+    },
+    {
+      "month": "05",
+      "year": "2023",
+      "ai_summary": "Chris, your spending is quite high relative to your income. You're allocating a significant portion to rent (40%) and car payments (27.3%), leaving little room for savings or investments. Your dining out and clothing expenses are also notable. To achieve your goal of building an investment portfolio, you need to reassess your living situation and transportation costs, and cut back on discretionary spending.",
+      "spending_tags": [
+        "Shopaholic",
+        "Home-Centered"
+      ],
+      "categories_expenses": {
+        "total_income": "5500.00",
+        "food": "350.25",
+        "food_%": "6.37%",
+        "transportation": "1620.50",
+        "transportation_%": "29.46%",
+        "entertainment": "120.99",
+        "entertainment_%": "2.20%",
+        "total_spending": "4816.74",
+        "total_spending_%": "87.58%"
+      }
+    },
+    {
+      "month": "06",
+      "year": "2023",
+      "ai_summary": "Chris, your spending is relatively balanced, but there's room for improvement to reach your investment goals. Your rent takes up a significant portion of your income (41.9%). You're spending moderately on food and entertainment. To build your investment portfolio, consider reducing discretionary expenses and allocating more towards investments. Try meal prepping to cut down on restaurant expenses and look for free entertainment options to boost your savings rate.",
+      "spending_tags": [
+        "Home-Centered",
+        "Foodie"
+      ],
+      "categories_expenses": {
+        "total_income": "5250.00",
+        "food": "204.24",
+        "food_%": "3.89%",
+        "transportation": "45.00",
+        "transportation_%": "0.86%",
+        "entertainment": "89.99",
+        "entertainment_%": "1.71%",
+        "total_spending": "2987.73",
+        "total_spending_%": "56.91%"
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Yo Chris, wanna score a BOGO deal at Best Buy? \ud83e\udd11 Use code 'BOGO23TECH' to double up on tech goodies before 9/25. Just don't go too wild, my dude!",
-    "loans_email": "Listen up Chris, Chase is dishing out personal loans from $3K to $35K with rates as low as 6.99% APR. \ud83d\udcb0 Could be clutch for your investment portfolio goals!",
-    "credit_cards_email": "Chris, you're gonna love this one! \ud83d\udcb3 Citi Double Cash is offering $200 cash back after spending $1,500 in 6 months. Talk about a sweet deal for a savvy investor like you!",
-    "savings_email": "Yo Chris, Marcus by Goldman Sachs is serving up a juicy 4.3% APY on their Performance Savings account! \ud83d\ude80 Stash some cash there to supercharge your investment portfolio dreams!"
+    "coupons_email": "Great Savings Await You!",
+    "loans_email": "Perfect Loan Options For You!",
+    "credit_cards_email": "Amazing Credit Card Benefits!",
+    "savings_email": "Grow Your Money Faster!"
   }
 }

@@ -179,11 +179,13 @@ def generate_monthly_summaries(user_info, transactions):
                     "month": str(month_year).split('-')[1],
                     "year": str(month_year).split('-')[0],
                     "ai_summary": summary,
+                    "spending_tags": ["Budget Master", "Balanced Spender"],  # Default tags
                     "categories_expenses": {}
                 }
         else:
             summary_dict = summary
             
+        # Add the summary to the list
         monthly_summary.append(summary_dict)
     
     return monthly_summary
@@ -287,7 +289,8 @@ def process_user(user_id, user_info, transactions, product_data):
         recommendations['credit_cards'], 
         recommendations['high_yield_savings'], 
         monthly_summary,
-        email_subjects
+        email_subjects,
+        product_data  # Pass product data for mapping
     )
     
     # Step 7: Save output to file

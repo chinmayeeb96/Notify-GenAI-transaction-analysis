@@ -10,140 +10,279 @@
     "Pin": 97201,
     "Email": "kevin.ross@email.com"
   },
-  "tags": [],
+  "tags": [
+    "Education Focused",
+    "Budget Master"
+  ],
   "recommendations": {
     "coupons": [
-      "CO2",
-      "CO4",
-      "CO5"
+      {
+        "coupon_id": "CO2",
+        "coupon_code": "HOME20NOW",
+        "discount_percentage": "20%",
+        "minimum_purchase": "$100.00",
+        "expiry_date": "2023-10-15",
+        "product_category": "Home Decor",
+        "terms_conditions": "Valid on regular-priced items only. Excludes clearance and doorbusters.",
+        "usage_limit": 3,
+        "merchant_name": "Bed Bath & Beyond"
+      },
+      {
+        "coupon_id": "CO5",
+        "coupon_code": "BEAUTY15",
+        "discount_percentage": "15%",
+        "minimum_purchase": "$35.00",
+        "expiry_date": "2023-10-20",
+        "product_category": "Skincare",
+        "terms_conditions": "Valid on all products except gift sets. Online orders only.",
+        "usage_limit": 5,
+        "merchant_name": "Sephora"
+      },
+      {
+        "coupon_id": "CO4",
+        "coupon_code": "BOGO23TECH",
+        "discount_percentage": "BOGO",
+        "minimum_purchase": "$75.00",
+        "expiry_date": "2023-09-25",
+        "product_category": "Electronics",
+        "terms_conditions": "Buy one get one free on select accessories. Higher priced item must be purchased first.",
+        "usage_limit": 2,
+        "merchant_name": "Best Buy"
+      }
     ],
     "loans": [
-      "LN1",
-      "LN4",
-      "LN5"
+      {
+        "loan_id": "LN1",
+        "loan_type": "Personal Loan",
+        "interest_rate_range": "6.99% - 19.99%",
+        "term_length": "1-5 years",
+        "minimum_amount": "$3000",
+        "maximum_amount": "$35000",
+        "required_credit_score": "680+",
+        "processing_fee": "$0",
+        "bank_name": "Chase"
+      },
+      {
+        "loan_id": "LN4",
+        "loan_type": "Home Equity Loan",
+        "interest_rate_range": "5.75% - 9.25%",
+        "term_length": "5-20 years",
+        "minimum_amount": "$25000",
+        "maximum_amount": "$250000",
+        "required_credit_score": "680+",
+        "processing_fee": "$75",
+        "bank_name": "Citibank"
+      },
+      {
+        "loan_id": "LN2",
+        "loan_type": "Auto Loan",
+        "interest_rate_range": "3.49% - 7.99%",
+        "term_length": "24-72 months",
+        "minimum_amount": "$5000",
+        "maximum_amount": "$100000",
+        "required_credit_score": "660+",
+        "processing_fee": "0.75%",
+        "bank_name": "Bank of America"
+      }
     ],
     "credit_cards": [
-      "CC3",
-      "CC1",
-      "CC4"
+      {
+        "card_id": "CC1",
+        "card_name": "Chase Sapphire Preferred",
+        "annual_fee": "$95",
+        "rewards_rate": "2X points on travel, 3X on dining, 1X on all other purchases",
+        "welcome_bonus": "60,000 bonus points after spending $4,000 in first 3 months",
+        "apr_range": "18.99% - 25.99%",
+        "credit_score_requirement": "740-850",
+        "benefits": "Travel insurance, no foreign transaction fees, 1:1 point transfer to airline partners, 25% more value when redeeming for travel",
+        "issuer": "Chase",
+        "payment_network": "Visa",
+        "cashback_categories": "Dining, Travel, Streaming services"
+      },
+      {
+        "card_id": "CC2",
+        "card_name": "Capital One Venture X",
+        "annual_fee": "$395",
+        "rewards_rate": "2X miles on all purchases, 5X on flights, 10X on hotels",
+        "welcome_bonus": "75,000 miles after spending $4,000 in first 3 months",
+        "apr_range": "19.99% - 26.99%",
+        "credit_score_requirement": "760-850",
+        "benefits": "$300 annual travel credit, Priority Pass lounge access, TSA PreCheck or Global Entry credit, 10,000 anniversary bonus miles",
+        "issuer": "Capital One",
+        "payment_network": "Visa",
+        "cashback_categories": "Travel, Hotels, Car rentals"
+      },
+      {
+        "card_id": "CC3",
+        "card_name": "Citi Double Cash",
+        "annual_fee": "$0",
+        "rewards_rate": "1% when you buy, 1% when you pay",
+        "welcome_bonus": "$200 cash back after spending $1,500 in first 6 months",
+        "apr_range": "16.99% - 26.99%",
+        "credit_score_requirement": "690-850",
+        "benefits": "0% intro APR for 18 months on balance transfers, access to Citi Entertainment, virtual account numbers, late fee pass",
+        "issuer": "Citi",
+        "payment_network": "Mastercard",
+        "cashback_categories": "All purchases"
+      }
     ],
     "high_yield_savings": [
-      "HY1",
-      "HY3",
-      "HY5"
+      {
+        "id": "HY1",
+        "account_name": "Premium Yield Savings",
+        "apy_rate": "4.35%",
+        "minimum_balance": "$0",
+        "features": "No monthly fees, 24/7 mobile banking, daily compound interest, free ACH transfers",
+        "bank_name": "Ally Bank",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY3",
+        "account_name": "Performance Savings",
+        "apy_rate": "4.30%",
+        "minimum_balance": "$0",
+        "features": "No hidden fees, automatic savings tools, savings goals tracking, unlimited withdrawals",
+        "bank_name": "Marcus by Goldman Sachs",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY5",
+        "account_name": "Complete Savings",
+        "apy_rate": "4.00%",
+        "minimum_balance": "$0",
+        "features": "No minimum balance fees, mobile check deposit, automatic savings roundups, budgeting tools",
+        "bank_name": "Capital One",
+        "account_category": "Standard Savings"
+      }
     ]
   },
   "monthly_spend_analysis_data": [
     {
-      "month": "06",
+      "month": "01",
       "year": "2023",
-      "ai_summary": "In June 2023, your total income was $3,200 from your job. Your major expenses were groceries ($111.99, 3.5% of income), food and drinks ($31, 1% of income), transportation ($35, 1.1% of income), and entertainment ($47.48, 1.5% of income). Your total spending was $225.47, which is 7.1% of your income. While your spending is relatively low, you could optimize your grocery expenses by meal planning and buying in bulk. Consider cutting back on subscription services like Spotify and Netflix to save more for your emergency fund goal.",
+      "ai_summary": "Kevin, your spending is generally balanced, but there's room for improvement to reach your emergency fund goal. You're allocating a good portion to education and fitness, which is commendable. However, your food expenses, particularly eating out, could be reduced. Consider cooking more at home to save money. Your entertainment subscriptions are reasonable, but always evaluate if you're getting value from them. To boost your emergency fund savings, try to cut back on non-essential expenses and allocate more of your income towards your savings goal.",
+      "spending_tags": [
+        "Budget Master",
+        "Education Focused"
+      ],
       "categories_expenses": {
-        "total_income": "-3200.0",
-        "food": "143.99",
-        "food_%": "4.5",
-        "transportation": "35.0",
-        "transportation_%": "1.1",
-        "entertainment": "47.48",
-        "entertainment_%": "1.5",
-        "total_spending": "225.47",
-        "total_spending_%": "7.1"
-      }
-    },
-    {
-      "month": "03",
-      "year": "2023",
-      "ai_summary": "In March 2023, your total income was $3,200, and your total spending was $265.37, which is 8.3% of your income. Your major expenses were groceries ($88.42, 2.8%), entertainment ($27.98, 0.9%), and transportation ($15, 0.5%). While your spending is relatively low, you could optimize your budget further by cooking more at home and limiting entertainment subscriptions. Consider setting aside a portion of your income for an emergency fund to achieve your financial goal.",
-      "categories_expenses": {
-        "total_income": "-3200.0",
-        "food": "88.42",
-        "food_%": "2.8",
-        "transportation": "15.0",
-        "transportation_%": "0.5",
-        "entertainment": "27.98",
-        "entertainment_%": "0.9",
-        "total_spending": "265.37",
-        "total_spending_%": "8.3"
-      }
-    },
-    {
-      "month": "04",
-      "year": "2023",
-      "ai_summary": "In April 2023, your total income was $3,500, and your total spending was $238.71, which is around 6.8% of your income. You spent the most on groceries ($78.25), followed by entertainment ($27.98), food and drinks ($19.49), personal care ($25), transportation ($15), and education ($22.99). While your spending is within a reasonable range, you could optimize your budget by cooking more at home and reducing dining out expenses. Additionally, consider exploring cost-effective entertainment options and negotiating better rates for subscriptions like Netflix and Spotify. Overall, you're making progress towards your emergency fund goal, but be mindful of discretionary spending to accelerate your savings.",
-      "categories_expenses": {
-        "total_income": 3500.0,
-        "food": 97.74,
-        "food_%": 2.79,
-        "transportation": 15.0,
-        "transportation_%": 0.43,
-        "entertainment": 27.98,
-        "entertainment_%": 0.8,
-        "personal_care": 25.0,
-        "personal_care_%": 0.71,
-        "education": 22.99,
-        "education_%": 0.66,
-        "total_spending": 238.71,
-        "total_spending_%": 6.82
+        "total_income": "2750.00",
+        "food": "77.17",
+        "food_%": "2.81",
+        "transportation": "65.00",
+        "transportation_%": "2.36",
+        "entertainment": "22.98",
+        "entertainment_%": "0.84",
+        "total_spending": "335.64",
+        "total_spending_%": "12.21"
       }
     },
     {
       "month": "02",
       "year": "2023",
-      "ai_summary": "In February, your total income was $2,750, and your total spending was $402.96 (14.7% of income). The largest expense category was Food at $146.98 (5.3% of income), followed by Entertainment at $80.99 (2.9%), Transportation at $35 (1.3%), and Education at $89.99 (3.3%). To optimize your budget, consider cooking more meals at home and limiting dining out. Also, review your entertainment subscriptions and keep only the essentials. Lastly, explore cost-effective transportation options like carpooling or biking when possible.",
+      "ai_summary": "Kevin, your spending this month shows a focus on food and education. You've spent about 5.3% of your income on groceries and dining out, which is reasonable. However, your investment in education (3.3% of income) is commendable. To achieve your goal of saving for an emergency fund, consider reducing coffee shop visits and exploring more budget-friendly dining options. Your transportation costs are low, which is great. Keep up the good work on balancing necessities with personal development, but try to allocate more towards your emergency fund goal.",
+      "spending_tags": [
+        "Foodie",
+        "Education Focused"
+      ],
       "categories_expenses": {
-        "total_income": "-2750.0",
-        "food": "146.98",
-        "food_%": "5.3",
-        "transportation": "35.0",
-        "transportation_%": "1.3",
-        "entertainment": "80.99",
-        "entertainment_%": "2.9",
-        "education": "89.99",
-        "education_%": "3.3",
-        "clothing": "65.0",
-        "clothing_%": "2.4",
-        "total_spending": "402.96",
-        "total_spending_%": "14.7"
+        "total_income": "2750.00",
+        "food": "146.97",
+        "food_%": "5.34",
+        "transportation": "35.00",
+        "transportation_%": "1.27",
+        "entertainment": "15.99",
+        "entertainment_%": "0.58",
+        "total_spending": "352.96",
+        "total_spending_%": "12.84"
+      }
+    },
+    {
+      "month": "03",
+      "year": "2023",
+      "ai_summary": "Kevin, your spending is generally balanced, but there's room for improvement to reach your emergency fund goal. You're allocating about 3.4% of your income to food and drinks, which is reasonable. However, your entertainment expenses, while not excessive, could be trimmed to boost savings. Consider meal prepping to reduce food costs and explore free entertainment options. To accelerate your emergency fund savings, aim to set aside at least 20% of your income each month.",
+      "spending_tags": [
+        "Budget Master",
+        "Education Focused"
+      ],
+      "categories_expenses": {
+        "total_income": "3200.00",
+        "food": "107.92",
+        "food_%": "3.37%",
+        "transportation": "15.00",
+        "transportation_%": "0.47%",
+        "entertainment": "27.98",
+        "entertainment_%": "0.87%",
+        "total_spending": "216.38",
+        "total_spending_%": "6.76%"
+      }
+    },
+    {
+      "month": "04",
+      "year": "2023",
+      "ai_summary": "You're doing well with budgeting, Kevin! Your total spending is only 5.4% of your income. However, you're spending the most on food and drink (2.8% of income). To reach your emergency fund goal faster, consider meal prepping to reduce food costs. Your investment in education and fitness is commendable. Keep up the good work and allocate more towards savings to build that emergency fund quickly!",
+      "spending_tags": [
+        "Budget Master",
+        "Foodie"
+      ],
+      "categories_expenses": {
+        "total_income": "3500.00",
+        "food": "97.74",
+        "food_%": "2.79",
+        "transportation": "15.00",
+        "transportation_%": "0.43",
+        "entertainment": "27.98",
+        "entertainment_%": "0.80",
+        "total_spending": "188.71",
+        "total_spending_%": "5.39"
       }
     },
     {
       "month": "05",
       "year": "2023",
-      "ai_summary": "Your total income for the month was $3,250, and your total spending was $1,165.45, which is around 36% of your income. The largest expense category was rent at $850 (26% of income). Food expenses, including groceries, coffee, and restaurants, totaled $80.99 (2.5% of income). Entertainment expenses like Spotify, Netflix, and gym membership added up to $59.98 (1.8% of income). To achieve your goal of building an emergency fund, consider reducing discretionary spending on entertainment and dining out. Additionally, explore ways to lower your housing costs or find a roommate to split rent.",
+      "ai_summary": "You're making progress towards your emergency fund goal, but there's room for improvement. Your total spending is about 34% of your income, which is good. However, your rent takes up a significant portion (26%) of your income. You're investing in personal development with Coursera and maintaining a healthy lifestyle with gym membership. To boost your savings, consider reducing dining out and entertainment expenses.",
+      "spending_tags": [
+        "Home-Centered",
+        "Education Focused"
+      ],
       "categories_expenses": {
-        "total_income": "-3250.0",
-        "food": "80.99",
-        "food_%": "2.5",
-        "transportation": "0.0",
-        "transportation_%": "0.0",
-        "entertainment": "59.98",
-        "entertainment_%": "1.8",
-        "total_spending": "1165.45",
-        "total_spending_%": "35.9"
+        "total_income": "3250.00",
+        "food": "81.48",
+        "food_%": "2.51%",
+        "transportation": "0.00",
+        "transportation_%": "0.00%",
+        "entertainment": "24.98",
+        "entertainment_%": "0.77%",
+        "total_spending": "1115.96",
+        "total_spending_%": "34.34%"
       }
     },
     {
-      "month": "01",
+      "month": "06",
       "year": "2023",
-      "ai_summary": "Your total income for January was $2,750, and your total spending was $355.64, which is around 12.9% of your income. The largest expense category was Food at $77.17 (2.8% of income), followed by Entertainment at $57.98 (2.1%), and Transportation at $65 (2.4%). While your spending is reasonable, you could optimize your budget by cooking more at home and reducing dining out expenses. Additionally, consider exploring more cost-effective entertainment options. Overall, you're making good progress towards your emergency fund goal by keeping expenses under control.",
+      "ai_summary": "You're making good progress towards your emergency fund goal, Kevin! Your total spending is only 7.7% of your income, which is excellent. However, you're spending the most on food (4.4% of income), followed by transportation and entertainment. Consider meal prepping to reduce food costs. Your investment in education is commendable. Keep up the good work and consider allocating more of your savings to your emergency fund.",
+      "spending_tags": [
+        "Budget Master",
+        "Education Focused"
+      ],
       "categories_expenses": {
-        "total_income": "-2750.0",
-        "food": "77.17",
-        "food_%": "2.8",
-        "transportation": "65.0",
-        "transportation_%": "2.4",
-        "entertainment": "57.98",
-        "entertainment_%": "2.1",
-        "total_spending": "355.64",
-        "total_spending_%": "12.9"
+        "total_income": "3200.00",
+        "food": "142.49",
+        "food_%": "4.45%",
+        "transportation": "35.00",
+        "transportation_%": "1.09%",
+        "entertainment": "27.98",
+        "entertainment_%": "0.87%",
+        "total_spending": "244.95",
+        "total_spending_%": "7.65%"
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-    "coupons_email": "Kevin, you're a savvy shopper, but this deal is too good to pass up! Score 20% off at Bed Bath & Beyond with code 'HOME20NOW' until 10/15. Time to treat yourself to some fancy new towels or a cozy blanket!",
-    "loans_email": "Heads up, Kevin! Chase is offering personal loans from $3,000 to $35,000 with rates as low as 6.99% APR. With your credit score of 730, you could qualify for some sweet extra cash to tackle those financial goals.",
-    "credit_cards_email": "Kevin, listen up! The Citi Double Cash card is offering a $200 cash back bonus after spending $1,500 in the first 6 months. With your spending habits, that's a no-brainer! Plus, you'll earn 2% cash back on every purchase. Time to double up on those rewards!",
-    "savings_email": "Hey Kevin, you're a savings machine! But why settle for crumbs when you can earn a juicy 4.35% APY with Ally Bank's Premium Yield Savings account? No minimum balance required, so you can watch your emergency fund grow like a boss!"
+    "coupons_email": "Kevin, spruce up your pad! 20% off at Bed Bath & Beyond awaits. \ud83c\udfe0",
+    "loans_email": "Kevin, emergency fund boost? Chase's 6.99% APR could be your secret weapon! \ud83d\udcaa",
+    "credit_cards_email": "60,000 bonus points, Kevin? Chase Sapphire's got your back(pack)! \u2708\ufe0f",
+    "savings_email": "Kevin, your emergency fund's new BFF: Ally's 4.35% APY, zero minimum! \ud83d\udcb0"
   }
 }

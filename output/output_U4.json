@@ -10,173 +10,279 @@
     "Pin": 98101,
     "Email": "mike.brown@email.com"
   },
-  "tags": [],
+  "tags": [
+    "Home-Centered",
+    "Investor"
+  ],
   "recommendations": {
     "coupons": [
-      "CO4",
-      "CO2",
-      "CO1"
+      {
+        "coupon_id": "CO4",
+        "coupon_code": "BOGO23TECH",
+        "discount_percentage": "BOGO",
+        "minimum_purchase": "$75.00",
+        "expiry_date": "2023-09-25",
+        "product_category": "Electronics",
+        "terms_conditions": "Buy one get one free on select accessories. Higher priced item must be purchased first.",
+        "usage_limit": 2,
+        "merchant_name": "Best Buy"
+      },
+      {
+        "coupon_id": "CO1",
+        "coupon_code": "SUMMER25",
+        "discount_percentage": "25%",
+        "minimum_purchase": "$50.00",
+        "expiry_date": "2023-09-30",
+        "product_category": "Clothing",
+        "terms_conditions": "Excludes sale items and accessories. Cannot be combined with other offers.",
+        "usage_limit": 1,
+        "merchant_name": "Gap"
+      },
+      {
+        "coupon_id": "CO5",
+        "coupon_code": "BEAUTY15",
+        "discount_percentage": "15%",
+        "minimum_purchase": "$35.00",
+        "expiry_date": "2023-10-20",
+        "product_category": "Skincare",
+        "terms_conditions": "Valid on all products except gift sets. Online orders only.",
+        "usage_limit": 5,
+        "merchant_name": "Sephora"
+      }
     ],
     "loans": [
-      "LN1",
-      "LN2",
-      "LN4"
+      {
+        "loan_id": "LN1",
+        "loan_type": "Personal Loan",
+        "interest_rate_range": "6.99% - 19.99%",
+        "term_length": "1-5 years",
+        "minimum_amount": "$3000",
+        "maximum_amount": "$35000",
+        "required_credit_score": "680+",
+        "processing_fee": "$0",
+        "bank_name": "Chase"
+      },
+      {
+        "loan_id": "LN2",
+        "loan_type": "Auto Loan",
+        "interest_rate_range": "3.49% - 7.99%",
+        "term_length": "24-72 months",
+        "minimum_amount": "$5000",
+        "maximum_amount": "$100000",
+        "required_credit_score": "660+",
+        "processing_fee": "0.75%",
+        "bank_name": "Bank of America"
+      },
+      {
+        "loan_id": "LN5",
+        "loan_type": "Small Business Loan",
+        "interest_rate_range": "7.50% - 18.00%",
+        "term_length": "1-10 years",
+        "minimum_amount": "$10000",
+        "maximum_amount": "$500000",
+        "required_credit_score": "650+",
+        "processing_fee": "2.5% of loan amount",
+        "bank_name": "US Bank"
+      }
     ],
     "credit_cards": [
-      "CC3",
-      "CC5",
-      "CC1"
+      {
+        "card_id": "CC3",
+        "card_name": "Citi Double Cash",
+        "annual_fee": "$0",
+        "rewards_rate": "1% when you buy, 1% when you pay",
+        "welcome_bonus": "$200 cash back after spending $1,500 in first 6 months",
+        "apr_range": "16.99% - 26.99%",
+        "credit_score_requirement": "690-850",
+        "benefits": "0% intro APR for 18 months on balance transfers, access to Citi Entertainment, virtual account numbers, late fee pass",
+        "issuer": "Citi",
+        "payment_network": "Mastercard",
+        "cashback_categories": "All purchases"
+      },
+      {
+        "card_id": "CC5",
+        "card_name": "Discover it Cash Back",
+        "annual_fee": "$0",
+        "rewards_rate": "5% cash back in rotating quarterly categories (up to $1,500), 1% on all other purchases",
+        "welcome_bonus": "Cashback Match: Discover automatically matches all cash back earned in the first year",
+        "apr_range": "14.99% - 25.99%",
+        "credit_score_requirement": "670-850",
+        "benefits": "No annual fee, free FICO score, no foreign transaction fees, freeze your account in seconds",
+        "issuer": "Discover",
+        "payment_network": "Discover",
+        "cashback_categories": "Rotating categories (groceries, gas, restaurants, Amazon)"
+      },
+      {
+        "card_id": "CC1",
+        "card_name": "Chase Sapphire Preferred",
+        "annual_fee": "$95",
+        "rewards_rate": "2X points on travel, 3X on dining, 1X on all other purchases",
+        "welcome_bonus": "60,000 bonus points after spending $4,000 in first 3 months",
+        "apr_range": "18.99% - 25.99%",
+        "credit_score_requirement": "740-850",
+        "benefits": "Travel insurance, no foreign transaction fees, 1:1 point transfer to airline partners, 25% more value when redeeming for travel",
+        "issuer": "Chase",
+        "payment_network": "Visa",
+        "cashback_categories": "Dining, Travel, Streaming services"
+      }
     ],
     "high_yield_savings": [
-      "HY1",
-      "HY3",
-      "HY5"
+      {
+        "id": "HY1",
+        "account_name": "Premium Yield Savings",
+        "apy_rate": "4.35%",
+        "minimum_balance": "$0",
+        "features": "No monthly fees, 24/7 mobile banking, daily compound interest, free ACH transfers",
+        "bank_name": "Ally Bank",
+        "account_category": "Online Savings"
+      },
+      {
+        "id": "HY2",
+        "account_name": "Premier High-Yield Savings",
+        "apy_rate": "4.25%",
+        "minimum_balance": "$5000",
+        "features": "Complimentary financial advisor consultations, expedited transfers, premium customer service, wealth management tools",
+        "bank_name": "Chase",
+        "account_category": "Premium"
+      },
+      {
+        "id": "HY3",
+        "account_name": "Performance Savings",
+        "apy_rate": "4.30%",
+        "minimum_balance": "$0",
+        "features": "No hidden fees, automatic savings tools, savings goals tracking, unlimited withdrawals",
+        "bank_name": "Marcus by Goldman Sachs",
+        "account_category": "Online Savings"
+      }
     ]
   },
   "monthly_spend_analysis_data": [
     {
       "month": "01",
       "year": "2023",
-      "ai_summary": "Your total income for January was $5,200, and your total spending was $4,249.57, which is 81.72% of your income. The largest expense category was rent and utilities at $2,200 (42.31% of income). You spent $170.34 (3.28%) on food and drinks, $65 (1.25%) on transportation, and $289.98 (5.58%) on entertainment and general merchandise. While your investment contribution of $1,500 is commendable, you may want to review your discretionary spending on items like clothing and electronics to better align with your goal of building credit history.",
+      "ai_summary": "Mike, your spending patterns show a focus on essential expenses and investments. You're allocating a significant portion of your income to rent (42.3%) and investments (28.8%), which is commendable. However, your food and entertainment expenses are relatively high. To build your credit history, consider using your credit card more for essential purchases and paying the full balance each month. Try to reduce discretionary spending on coffee and dining out to free up more funds for savings or debt repayment.",
+      "spending_tags": [
+        "Home-Centered",
+        "Investor"
+      ],
       "categories_expenses": {
-<<<<<<< HEAD
-        "total_income": -5200.0,
-        "food": 170.84,
-        "food_%": 3.29,
-        "transportation": 65.0,
-        "transportation_%": 1.25,
-        "entertainment": 89.99,
-        "entertainment_%": 1.73,
-        "rent_and_utilities": 2200.0,
-        "rent_and_utilities_%": 42.31,
-        "investments": 1500.0,
-        "investments_%": 28.85,
-        "general_merchandise": 325.74,
-        "general_merchandise_%": 6.27,
-        "total_spending": 4249.57,
-        "total_spending_%": 81.72
-=======
-        "total_income": "-5200.0",
-        "food": "170.34",
-        "food_%": "3.28",
-        "transportation": "65.0",
-        "transportation_%": "1.25",
+        "total_income": "5200.00",
+        "food": "169.84",
+        "food_%": "3.27%",
+        "transportation": "65.00",
+        "transportation_%": "1.25%",
         "entertainment": "89.99",
-        "entertainment_%": "1.73",
-        "general_merchandise": "325.74",
-        "general_merchandise_%": "6.27",
-        "rent_and_utilities": "2200.0",
-        "rent_and_utilities_%": "42.31",
-        "investments": "1500.0",
-        "investments_%": "28.85",
-        "total_spending": "4249.57",
-        "total_spending_%": "81.72"
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+        "entertainment_%": "1.73%",
+        "total_spending": "4350.57",
+        "total_spending_%": "83.66%"
       }
     },
     {
       "month": "02",
       "year": "2023",
-      "ai_summary": "In February 2023, your total income was $5,200, and your total spending was $2,390.23, which is approximately 46% of your income. The largest expense category was rent and utilities at $1,800 (34.6% of income). Food expenses, including groceries and restaurants, totaled $163.25 (3.1%). Entertainment and personal care expenses were $152.99 (2.9%). Transportation costs were $35 (0.7%). While your spending is within a reasonable range, there are opportunities to optimize your budget. Consider reducing discretionary expenses like entertainment and personal care. Explore more affordable housing options to lower your rent burden. Build an emergency fund and contribute to a retirement account to secure your financial future.",
+      "ai_summary": "Mike, your spending is generally well-managed, but there's room for improvement. Your rent takes up a significant portion of your income (34.6%). You're doing well in keeping food and entertainment expenses relatively low. To build your credit history, consider using your credit card more for daily expenses and paying the full balance each month. Also, look into setting up an emergency fund and exploring investment options with your remaining income to boost your financial health.",
+      "spending_tags": [
+        "Home-Centered",
+        "Budget Master"
+      ],
       "categories_expenses": {
-        "total_income": -5200.0,
-        "food": 163.25,
-        "food_%": 3.1,
-        "transportation": 35.0,
-        "transportation_%": 0.7,
-        "entertainment": 77.99,
-        "entertainment_%": 1.5,
-        "personal_care": 75.0,
-        "personal_care_%": 1.4,
-        "rent_and_utilities": 1800.0,
-        "rent_and_utilities_%": 34.6,
-        "insurance": 150.0,
-        "insurance_%": 2.9,
-        "general_merchandise": 89.99,
-        "general_merchandise_%": 1.7,
-        "total_spending": 2390.23,
-        "total_spending_%": 46.0
+        "total_income": "5200.00",
+        "food": "163.25",
+        "food_%": "3.14",
+        "transportation": "35.00",
+        "transportation_%": "0.67",
+        "entertainment": "77.99",
+        "entertainment_%": "1.50",
+        "total_spending": "2391.23",
+        "total_spending_%": "45.98"
       }
     },
     {
       "month": "03",
       "year": "2023",
-      "ai_summary": "In March 2023, your total income was $5,200, and your total spending was $1,977.23, which is around 38% of your income. Your major expenses were rent ($1,200), transportation ($120), and entertainment ($185.99). While investing in retirement funds ($200) is commendable, you could optimize your budget by reducing discretionary spending on dining out, entertainment, and personal care. Consider cooking at home more often and finding affordable entertainment options. Additionally, explore ways to lower your transportation costs, such as carpooling or using public transit.",
+      "ai_summary": "You're doing well with budgeting, Mike! Your total spending is about 38% of your income, which is good. However, you're spending a significant portion on rent (23% of income). Consider ways to reduce this, like finding a roommate or negotiating rent. Your investment in Vanguard is a great start for building wealth. To build credit history, use your credit card responsibly for more purchases and pay the full balance each month. Also, try to increase your grocery spending and reduce restaurant expenses to save more.",
+      "spending_tags": [
+        "Home-Centered",
+        "Entertainment Buff"
+      ],
       "categories_expenses": {
-        "total_income": -5200.0,
-        "food": 131.49,
-        "food_%": 2.53,
-        "transportation": 120.0,
-        "transportation_%": 2.31,
-        "entertainment": 185.99,
-        "entertainment_%": 3.58,
-        "housing": 1200.0,
-        "housing_%": 23.08,
-        "personal_care": 75.0,
-        "personal_care_%": 1.44,
-        "investments": 200.0,
-        "investments_%": 3.85,
-        "other": 64.75,
-        "other_%": 1.25,
-        "total_spending": 1977.23,
-        "total_spending_%": 38.03
+        "total_income": "5200.00",
+        "food": "131.49",
+        "food_%": "2.53",
+        "transportation": "120.00",
+        "transportation_%": "2.31",
+        "entertainment": "185.99",
+        "entertainment_%": "3.58",
+        "total_spending": "1978.23",
+        "total_spending_%": "38.04"
       }
     },
     {
       "month": "04",
       "year": "2023",
-<<<<<<< HEAD
-      "ai_summary": "In April 2023, your total income was $5,200, and your total spending was $4,208.73, which is 81% of your income. Your largest expenses were rent ($2,100), investment ($1,500), and clothing ($180.5). To optimize your budget, consider reducing discretionary spending on entertainment, clothing, and dining out. Focus on building your credit history by making on-time payments and keeping your credit utilization low.",
+      "ai_summary": "You're doing well with saving and investing, allocating 28.8% of your income to investments. However, your rent and utilities consume 42.1% of your income, which is quite high. You're also spending moderately on food, entertainment, and shopping. To build your credit history, consider using your credit card more for daily expenses and paying the full balance each month. Try to reduce your housing costs if possible, and be mindful of discretionary spending to maximize your financial goals.",
+      "spending_tags": [
+        "Investor",
+        "Home-Centered"
+      ],
       "categories_expenses": {
-        "total_income": "-5200.0",
-        "food": "90.5",
+        "total_income": "5200.00",
+        "food": "90.50",
         "food_%": "1.74%",
         "transportation": "42.75",
         "transportation_%": "0.82%",
-        "entertainment": "75.0",
+        "entertainment": "75.00",
         "entertainment_%": "1.44%",
-        "housing": "2189.99",
-        "housing_%": "42.12%",
-        "investment": "1500.0",
-        "investment_%": "28.85%",
-        "other": "310.49",
-        "other_%": "5.97%",
         "total_spending": "4208.73",
         "total_spending_%": "80.94%"
-=======
-      "ai_summary": "In April 2023, your total income was $5,200, and your total spending was $4,208.73, which is 81% of your income. Your largest expense was rent at $2,100 (40% of income). You spent $65.5 (1.3%) on restaurants, $42.75 (0.8%) on gas, $129.99 (2.5%) on electronics, $25 (0.5%) on coffee, $180.5 (3.5%) on clothing, and $75 (1.4%) on entertainment. To optimize your budget, consider reducing discretionary spending on electronics, clothing, and entertainment. Additionally, explore ways to lower your rent or utilities costs. Maintain your retirement contributions and build an emergency fund.",
+      }
+    },
+    {
+      "month": "05",
+      "year": "2023",
+      "ai_summary": "You're doing well with budgeting, Mike! Your total spending is about 38% of your income, which is good. However, you're spending a significant portion on rent (23% of income). Consider ways to reduce this, like finding a roommate or negotiating rent. Your investment in Vanguard is a great start for building wealth. To build credit history, use your credit card responsibly for more purchases and pay the full balance each month. Keep up the good work on entertainment and personal care spending!",
+      "spending_tags": [
+        "Home-Centered",
+        "Budget Master"
+      ],
       "categories_expenses": {
-        "total_income": -5200.0,
-        "food": 90.5,
-        "food_%": 1.7,
-        "transportation": 42.75,
-        "transportation_%": 0.8,
-        "entertainment": 75.0,
-        "entertainment_%": 1.4,
-        "housing": 2189.99,
-        "housing_%": 42.1,
-        "shopping": 310.49,
-        "shopping_%": 6.0,
-        "investment": 1500.0,
-        "investment_%": 28.8,
-        "total_spending": 4208.73,
-        "total_spending_%": 81.0
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+        "total_income": "5200.00",
+        "food": "131.49",
+        "food_%": "2.53%",
+        "transportation": "120.00",
+        "transportation_%": "2.31%",
+        "entertainment": "185.99",
+        "entertainment_%": "3.58%",
+        "total_spending": "1978.23",
+        "total_spending_%": "38.04%"
+      }
+    },
+    {
+      "month": "06",
+      "year": "2023",
+      "ai_summary": "You're doing well with investing, allocating 28.8% of your income to retirement funds. However, your spending on food and entertainment is relatively high. Consider reducing coffee shop visits and exploring more cost-effective entertainment options. Your rent takes up a significant portion of your income (42.3%), which is above the recommended 30%. Look into ways to reduce housing costs or increase your income to improve your overall financial health.",
+      "spending_tags": [
+        "Investor",
+        "Home-Centered"
+      ],
+      "categories_expenses": {
+        "total_income": "5200.00",
+        "food": "169.84",
+        "food_%": "3.27%",
+        "transportation": "65.00",
+        "transportation_%": "1.25%",
+        "entertainment": "89.99",
+        "entertainment_%": "1.73%",
+        "total_spending": "4350.57",
+        "total_spending_%": "83.66%"
       }
     }
   ],
   "email_notifications": {
     "spending_summary_email": "Your Monthly Financial Insights Are Ready!",
-<<<<<<< HEAD
-    "coupons_email": "Unlock BOGO at Best Buy with BOGO23TECH code",
-    "loans_email": "Exclusive 6.99%-19.99% APR on $3K-$35K loans from Chase",
-    "credit_cards_email": "Earn $200 cash back after $1,500 spend with Citi Double Cash",
-    "savings_email": "Grow faster with 4.30% APY at Marcus by Goldman Sachs"
-=======
-    "coupons_email": "Yo Mike! Wanna score a BOGO deal on tech accessories at Best Buy? Use code 'BOGO23TECH' by 9/25 to double up. Just spend $75 first - easy with your shopping habits!",
-    "loans_email": "Mike, listen up! Chase is offering personal loans from $3K-$35K at 6.99%-19.99% APR. With your 690 score, you could consolidate debt or fund that project you've been eyeing. Apply now!",
-    "credit_cards_email": "Psst...Mike! Wanna earn $200 cash back? Get the Citi Double Cash card - 1% back when you buy, 1% when you pay. Spend $1,500 in 6 months and that $200 is yours! Perfect for building credit history.",
-    "savings_email": "Mike, you're young but smart with money! Open an Ally Premium Yield Savings account paying 4.35% APY. No minimum balance required - just let that cash grow while you build your credit empire!"
->>>>>>> 983a3765d80e6fef9d31286b5f5fb9681b482adb
+    "coupons_email": "Mike, tech deal alert! BOGO on gadgets at Best Buy. Don't miss out!",
+    "loans_email": "Mike, need cash? Chase's 6.99% APR could be your golden ticket!",
+    "credit_cards_email": "Mike, double your cash back game! Citi's offering $200 just for swiping.",
+    "savings_email": "Mike, your money could be making babies! 4.35% APY at Ally Bank awaits."
   }
 }
